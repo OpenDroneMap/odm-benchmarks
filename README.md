@@ -2,11 +2,13 @@
 
 This repo contains the latest collected benchmark data for OpenDroneMap and WebODM.  
 
+Do you have benchmark data to share?  See [this page](CONTRIBUTING.md) for details on contributing.
+
 ## Using The Benchmark Data
 
-ODM benchmark data is organized by dataset.  The first table provides a brief list of all datasets on this page.  Down the page, you'll find the details for each dataset.
+ODM benchmark data is organized by dataset.  The first table provides a brief list of all datasets on this page.  Further down the page, you'll find the details for each dataset.
 
-## All Datasets
+## All Datasets (still filling in some details...)
 
 |         Dataset | Photos | Date | Source |  URL | Notes |
 | :-------------- | -------------: | -------------: | -----------------: | ---------: | ---: |
@@ -53,10 +55,6 @@ The following table lists processing results for this dataset, reported by ODM c
 
 ## (additional datasets to be listed here...)
 
-
-## Contributing Your Benchmark Data
-
-Do you have benchmark data to share?  See [this page](CONTRIBUTING.md) for information on submitting your information.
 
 ## License
 
