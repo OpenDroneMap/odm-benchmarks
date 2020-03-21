@@ -27,32 +27,36 @@ ODM benchmark data is organized by dataset.  The first table provides a brief li
 
 
 
-## Dataset 1
+## Aukerman Dataset
 
-Description of dataset 1...
+This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Dakota Benjamin](https://github.com/dakotabenjamin)(?).  
+Added to github July 2016.
 
-Table shows processing results for this dataset under different configurations...
+The following table lists processing results for this dataset, reported by ODM community members.
 
-|         Config |        Field 1 |    Field 2     |          Field 3   |   Field 4 |
-| :-------------- | -------------: | -------------: | -----------------: | --------- |
-|          Config 1 |   0.00 |  0.00 |      ABC |  XYZ |
-|          Config 2 |   0.00 |  0.00 |      ABC |  XYZ |
+| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
+| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
+| 1h 1m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-10 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
 
-## Dataset 2
+## Bellus Dataset
 
-Description of dataset 2...
+This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Stephen Mather](https://github.com/smathermather)(?).  
+Added to github May 2016.
 
-Table shows processing results for this dataset under different configurations...
+The following table lists processing results for this dataset, reported by ODM community members.
 
-|         Config |        Field 1 |    Field 2     |          Field 3   |   Field 4 |
-| :-------------- | -------------: | -------------: | -----------------: | --------- |
-|          Config 1 |   0.00 |  0.00 |      ABC |  XYZ |
-|          Config 2 |   0.00 |  0.00 |      ABC |  XYZ |
+| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
+| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
+| 1h 27m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-10 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
+
+
+
+## (additional datasets to be listed here...)
+
 
 ## Contributing Your Benchmark Data
 
-Do you have benchmark data to share?
-...
+Do you have benchmark data to share?  See [this page](CONTRIBUTING.md) for information on submitting your information.
 
 ## License
 
