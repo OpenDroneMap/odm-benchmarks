@@ -8,12 +8,23 @@ ODM benchmark data is organized by dataset.  The first table provides a brief li
 
 ## All Datasets
 
-This table lists all datasets on the page.
+|         Dataset | Photos | Date | Source |  URL | Notes |
+| :-------------- | -------------: | -------------: | -----------------: | ---------: | ---: |
+| Aukerman | 77 |  July 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_aukerman) | |
+| Bellus | 122 |  May 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_bellus) | |
+| Garfield | | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | |
+| Lewis | 145 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | |
+| Sance | | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | |
+| Seneca | 167 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | |
+| Toledo | 87 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | |
+| Waterbury | 248 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | |
+| Wietrznia | | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | |
+| Zoo | | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | |
+| Quarry | 127 | | Sensefly | |
+| 4th Ave | 82 | | DroneMapper | | 
+| Adobe Buttes | | | DroneMapper | |
+| Gregg | | | DroneMapper | |
 
-|         Dataset |        Field 1 |    Field 2     |          Notes   |
-| :-------------- | -------------: | -------------: | -----------------: | --------- |
-|          Dataset 1 |   0.00 |  0.00 |      ... |
-|          Dataset 2 |   0.00 |  0.00 |      ... |
 
 
 ## Dataset 1
