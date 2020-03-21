@@ -49,17 +49,9 @@ Table shows processing results for this dataset under different configurations..
 |          Config 1 |   0.00 |  0.00 |      ABC |  XYZ |
 |          Config 2 |   0.00 |  0.00 |      ABC |  XYZ |
 
-## Contributing
-
-Do you have benchmark data to share?  [See the README](README.md) to learn how.
-
-
-ODM benchmark data is organized two ways.
-
-- [By Configuration](by-config.md) for a given configuration, how do different jobs perform?
-- [By Dataset](by-dataset.md) for a given set of files, how does it perform under different configurations?
-
 ## Contributing Your Benchmark Data
+
+Do you have benchmark data to share?
 ...
 
 ## License
