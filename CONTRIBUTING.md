@@ -35,6 +35,7 @@ Note the total processing time shown in ODM.
 * e.g., "2h 25m" (hours, minutes)
 
 Post your results on the [ODM community forum](https://community.opendronemap.org/).  If you have any problems or questions, post those too.  
+You can also edit the files in this repository, and submit a pull request.
 
 Thank you for contributing your results!
 
