@@ -8,20 +8,20 @@ Do you have benchmark data to share?  See [this page](CONTRIBUTING.md) for detai
 
 ODM benchmark data is organized by dataset.  The first table provides a brief list of all datasets on this page.  Further down the page, you'll find the details for each dataset.
 
-## All Datasets (still filling in some details...)
+## All Datasets
 
 |         Dataset | Photos | Date | Source |  URL | 
 | :-------------- | -------------: | -------------: | -----------------: | ---------: | 
 | Aukerman | 77 |  July 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_aukerman) |
 | Bellus | 122 |  May 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_bellus) |
-| Garfield | 28 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) |
-| Lewis | 145 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) |
-| Sance | 156 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) |
-| Seneca | 167 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) |
-| Toledo | 87 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) |
-| Waterbury | 248 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) |
-| Wietrznia | 225 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) |
-| Zoo | 524 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) |
+| Garfield | 28 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_garfield_msp) |
+| Lewis | 145 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_lewis) |
+| Sance | 156 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/merkato/odm_sance) |
+| Seneca | 167 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_seneca) |
+| Toledo | 87 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_toledo) |
+| Waterbury | 248 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_waterbury) |
+| Wietrznia | 225 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/merkato/odm_wietrznia) |
+| Zoo | 524 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_zoo) |
 | Quarry | 127 | May 2017 | [Sensefly](https://www.sensefly.com/) | [Sensefly.com](https://www.sensefly.com/education/datasets/?dataset=1418) |
 | 4th Ave | 82 | | [DroneMapper](https://dronemapper.com/) | [Dronemapper.com](https://dronemapper.com/sample_data/) | 
 | Adobe Buttes | 531 | | [DroneMapper](https://dronemapper.com/) | [Dronemapper.com](https://dronemapper.com/sample_data/) | 
