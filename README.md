@@ -12,26 +12,24 @@ ODM benchmark data is organized by dataset.  The first table provides a brief li
 
 |         Dataset | Photos | Date | Source |  URL | 
 | :-------------- | -------------: | -------------: | -----------------: | ---------: | 
-| Aukerman | 77 |  July 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_aukerman) |
-| Bellus | 122 |  May 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_bellus) |
-| Garfield | 28 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_garfield_msp) |
-| Lewis | 145 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_lewis) |
-| Sance | 156 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/merkato/odm_sance) |
-| Seneca | 167 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_seneca) |
-| Toledo | 87 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_toledo) |
-| Waterbury | 248 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_waterbury) |
-| Wietrznia | 225 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/merkato/odm_wietrznia) |
-| Zoo | 524 | | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_zoo) |
-| Quarry | 127 | May 2017 | [Sensefly](https://www.sensefly.com/) | [Sensefly.com](https://www.sensefly.com/education/datasets/?dataset=1418) |
-| 4th Ave | 82 | | [DroneMapper](https://dronemapper.com/) | [Dronemapper.com](https://dronemapper.com/sample_data/) | 
-| Adobe Buttes | 531 | | [DroneMapper](https://dronemapper.com/) | [Dronemapper.com](https://dronemapper.com/sample_data/) | 
-| Gregg | 189 | | [DroneMapper](https://dronemapper.com/) | [Dronemapper.com](https://dronemapper.com/sample_data/) | 
+| Aukerman | 77 |  June 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_aukerman) |
+| Bellus | 122 |  July 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_bellus) |
+| Garfield | 28 | Nov. 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_garfield_msp) |
+| Lewis | 145 | June 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_lewis) |
+| Seneca | 167 | June 2013 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_seneca) |
+| Sance | 156 | Apr. 2017 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/merkato/odm_sance) |
+| Toledo | 87 | Oct. 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_toledo) |
+| Waterbury | 248 | July 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_waterbury) |
+| Wietrznia | 225 | May 2017 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/merkato/odm_wietrznia) |
+| Zoo | 524 | Oct. 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_zoo) |
+| Quarry | 127 | May 2012 | [Sensefly](https://www.sensefly.com/) | [Sensefly.com](https://www.sensefly.com/education/datasets/?dataset=1418) |
+| 4th Ave | 82 | Nov. 2017 | [DroneMapper](https://dronemapper.com/) | [Dronemapper.com](https://dronemapper.com/sample_data/) | 
 
 
 ## Aukerman Dataset
 
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Dakota Benjamin](https://github.com/dakotabenjamin)(?).  
-Added to github July 2016.
+This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Dakota Benjamin](https://github.com/dakotabenjamin).  
+Photos collected in June 2016.
 
 The following table lists processing results for this dataset, reported by ODM community members.
 
@@ -41,8 +39,8 @@ The following table lists processing results for this dataset, reported by ODM c
 
 ## Bellus Dataset
 
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Stephen Mather](https://github.com/smathermather)(?).  
-Added to github May 2016.
+This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Stephen Mather](https://github.com/smathermather).  
+Photos collected in July 2015.
 
 The following table lists processing results for this dataset, reported by ODM community members.
 
@@ -52,8 +50,8 @@ The following table lists processing results for this dataset, reported by ODM c
 
 ## Garfield Dataset
 
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by (?).  
-Added to github (?).
+This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Dakota Benjamin](https://github.com/dakotabenjamin).  
+Photos collected in November 2016.
 
 The following table lists processing results for this dataset, reported by ODM community members.
 
@@ -63,8 +61,8 @@ The following table lists processing results for this dataset, reported by ODM c
 
 ## Lewis Dataset
 
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by (?).  
-Added to github (?).
+This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Stephen Mather](https://github.com/smathermather).  
+Photos collected in June 2015.
 
 The following table lists processing results for this dataset, reported by ODM community members.
 
@@ -72,21 +70,10 @@ The following table lists processing results for this dataset, reported by ODM c
 | :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
 | 2h 0m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-14 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
 
-## Sance Dataset
-
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by (?).  
-Added to github (?).
-
-The following table lists processing results for this dataset, reported by ODM community members.
-
-| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
-| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-| 2h 4m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-20 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
-
 ## Seneca Dataset
 
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by (?).  
-Added to github (?).
+This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Stephen Mather](https://github.com/smathermather).  
+Photos collected in June 2013.
 
 The following table lists processing results for this dataset, reported by ODM community members.
 
@@ -94,10 +81,21 @@ The following table lists processing results for this dataset, reported by ODM c
 | :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
 | 2h 4m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-14 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
 
+## Sance Dataset
+
+This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Tomasz Nycz](https://github.com/merkato).
+Photos collected in April 2017.
+
+The following table lists processing results for this dataset, reported by ODM community members.
+
+| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
+| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
+| 2h 4m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-20 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
+
 ## Toledo Dataset
 
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by (?).  
-Added to github (?).
+This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Stephen Mather](https://github.com/smathermather).  
+Photos collected in October 2015.
 
 The following table lists processing results for this dataset, reported by ODM community members.
 
@@ -107,8 +105,8 @@ The following table lists processing results for this dataset, reported by ODM c
 
 ## Waterbury Dataset
 
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by (?).  
-Added to github (?).
+This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Stephen Mather](https://github.com/smathermather).  
+Photos collected in July 2015.
 
 The following table lists processing results for this dataset, reported by ODM community members.
 
@@ -118,8 +116,8 @@ The following table lists processing results for this dataset, reported by ODM c
 
 ## Wietrznia Dataset
 
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by (?).  
-Added to github (?).
+This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Tomasz Nycz](https://github.com/merkato).
+Photos collected in May 2017.
 
 The following table lists processing results for this dataset, reported by ODM community members.
 
@@ -129,8 +127,8 @@ The following table lists processing results for this dataset, reported by ODM c
 
 ## Zoo Dataset
 
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by (?).  
-Added to github (?).
+This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Stephen Mather](https://github.com/smathermather).  
+Photos collected in October 2016.
 
 The following table lists processing results for this dataset, reported by ODM community members.
 
@@ -140,7 +138,7 @@ The following table lists processing results for this dataset, reported by ODM c
 
 ## Quarry Dataset
 
-This dataset is from Sensefly sample data collection.
+This dataset is from the [Sensefly sample data collection](https://www.sensefly.com/education/datasets/).
 
 The following table lists processing results for this dataset, reported by ODM community members.
 
@@ -156,27 +154,6 @@ The following table lists processing results for this dataset, reported by ODM c
 
 | Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
 | :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-
-## Adobe Buttes Dataset
-
-This dataset is from [DroneMapper sample data collection](https://dronemapper.com/sample_data/).
-
-The following table lists processing results for this dataset, reported by ODM community members.
-
-| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
-| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-
-## Gregg Dataset
-
-This dataset is from [DroneMapper sample data collection](https://dronemapper.com/sample_data/).
-
-The following table lists processing results for this dataset, reported by ODM community members.
-
-| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
-| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-
-
-## (additional datasets to be listed here...)
 
 
 ## License
