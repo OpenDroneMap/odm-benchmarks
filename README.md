@@ -6,7 +6,7 @@ Do you have benchmark data to share?  See [this page](CONTRIBUTING.md) for detai
 
 ## Using The Benchmark Data
 
-ODM benchmark data is organized by dataset.  The first table provides a brief list of all datasets on this page.  Further down the page, you'll find the details for each dataset.
+ODM benchmark data is organized by dataset.  The first table provides a summary of the datasets used for benchmarking.  Further down the page, you'll find the details and results for each dataset.  Other datasets are available for your testing, and new ones may be added to this list from time to time.  For a comprehenvisve list of available datasets, refer to the [ODMdata project](https://github.com/OpenDroneMap/ODMdata).
 
 ## All Datasets
 
@@ -24,6 +24,7 @@ ODM benchmark data is organized by dataset.  The first table provides a brief li
 | Zoo | 524 | Oct. 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_zoo) |
 | Quarry | 127 | May 2012 | [Sensefly](https://www.sensefly.com/) | [Sensefly.com](https://www.sensefly.com/education/datasets/?dataset=1418) |
 | 4th Ave | 82 | Nov. 2017 | [DroneMapper](https://dronemapper.com/) | [Dronemapper.com](https://dronemapper.com/sample_data/) | 
+| Red Rocks | 45 | Jan. 2013 | [DroneMapper](https://dronemapper.com/) | [Dronemapper.com](https://dronemapper.com/sample_data/) | 
 
 
 ## Aukerman Dataset
@@ -148,13 +149,24 @@ The following table lists processing results for this dataset, reported by ODM c
 
 ## 4th Ave Dataset
 
-This dataset is from [DroneMapper sample data collection](https://dronemapper.com/sample_data/).
+This dataset is from [DroneMapper sample data collection](https://dronemapper.com/sample_data/).  Flown in November 2017 with a Phantom 3 Advanced.
 
 The following table lists processing results for this dataset, reported by ODM community members.
 
 | Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
 | :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
+| 1h 0m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - |  | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
 
+## Red Rocks Dataset
+
+This dataset is from [DroneMapper sample data collection](https://dronemapper.com/sample_data/).  From the DroneMapper site: _"An aerial survey performed with a Falcon UAV fixed-wing drone over Red Rocks, Colorado. The sensor is a Canon Powershot SX260HS with GPS enabled. This example data set contains 45 high resolution oblique images for 3D model and point cloud creation."_
+
+The following table lists processing results for this dataset, reported by ODM community members.
+
+| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
+| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
+| 0h 45m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - |  | [Corey Snipes](https://github.com/coreysnipes/) | 3D Model, Resize 2048px | - | 
+| 1h 40m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - |  | [Corey Snipes](https://github.com/coreysnipes/) | 3D Model, No Resize | - | 
 
 ## License
 
