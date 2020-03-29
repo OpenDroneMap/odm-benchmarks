@@ -13,6 +13,7 @@ ODM benchmark data is organized by dataset.  The first table provides a summary 
 |         Dataset | Photos | Date | Source |  URL | 
 | :-------------- | -------------: | -------------: | -----------------: | ---------: | 
 | Aukerman | 77 |  June 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_aukerman) |
+| Banana | 16 | July 2019 |  [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/pierotofy/dataset_banana) |
 | Bellus | 122 |  July 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_bellus) |
 | Garfield | 28 | Nov. 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_garfield_msp) |
 | Lewis | 145 | June 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_lewis) |
@@ -38,6 +39,18 @@ The following table lists processing results for this dataset, reported by ODM c
 | Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
 | :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
 | 1h 1m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-10 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
+
+## Banana Dataset
+
+This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Piero Toffanin](https://github.com/pierotofy).  
+Small photo set of a banana bunch.  Photos taken in July 2019.
+
+The following table lists processing results for this dataset, reported by ODM community members.
+
+| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
+| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
+| 0h 12m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-03-28 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
+| 0h ?? m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-03-28 | [Corey Snipes](https://github.com/coreysnipes/) | 3D Model, No Resize | - | 
 
 ## Bellus Dataset
 
