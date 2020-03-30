@@ -50,7 +50,8 @@ The following table lists processing results for this dataset, reported by ODM c
 | Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
 | :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
 | 0h 12m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-03-28 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
-| 0h ?? m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-03-28 | [Corey Snipes](https://github.com/coreysnipes/) | 3D Model, No Resize | - | 
+| 0h ?? m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-03-28 | [Corey Snipes](https://github.com/coreysnipes/) | 3D Model, Resize 2048px| - | 
+| 0h 20m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-03-28 | [Corey Snipes](https://github.com/coreysnipes/) | 3D Model, No Resize | - | 
 
 ## Bellus Dataset
 
@@ -151,6 +152,8 @@ The following table lists processing results for this dataset, reported by ODM c
 | Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
 | :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
 | 3h 22m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-21 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
+| 3h 51m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-03-29 | [Corey Snipes](https://github.com/coreysnipes/) | 3D Model, Resize 2048px | - | 
+| 9h 9m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-29 | [Corey Snipes](https://github.com/coreysnipes/) | 3D Model, No Resize | - | 
 
 ## Zoo Dataset
 
