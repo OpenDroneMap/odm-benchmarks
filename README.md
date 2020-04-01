@@ -19,8 +19,9 @@ ODM benchmark data is organized by dataset.  The first table provides a summary 
 | Lewis | 145 | June 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_lewis) |
 | Sance | 156 | Apr. 2017 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/merkato/odm_sance) |
 | Seneca | 167 | June 2013 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_seneca) |
-| Shitan | 493 | Dec. 2018 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | <-- See ODMData link |
+| Shitan | 493 | Dec. 2018 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | <-- See ODMdata link |
 | Toledo | 87 | Oct. 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_toledo) |
+| Tuniu 1 | 271 | Apr. 2019 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | <-- See ODMdata link | 
 | Waterbury | 248 | July 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_waterbury) |
 | Wietrznia | 225 | May 2017 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/merkato/odm_wietrznia) |
 | Zoo | 524 | Oct. 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_zoo) |
@@ -118,6 +119,19 @@ The following table lists processing results for this dataset, reported by ODM c
 | Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
 | :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
 | 7h 50m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-03-23 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
+
+## Tuniu 1 Dataset
+
+This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Yu-Huang Wang](https://community.opendronemap.org/u/Yu-Huang_Wang).
+RTK photos collected April 2019 at the Tuniu River, Taiwan. See [forum post](https://community.opendronemap.org/t/2019-04-11-tuniu-river-toufeng-miaoli-county-taiwan/3292) for details.
+
+The following table lists processing results for this dataset, reported by ODM community members.
+
+| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
+| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
+| 3h 34m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-03-31 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
+| 3h 37m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-03-31 | [Corey Snipes](https://github.com/coreysnipes/) | DSM/DTM, Resize 2048px | - | 
+| 3h 29m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-04-01 | [Corey Snipes](https://github.com/coreysnipes/) | 3D Model, Resize 2048px | - | 
 
 ## Toledo Dataset
 
