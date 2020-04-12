@@ -2,7 +2,7 @@
 
 This repo contains the latest benchmark data for OpenDroneMap and WebODM, as contributed by the ODM community.  
 
-Do you have benchmark data to share?  See [this page](CONTRIBUTING.md) for details on contributing.
+Do you have benchmark data to share?  See [this page](https://github.com/OpenDroneMap/odm-benchmarks/blob/master/CONTRIBUTING.md) for details on contributing.
 
 ## Using The Benchmark Data
 
