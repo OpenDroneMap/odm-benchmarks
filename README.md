@@ -177,7 +177,9 @@ The following table lists processing results for this dataset, reported by ODM c
 
 | Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
 | :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-| 7h 2m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-21 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
+| 7h 2m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-21 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - |
+| 5h 4m | 32 GB |  Intel Xeon Platinum 8175M | Ubuntu 18.04 | 1.3.3 | Y | - | 2020-04-11 | [Fran Polignano](https://github.com/fpolignano/) | Defaults, Resize 2048px | AWS r5.xlarge|
+| 2h 28m | 64 GB | Intel Xeon 5650 | Ubuntu 18.04 | 1.3.3 | Y | - | 2020-04-11 | [Fran Polignano](https://github.com/fpolignano/) | Defaults, Resize 2048px | Dell R710 | 
 
 ## Quarry Dataset
 
