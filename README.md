@@ -181,7 +181,7 @@ The following table lists processing results for this dataset, reported by ODM c
 | 5h 4m | 32 GB |  Intel Xeon Platinum 8175M | Ubuntu 18.04 | 1.3.3 | Y | - | 2020-04-11 | [Fran Polignano](https://github.com/fpolignano/) | Defaults, Resize 2048px | AWS r5.xlarge|
 | 2h 28m | 64 GB | Intel Xeon 5650 | Ubuntu 18.04 | 1.3.3 | Y | - | 2020-04-11 | [Fran Polignano](https://github.com/fpolignano/) | Defaults, Resize 2048px | Dell R710 | 
 | 7h 49m | 64 GB | Intel Xeon 5650 | Ubuntu 18.04 | 1.3.3 | Y | - | 2020-04-11 | [Fran Polignano](https://github.com/fpolignano/) | High Resolution, No Resize | Dell R710 |
-| h m | 32 GB |  Intel Xeon Platinum 8175M | Ubuntu 18.04 | 1.3.3 | Y | - | 2020-04-11 | [Fran Polignano](https://github.com/fpolignano/) | High Resolution, No Resize | AWS r5.xlarge|
+| Crashed at 8h 6m | 32 GB |  Intel Xeon Platinum 8175M | Ubuntu 18.04 | 1.3.3 | Y | - | 2020-04-11 | [Fran Polignano](https://github.com/fpolignano/) | High Resolution, No Resize | AWS r5.xlarge, Out of Memory Crash|
 
 
 ## Quarry Dataset
