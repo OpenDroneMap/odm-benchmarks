@@ -17,6 +17,7 @@ ODM benchmark data is organized by dataset.  The first table provides a summary 
 | Bellus | 122 |  July 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_bellus) |
 | Garfield | 28 | Nov. 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_garfield_msp) |
 | Lewis | 145 | June 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_lewis) |
+| Rising Valley | 566 | Sep. 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_rv_nir) |
 | Sance | 156 | Apr. 2017 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/merkato/odm_sance) |
 | Seneca | 167 | June 2013 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_seneca) |
 | Shitan | 493 | Dec. 2018 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | <-- See ODMdata link |
@@ -86,6 +87,17 @@ The following table lists processing results for this dataset, reported by ODM c
 | Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
 | :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
 | 2h 0m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-14 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
+
+## Rising Valley Dataset
+
+This is a NIR dataset from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Dakota Benjamin](https://github.com/dakotabenjamin).  
+Photos originally uploaded September 2015.
+
+The following table lists processing results for this dataset, reported by ODM community members.
+
+| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
+| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
+| 8h 55m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-03-26 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
 
 ## Sance Dataset
 
