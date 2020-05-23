@@ -1,18 +1,18 @@
-Dataset,Photos,Date,Source,URL
-Aukerman,77, June 2016,[ODMData](https://github.com/OpenDroneMap/ODMdata),[GitHub](https://github.com/OpenDroneMap/odm_data_aukerman)
-Banana,16,July 2019, [ODMData](https://github.com/OpenDroneMap/ODMdata),[GitHub](https://github.com/pierotofy/dataset_banana)
-Bellus,122, July 2015,[ODMData](https://github.com/OpenDroneMap/ODMdata),[GitHub](https://github.com/OpenDroneMap/odm_data_bellus)
-Garfield,28,November 2016,[ODMData](https://github.com/OpenDroneMap/ODMdata),[GitHub](https://github.com/OpenDroneMap/odm_data_garfield_msp)
-Lewis,145,June 2015,[ODMData](https://github.com/OpenDroneMap/ODMdata),[GitHub](https://github.com/OpenDroneMap/odm_data_lewis)
-Rising Valley,566,September 2015,[ODMData](https://github.com/OpenDroneMap/ODMdata),[GitHub](https://github.com/OpenDroneMap/odm_data_rv_nir)
-Sance,156,April 2017,[ODMData](https://github.com/OpenDroneMap/ODMdata),[GitHub](https://github.com/merkato/odm_sance)
-Seneca,167,June 2013,[ODMData](https://github.com/OpenDroneMap/ODMdata),[GitHub](https://github.com/OpenDroneMap/odm_data_seneca)
-Shitan,493,December 2018,[ODMData](https://github.com/OpenDroneMap/ODMdata),(See ODMdata link)
-Toledo,87,October 2015,[ODMData](https://github.com/OpenDroneMap/ODMdata),[GitHub](https://github.com/OpenDroneMap/odm_data_toledo)
-Tuniu 1,271,April 2019,[ODMData](https://github.com/OpenDroneMap/ODMdata),(See ODMdata link)
-Waterbury,248,July 2015,[ODMData](https://github.com/OpenDroneMap/ODMdata),[GitHub](https://github.com/OpenDroneMap/odm_data_waterbury)
-Wietrznia,225,May 2017,[ODMData](https://github.com/OpenDroneMap/ODMdata),[GitHub](https://github.com/merkato/odm_wietrznia)
-Zoo,524,October 2016,[ODMData](https://github.com/OpenDroneMap/ODMdata),[GitHub](https://github.com/OpenDroneMap/odm_data_zoo)
-Quarry,127,May 2012,[Sensefly](https://www.sensefly.com/),[Sensefly.com](https://www.sensefly.com/education/datasets/?dataset=1418)
-4th Ave,82,November 2017,[DroneMapper](https://dronemapper.com/),[Dronemapper.com](https://dronemapper.com/sample_data/)
-Red Rocks,45,January 2013,[DroneMapper](https://dronemapper.com/),[Dronemapper.com](https://dronemapper.com/sample_data/)
+"DATASET","PHOTO_COUNT","COLLECTED_MONTH","DATA_SOURCE","SOURCE_URL"
+"Aukerman","77"," June 2016","[ODMData](https://github.com/OpenDroneMap/ODMdata)","[GitHub](https://github.com/OpenDroneMap/odm_data_aukerman)","This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection"," contributed by [Dakota Benjamin](https://github.com/dakotabenjamin). Photos collected in June 2016."
+"Banana","16","July 2019"," [ODMData](https://github.com/OpenDroneMap/ODMdata)","[GitHub](https://github.com/pierotofy/dataset_banana)"
+"Bellus","122"," July 2015","[ODMData](https://github.com/OpenDroneMap/ODMdata)","[GitHub](https://github.com/OpenDroneMap/odm_data_bellus)"
+"Garfield","28","November 2016","[ODMData](https://github.com/OpenDroneMap/ODMdata)","[GitHub](https://github.com/OpenDroneMap/odm_data_garfield_msp)"
+"Lewis","145","June 2015","[ODMData](https://github.com/OpenDroneMap/ODMdata)","[GitHub](https://github.com/OpenDroneMap/odm_data_lewis)"
+"Rising Valley","566","September 2015","[ODMData](https://github.com/OpenDroneMap/ODMdata)","[GitHub](https://github.com/OpenDroneMap/odm_data_rv_nir)"
+"Sance","156","April 2017","[ODMData](https://github.com/OpenDroneMap/ODMdata)","[GitHub](https://github.com/merkato/odm_sance)"
+"Seneca","167","June 2013","[ODMData](https://github.com/OpenDroneMap/ODMdata)","[GitHub](https://github.com/OpenDroneMap/odm_data_seneca)"
+"Shitan","493","December 2018","[ODMData](https://github.com/OpenDroneMap/ODMdata)","(See ODMdata link)"
+"Toledo","87","October 2015","[ODMData](https://github.com/OpenDroneMap/ODMdata)","[GitHub](https://github.com/OpenDroneMap/odm_data_toledo)"
+"Tuniu 1","271","April 2019","[ODMData](https://github.com/OpenDroneMap/ODMdata)","(See ODMdata link)"
+"Waterbury","248","July 2015","[ODMData](https://github.com/OpenDroneMap/ODMdata)","[GitHub](https://github.com/OpenDroneMap/odm_data_waterbury)"
+"Wietrznia","225","May 2017","[ODMData](https://github.com/OpenDroneMap/ODMdata)","[GitHub](https://github.com/merkato/odm_wietrznia)"
+"Zoo","524","October 2016","[ODMData](https://github.com/OpenDroneMap/ODMdata)","[GitHub](https://github.com/OpenDroneMap/odm_data_zoo)"
+"Quarry","127","May 2012","[Sensefly](https://www.sensefly.com/)","[Sensefly.com](https://www.sensefly.com/education/datasets/?dataset=1418)"
+"4th Ave","82","November 2017","[DroneMapper](https://dronemapper.com/)","[Dronemapper.com](https://dronemapper.com/sample_data/)"
+"Red Rocks","45","January 2013","[DroneMapper](https://dronemapper.com/)","[Dronemapper.com](https://dronemapper.com/sample_data/)"
