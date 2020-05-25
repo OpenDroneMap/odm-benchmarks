@@ -11,7 +11,13 @@
 
 "use strict";
 
+const csv = require('csv-parser')
 const fs = require('fs');
+const results = [];
+
+let inFileColumns = '../data/columns.csv';
+let inFileDatasets = '../data/datasets.csv';
+let inFileBenchmarks = '../data/benchmarks.csv';
 
 fs.writeFile("out/test.out", "Hey there!", function(err) {
     if(err) {
@@ -20,6 +26,16 @@ fs.writeFile("out/test.out", "Hey there!", function(err) {
     console.log("The file was saved!");
 }); 
 
+fs.createReadStream(inFileColumns)
+  .pipe(csv())
+  .on('data', (data) => results.push(data))
+  .on('end', () => {
+    console.log(results);
+    // [
+    //   { NAME: 'Daffy Duck', AGE: '24' },
+    //   { NAME: 'Bugs Bunny', AGE: '22' }
+    // ]
+  });
 
 // const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
