@@ -1,0 +1,14 @@
+{
+  "name": "odm-benchmarks-parser",
+  "version": "0.9.0",
+  "description": "Use node to parse benchmarks raw data into summary README.md",
+  "main": "app.js",
+  "scripts": {},
+  "repository": {},
+  "author": "Corey Snipes <corey@twomile.com>",
+  "license": "NONE",
+  "dependencies": {
+    "csv-parse": "^4.*"
+  },
+  "devDependencies": {}
+}
