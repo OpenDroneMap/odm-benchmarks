@@ -27,3 +27,4 @@ ID,DATASET,PROCESSING_TIME,PROCESSING_SUCCESS,ERROR_TYPE,RAM_SIZE,RAM_CLOCK_SPEE
 26,Zoo,2h 28m,Y,-,64 GB,(unknown),Intel Xeon 5650,(unknown),(unknown),(unknown),Ubuntu 18.04,Docker,1.3.3,N,Default,2048 px,,2020-04-11,[Fran Polignano](https://github.com/fpolignano/),Y,Dell R710
 27,Zoo,7h 49m,Y,-,64 GB,(unknown),Intel Xeon 5650,(unknown),(unknown),(unknown),Ubuntu 18.04,Docker,1.3.3,N,High Resolution,N,,2020-04-12,[Fran Polignano](https://github.com/fpolignano/),Y,Dell R710
 28,Zoo,Crashed at 8h 6m,N,Memory,32 GB,(unknown),Intel Xeon Platinum 8175M,(unknown),(unknown),(unknown),Ubuntu 18.04,Docker,1.3.3,N,High Resolution,N,,2020-04-12,[Fran Polignano](https://github.com/fpolignano/),Y,"AWS r5.xlarge, Out of Memory Crash"
+29,Banana,0h 5m,Y,-,8 GB,2133 MT/s,Ryzen 5 1500x,3.50 Ghz,8,NVMe SSD,Windows 10 Professional,Docker,2.0.0,N,Default,N,,2020-09-26,[Anand Mahesh](https://github.com/manand881),Y,-
