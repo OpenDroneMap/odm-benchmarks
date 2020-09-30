@@ -9,32 +9,53 @@
  * -----------------------------------------------------------------------------
  */
 
+
 "use strict";
 
 const csv = require('csv-parser')
 const fs = require('fs');
-const results = [];
+//const results = [];
+const columnRecords = [];
+const datasetRecords = [];
+const benchmarkRecords = [];
 
 let inFileColumns = '../data/columns.csv';
 let inFileDatasets = '../data/datasets.csv';
 let inFileBenchmarks = '../data/benchmarks.csv';
 
-fs.writeFile("out/test.out", "Hey there!", function(err) {
-    if(err) {
-        return console.log(err);
-    }
-    console.log("The file was saved!");
-}); 
+// write
+// fs.writeFile("out/test.out", "Hey there!", function(err) {
+//     if(err) {
+//         return console.log(err);
+//     }
+//     console.log("The file was saved!");
+// }); 
 
+// read columns
 fs.createReadStream(inFileColumns)
   .pipe(csv())
-  .on('data', (data) => results.push(data))
+  .on('data', (data) => columnRecords.push(data))
   .on('end', () => {
-    console.log(results);
-    // [
-    //   { NAME: 'Daffy Duck', AGE: '24' },
-    //   { NAME: 'Bugs Bunny', AGE: '22' }
-    // ]
+    console.log('*** columns ***');
+    console.log(columnRecords);
+  });
+
+// read datasets
+fs.createReadStream(inFileDatasets)
+  .pipe(csv())
+  .on('data', (data) => datasetRecords.push(data))
+  .on('end', () => {
+    console.log('*** datasets ***');
+    console.log(datasetRecords);
+  });
+
+// read benchmarks
+fs.createReadStream(inFileBenchmarks)
+  .pipe(csv())
+  .on('data', (data) => benchmarkRecords.push(data))
+  .on('end', () => {
+    console.log('*** benchmarks ***');
+    //console.log(benchmarkRecords);
   });
 
 // const createCsvWriter = require('csv-writer').createObjectCsvWriter;
