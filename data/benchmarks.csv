@@ -36,3 +36,5 @@ ID,DATASET,PROCESSING_TIME,PROCESSING_SUCCESS,ERROR_TYPE,RAM_SIZE,RAM_CLOCK_SPEE
 35,Zoo,4h 14m,Y,-,32 GB,2133 MT/s,Ryzen 5 1500x,3.50 Ghz,8,NVMe SSD,Windows 10 Professional,Docker,2.1.0,N,Default,2048 px,,2020-11-08,[Anand Mahesh](https://github.com/manand881),Y,-
 36,Aukerman,0h 25m,Y,-,32 GB,2133 MT/s,Ryzen 5 1500x,3.50 Ghz,8,NVMe SSD,Windows 10 Professional,Docker,2.1.0,N,Default,N,,2020-11-08,[Anand Mahesh](https://github.com/manand881),Y,-
 37,Toledo,0h 33m,Y,-,32 GB,2133 MT/s,Ryzen 5 1500x,3.50 Ghz,8,NVMe SSD,Windows 10 Professional,Docker,2.1.1,N,Default,N,,2020-11-09,[Anand Mahesh](https://github.com/manand881),Y,-
+38,Quarry,0h 51m,Y,-,32 GB,2133 MT/s,Ryzen 5 1500x,3.50 Ghz,8,NVMe SSD,Windows 10 Professional,Docker,2.1.1,N,Default,N,,2020-11-11,[Anand Mahesh](https://github.com/manand881),Y,-
+38,Seneca,1h 56m,Y,-,32 GB,2133 MT/s,Ryzen 5 1500x,3.50 Ghz,8,NVMe SSD,Windows 10 Professional,Docker,2.1.1,N,Default,N,,2020-11-12,[Anand Mahesh](https://github.com/manand881),Y,-
