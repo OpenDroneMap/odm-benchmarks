@@ -1,231 +1,80 @@
-# ODM Processing Benchmarks
-
-This repo contains the latest benchmark data for OpenDroneMap and WebODM, as contributed by the ODM community.  
-
-Do you have benchmark data to share?  See [this page](https://github.com/OpenDroneMap/odm-benchmarks/blob/master/CONTRIBUTING.md) for details on contributing.
-
-## Using The Benchmark Data
-
-ODM benchmark data is organized by dataset.  The first table provides a summary of the datasets used for benchmarking.  Further down the page, you'll find the details and results for each dataset.  Other datasets are available for your testing, and new ones may be added to this list from time to time.  For a comprehenvisve list of available datasets, refer to the [ODMdata project](https://github.com/OpenDroneMap/ODMdata).
-
-## All Datasets
-
-|         Dataset | Photos | Date | Source |  URL | 
-| :-------------- | -------------: | -------------: | -----------------: | ---------: | 
-| Aukerman | 77 |  June 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_aukerman) |
-| Banana | 16 | July 2019 |  [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/pierotofy/dataset_banana) |
-| Bellus | 122 |  July 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_bellus) |
-| Garfield | 28 | Nov. 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_garfield_msp) |
-| Lewis | 145 | June 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_lewis) |
-| Rising Valley | 566 | Sep. 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_rv_nir) |
-| Sance | 156 | Apr. 2017 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/merkato/odm_sance) |
-| Seneca | 167 | June 2013 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_seneca) |
-| Shitan | 493 | Dec. 2018 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | <-- See ODMdata link |
-| Toledo | 87 | Oct. 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_toledo) |
-| Tuniu 1 | 271 | Apr. 2019 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | <-- See ODMdata link | 
-| Waterbury | 248 | July 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_waterbury) |
-| Wietrznia | 225 | May 2017 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/merkato/odm_wietrznia) |
-| Zoo | 524 | Oct. 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [GitHub](https://github.com/OpenDroneMap/odm_data_zoo) |
-| Quarry | 127 | May 2012 | [Sensefly](https://www.sensefly.com/) | [Sensefly.com](https://www.sensefly.com/education/datasets/?dataset=1418) |
-| 4th Ave | 82 | Nov. 2017 | [DroneMapper](https://dronemapper.com/) | [Dronemapper.com](https://dronemapper.com/sample_data/) | 
-| Red Rocks | 45 | Jan. 2013 | [DroneMapper](https://dronemapper.com/) | [Dronemapper.com](https://dronemapper.com/sample_data/) | 
-
-
-## Aukerman Dataset
-
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Dakota Benjamin](https://github.com/dakotabenjamin).  
-Photos collected in June 2016.
-
-The following table lists processing results for this dataset, reported by ODM community members.
-
-| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
-| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-| 1h 1m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-10 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
-
-## Banana Dataset
-
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Piero Toffanin](https://github.com/pierotofy).  
-Small photo set of a banana bunch.  Photos taken in July 2019.
-
-The following table lists processing results for this dataset, reported by ODM community members.
-
-| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
-| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-| 0h 12m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-03-28 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
-| 0h 13m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-03-28 | [Corey Snipes](https://github.com/coreysnipes/) | 3D Model, Resize 2048px| - | 
-| 0h 20m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-03-28 | [Corey Snipes](https://github.com/coreysnipes/) | 3D Model, No Resize | - | 
-
-## Bellus Dataset
-
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Stephen Mather](https://github.com/smathermather).  
-Photos collected in July 2015.
-
-The following table lists processing results for this dataset, reported by ODM community members.
-
-| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
-| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-| 1h 27m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-13 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
-
-## Garfield Dataset
-
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Dakota Benjamin](https://github.com/dakotabenjamin).  
-Photos collected in November 2016.
-
-The following table lists processing results for this dataset, reported by ODM community members.
-
-| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
-| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-| 0h 11m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-13 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
-
-## Lewis Dataset
-
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Stephen Mather](https://github.com/smathermather).  
-Photos collected in June 2015.
-
-The following table lists processing results for this dataset, reported by ODM community members.
-
-| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
-| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-| 2h 0m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-14 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
-
-## Rising Valley Dataset
-
-This is a NIR dataset from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Dakota Benjamin](https://github.com/dakotabenjamin).  
-Photos originally uploaded September 2015.
-
-The following table lists processing results for this dataset, reported by ODM community members.
-
-| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
-| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-| 8h 55m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-03-26 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
-
-## Sance Dataset
-
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Tomasz Nycz](https://github.com/merkato).
-Photos collected in April 2017.
-
-The following table lists processing results for this dataset, reported by ODM community members.
-
-| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
-| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-| 2h 4m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-20 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
-
-## Seneca Dataset
-
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Stephen Mather](https://github.com/smathermather).  
-Photos collected in June 2013.
-
-The following table lists processing results for this dataset, reported by ODM community members.
-
-| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
-| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-| 2h 4m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-14 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
-
-## Shitan Dataset
-
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Yu-Huang Wang](https://community.opendronemap.org/u/Yu-Huang_Wang).
-Photos of a forested valley in Taiwan, with nice 3D features.  Collected December 2018.
-
-The following table lists processing results for this dataset, reported by ODM community members.
-
-| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
-| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-| 7h 50m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-03-23 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
-
-## Tuniu 1 Dataset
-
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Yu-Huang Wang](https://community.opendronemap.org/u/Yu-Huang_Wang).
-RTK photos collected April 2019 at the Tuniu River, Taiwan. See [forum post](https://community.opendronemap.org/t/2019-04-11-tuniu-river-toufeng-miaoli-county-taiwan/3292) for details.
-
-The following table lists processing results for this dataset, reported by ODM community members.
-
-| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
-| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-| 3h 34m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-03-31 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
-| 3h 37m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-03-31 | [Corey Snipes](https://github.com/coreysnipes/) | DSM/DTM, Resize 2048px | - | 
-| 3h 29m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-04-01 | [Corey Snipes](https://github.com/coreysnipes/) | 3D Model, Resize 2048px | - | 
-
-## Toledo Dataset
-
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Stephen Mather](https://github.com/smathermather).  
-Photos collected in October 2015.
-
-The following table lists processing results for this dataset, reported by ODM community members.
-
-| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
-| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-| 1h 9m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-07 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
-
-## Waterbury Dataset
-
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Stephen Mather](https://github.com/smathermather).  
-Photos collected in July 2015.
-
-The following table lists processing results for this dataset, reported by ODM community members.
-
-| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
-| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-| 2h 50m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-15 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
-
-## Wietrznia Dataset
-
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Tomasz Nycz](https://github.com/merkato).
-Photos collected in May 2017.
-
-The following table lists processing results for this dataset, reported by ODM community members.
-
-| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
-| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-| 3h 22m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-21 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
-| 3h 51m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - | 2020-03-29 | [Corey Snipes](https://github.com/coreysnipes/) | 3D Model, Resize 2048px | - | 
-| 9h 9m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-29 | [Corey Snipes](https://github.com/coreysnipes/) | 3D Model, No Resize | - | 
-
-## Zoo Dataset
-
-This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Stephen Mather](https://github.com/smathermather).  
-Photos collected in October 2016.
-
-The following table lists processing results for this dataset, reported by ODM community members.
-
-| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
-| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-| 7h 2m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-21 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - |
-| 5h 4m | 32 GB |  Intel Xeon Platinum 8175M | Ubuntu 18.04 | 1.3.3 | Y | - | 2020-04-11 | [Fran Polignano](https://github.com/fpolignano/) | Defaults, Resize 2048px | AWS r5.xlarge|
-| 2h 28m | 64 GB | Intel Xeon 5650 | Ubuntu 18.04 | 1.3.3 | Y | - | 2020-04-11 | [Fran Polignano](https://github.com/fpolignano/) | Defaults, Resize 2048px | Dell R710 | 
-| 7h 49m | 64 GB | Intel Xeon 5650 | Ubuntu 18.04 | 1.3.3 | Y | - | 2020-04-12 | [Fran Polignano](https://github.com/fpolignano/) | High Resolution, No Resize | Dell R710 |
-| Crashed at 8h 6m | 32 GB |  Intel Xeon Platinum 8175M | Ubuntu 18.04 | 1.3.3 | Y | - | 2020-04-12 | [Fran Polignano](https://github.com/fpolignano/) | High Resolution, No Resize | AWS r5.xlarge, Out of Memory Crash|
-
-
-## Quarry Dataset
-
-This dataset is from the [Sensefly sample data collection](https://www.sensefly.com/education/datasets/).
-
-The following table lists processing results for this dataset, reported by ODM community members.
-
-| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
-| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-| 1h 38m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - | 2020-03-11 | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
-
-## 4th Ave Dataset
-
-This dataset is from [DroneMapper sample data collection](https://dronemapper.com/sample_data/).  Flown in November 2017 with a Phantom 3 Advanced.
-
-The following table lists processing results for this dataset, reported by ODM community members.
-
-| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
-| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-| 1h 0m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.1 | Y | - |  | [Corey Snipes](https://github.com/coreysnipes/) | Defaults, Resize 2048px | - | 
-
-## Red Rocks Dataset
-
-This dataset is from [DroneMapper sample data collection](https://dronemapper.com/sample_data/).  From the DroneMapper site: _"An aerial survey performed with a Falcon UAV fixed-wing drone over Red Rocks, Colorado. The sensor is a Canon Powershot SX260HS with GPS enabled. This example data set contains 45 high resolution oblique images for 3D model and point cloud creation."_
-
-The following table lists processing results for this dataset, reported by ODM community members.
-
-| Processing Time | RAM | CPU | OS | ODM Version | Docker | Cluster | Test Date | Test By | Config | Additional Info | 
-| :-------------- | --: | -------------: | -----------------: | --------- | -- | -- | -- | -- | -- | -- |
-| 0h 45m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - |  | [Corey Snipes](https://github.com/coreysnipes/) | 3D Model, Resize 2048px | - | 
-| 1h 40m | 16 GB | Intel i5 | Ubuntu 18.04 | 1.3.4 | Y | - |  | [Corey Snipes](https://github.com/coreysnipes/) | 3D Model, No Resize | - | 
+# ODM Benchmarks
+
+## About
+This repository is a part of the [ODM](https://github.com/OpenDroneMap) project and is dedicated to benchmark sample Datasets found in the [ODMData](https://github.com/OpenDroneMap/ODMdata) Repository and a few other thrid party sources, to better understand the behavioural characterists of ODM. 
+
+## Datasets or benchmarking
+
+| Dataset       | No of Photos |      Date |                                             Source |                                                                                    URL |                                                                     Contributor |
+| :------------ | -----: | --------: | -------------------------------------------------: | -------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------: |
+| Aukerman      |     77 | June 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) |                            [GitHub](https://github.com/OpenDroneMap/odm_data_aukerman) |                            [Dakota Benjamin](https://github.com/dakotabenjamin) |
+| Banana        |     16 | July 2019 | [ODMData](https://github.com/OpenDroneMap/ODMdata) |                                  [GitHub](https://github.com/pierotofy/dataset_banana) |                                  [Piero Toffanin](https://github.com/pierotofy) |
+| Bellus        |    122 | July 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) |                              [GitHub](https://github.com/OpenDroneMap/odm_data_bellus) |                              [Stephen Mather](https://github.com/smathermather) |
+| Garfield      |     28 | Nov. 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) |                        [GitHub](https://github.com/OpenDroneMap/odm_data_garfield_msp) |                            [Dakota Benjamin](https://github.com/dakotabenjamin) |
+| Lewis         |    145 | June 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) |                               [GitHub](https://github.com/OpenDroneMap/odm_data_lewis) |                              [Stephen Mather](https://github.com/smathermather) |
+| Rising Valley |    566 | Sep. 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) |                              [GitHub](https://github.com/OpenDroneMap/odm_data_rv_nir) |                            [Dakota Benjamin](https://github.com/dakotabenjamin) |
+| Sance         |    156 | Apr. 2017 | [ODMData](https://github.com/OpenDroneMap/ODMdata) |                                         [GitHub](https://github.com/merkato/odm_sance) |                                       [Tomasz Nycz](https://github.com/merkato) |
+| Seneca        |    167 | June 2013 | [ODMData](https://github.com/OpenDroneMap/ODMdata) |                              [GitHub](https://github.com/OpenDroneMap/odm_data_seneca) |                              [Stephen Mather](https://github.com/smathermather) |
+| Shitan        |    493 | Dec. 2018 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [Google Drive](https://drive.google.com/file/d/1Spu1F713Tw-z1XMdnrlD6NT4EhhFy2Lj/view) |             [Yu-Huang Wang](https://community.opendronemap.org/u/Yu-Huang_Wang) |
+| Toledo        |     87 | Oct. 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) |                              [GitHub](https://github.com/OpenDroneMap/odm_data_toledo) |             [Yu-Huang Wang](https://community.opendronemap.org/u/Yu-Huang_Wang) |
+| Tuniu 1       |    271 | Apr. 2019 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [Google Drive](https://drive.google.com/file/d/1faBtGK7Jm5lTo_UWLz6onDGYGqlykHPa/view) |                              [Stephen Mather](https://github.com/smathermather) |
+| Waterbury     |    248 | July 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) |                           [GitHub](https://github.com/OpenDroneMap/odm_data_waterbury) |                              [Stephen Mather](https://github.com/smathermather) |
+| Wietrznia     |    225 |  May 2017 | [ODMData](https://github.com/OpenDroneMap/ODMdata) |                                     [GitHub](https://github.com/merkato/odm_wietrznia) |                                       [Tomasz Nycz](https://github.com/merkato) |
+| Zoo           |    524 | Oct. 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) |                                 [GitHub](https://github.com/OpenDroneMap/odm_data_zoo) |                              [Stephen Mather](https://github.com/smathermather) |
+| Quarry        |    127 |  May 2012 |              [Sensefly](https://www.sensefly.com/) |              [Sensefly.com](https://www.sensefly.com/education/datasets/?dataset=1418) | [Sensefly sample data collection](https://www.sensefly.com/education/datasets/) |
+| 4th Ave       |     82 | Nov. 2017 |            [DroneMapper](https://dronemapper.com/) |                                [Dronemapper.com](https://dronemapper.com/sample_data/) |      [DroneMapper sample data collection](https://dronemapper.com/sample_data/) |
+| Red Rocks     |     45 | Jan. 2013 |            [DroneMapper](https://dronemapper.com/) |                                [Dronemapper.com](https://dronemapper.com/sample_data/) |      [DroneMapper sample data collection](https://dronemapper.com/sample_data/) |
+
+## Data Visualization
+
+This feature is **coming soon**, for now you can look at the `benchmarks.csv` file in the `data` directory for more information.
+
+## How to Benchmark
+
+This section provides instructions for contributing to the ODM Benchmarks project.
+
+* **Review Previous Benchmarks** - You can have a look at previous benchmarks which is found in the `benchmarks.csv` file, located in the `data` directory to understand various things such as for example, figuring out which dataset has been benchmarked lesser than in comparision to other datasets.
+
+* **Select a desired Dataset** - Choose one of the datasets of your choice which is listed in the table seen above. Links to download the dataset is provided in the same. 
+
+* **Run the Dataset** - Create a new task in ODM and process the images.
+
+* **Verify the results** - Ensure that the task completed successfully by viewing the maps and models generated
+
+* **Submit Your Results** - Open the `benchmarks.csv` file and look at the header for each of the column and note the desired information required before submitting and edit the csv file. Submissions are accepted Via a Pull Request or you can choose to post your results on the [ODM community forum](https://community.opendronemap.org/t/odm-benchmark-data/3877). A table is given below to explain the structure of the CSV.
+
+| Attribute          | Explanation                                                          | Example                                         |
+|--------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| ID                 | Benchmark Number                                                     | 1                                               |
+| DATASET            | Dataset Name                                                         | Toledo                                          |
+| PROCESSING_TIME    | Time taken to Process The dataset                                    | 1h 9m                                           |
+| PROCESSING_SUCCESS | Confirm If process was successful                                    | Y                                               |
+| ERROR_TYPE         | Mention error if any occured                                         | -                                               |
+| RAM_SIZE           | Size of RAM allocated                                                | 16 GB                                           |
+| RAM_CLOCK_SPEED    | RAM Frequency of the Machine                                         | 2133 MT/s                                       |
+| CPU_TYPE           | Make and model of the CPU                                            | Intel i5                                        |
+| CPU_CLOCK_SPEED    | Clock Speed of the CPU                                               | 2.3 Ghz                                         |
+| CPU_NUM_CORES      | Number of Cores of the CPU                                           | 4                                               |
+| STORAGE_TYPE       | Storage Type of the system. HDD/SSD/NVME                             | SSD                                             |
+| OS                 | Operating System of the Machine                                      | Ubuntu 18.04                                    |
+| VM_TYPE            | Virtual Machine on which ODM is running on                           | Docker                                          |
+| ODM_VERSION        | Version of ODM Used to Benchmark                                     | 1.3.1                                           |
+| ODM_CLUSTER        | Delcaration of usage of Cluster ODM                                  | N                                               |
+| CONFIG_NAME        | Mention of the Configuration in which the dataset is being processed | Default                                         |
+| CONFIG_RESIZE      | mention of image size if images are being resized                    | 2048 px                                         |
+| CONFIG_OTHER       | Other Configurations made that are worth mentioning                  | -                                               |
+| TEST_DATE          | Date of Test                                                         | 2020-03-07                                      |
+| TEST_BY            | Information of the individual who tests the data                     | [Corey Snipes](https://github.com/coreysnipes/) |
+| INCLUDE_IN_SUMMARY | Check if Data has been included in summary                           | Y                                               |
+| NOTES              | Additional Notes                                                     | -                                               |
+
+## Questions and Doubts
+
+Any queries you may have can be posted in the [ODM community forum](https://community.opendronemap.org/t/odm-benchmark-data/3877).
+
+## Contributing new Benchmark Data 
+
+If you have benchmark data to share, See [this page](https://github.com/OpenDroneMap/odm-benchmarks/blob/master/CONTRIBUTING.md) for details on contributing.
 
 ## License
 
