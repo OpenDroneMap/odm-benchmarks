@@ -15,11 +15,12 @@
 const csv = require('csv-parser')
 const fs = require('fs');
 //const results = [];
-const columnRecords = [];
+//const columnRecords = [];
 const datasetRecords = [];
 const benchmarkRecords = [];
+const datasets = [];
 
-let inFileColumns = '../data/columns.csv';
+//let inFileColumns = '../data/columns.csv';
 let inFileDatasets = '../data/datasets.csv';
 let inFileBenchmarks = '../data/benchmarks.csv';
 
@@ -32,21 +33,21 @@ let inFileBenchmarks = '../data/benchmarks.csv';
 // }); 
 
 // read columns
-fs.createReadStream(inFileColumns)
-  .pipe(csv())
-  .on('data', (data) => columnRecords.push(data))
-  .on('end', () => {
-    console.log('*** columns ***');
-    console.log(columnRecords);
-  });
+// fs.createReadStream(inFileColumns)
+//   .pipe(csv())
+//   .on('data', (data) => columnRecords.push(data))
+//   .on('end', () => {
+//     console.log('*** columns ***');
+//     console.log(columnRecords);
+//   });
 
 // read datasets
 fs.createReadStream(inFileDatasets)
   .pipe(csv())
   .on('data', (data) => datasetRecords.push(data))
   .on('end', () => {
-    console.log('*** datasets ***');
-    console.log(datasetRecords);
+    console.log('*** read datasets ***');
+    //console.log(datasetRecords);
   });
 
 // read benchmarks
@@ -54,9 +55,21 @@ fs.createReadStream(inFileBenchmarks)
   .pipe(csv())
   .on('data', (data) => benchmarkRecords.push(data))
   .on('end', () => {
-    console.log('*** benchmarks ***');
+    console.log('*** read benchmarks ***');
     //console.log(benchmarkRecords);
   });
+
+// read unique datasets
+for(let i=0; i<benchmarkRecords.length; i++) {
+  
+  record = {};
+  request = requestList[i];
+  record.requestName = request.name;
+  console.log('  Request ' + i + ': ' + record.requestName);
+
+}
+
+// read unique ODM versions
 
 // const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
