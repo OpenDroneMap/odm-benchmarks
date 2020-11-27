@@ -8,7 +8,6 @@ OpenDroneMap benchmarking data is summarized in the following pages:
 * View benchmark data [organized by dataset](./data-parsed/by-dataset.txt) (TXT)
 * View benchmark data [organized by ODM version](./data-parsed/by-version.txt) (TXT)
 * View benchmark [raw data](./data/benchmarks.csv) (CSV)
-* This is a [test link](https://github.com/OpenDroneMap/odm-benchmarks/blob/master/data-parsed/by-version.txt)
 
 ## Datasets for Benchmarking
 
