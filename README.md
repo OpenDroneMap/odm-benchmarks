@@ -1,9 +1,9 @@
 # ODM Benchmarks
 
-## About
-This repository is a part of the [ODM](https://github.com/OpenDroneMap) project and is dedicated to benchmark sample Datasets found in the [ODMData](https://github.com/OpenDroneMap/ODMdata) Repository and a few other thrid party sources, to better understand the behavioural characterists of ODM. 
 
-## Datasets or benchmarking
+This repository is a part of the [ODM](https://github.com/OpenDroneMap) project and is dedicated to benchmark sample datasets found in the [ODMData](https://github.com/OpenDroneMap/ODMdata) repository and a few other thrid party sources, to better understand the behavioural characterists of ODM. 
+
+## Datasets for benchmarking
 
 | Dataset       | No of Photos | Date      |                                             Source |                                                                                    URL |                                                                     Contributor |
 | :------------ | ------------ | --------- | ------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
@@ -68,13 +68,11 @@ This section provides instructions for contributing to the ODM Benchmarks projec
 | INCLUDE_IN_SUMMARY | Check if Data has been included in summary                           | Y                                               |
 | NOTES              | Additional Notes                                                     | -                                               |
 
-## Questions and Doubts
+## Queries and Contributions
 
-Any queries you may have can be posted in the [ODM community forum](https://community.opendronemap.org/t/odm-benchmark-data/3877).
+* **Questions and Doubts** - Any queries you may have can be posted in the [ODM community forum](https://community.opendronemap.org/t/odm-benchmark-data/3877).
 
-## Contributing new Benchmark Data 
-
-If you have benchmark data to share, See [this page](https://github.com/OpenDroneMap/odm-benchmarks/blob/master/CONTRIBUTING.md) for details on contributing.
+* **Contributing new Benchmark Data** - If you have benchmark data to share, See [this page](https://github.com/OpenDroneMap/odm-benchmarks/blob/master/CONTRIBUTING.md) for details on contributing.
 
 ## License
 
