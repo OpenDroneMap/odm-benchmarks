@@ -31,7 +31,8 @@ async.waterfall([
   readBenchmarks,
   parseUniqueDatasets,
   parseUniqueVersions,
-  //writeByDataset,
+  clearOutputFiles,
+  writeByDataset,
   //writeByVersion,
   displayResults
 ], function(err, result) {
@@ -95,6 +96,69 @@ function parseUniqueVersions(processingData, callback) {
   callback(null, processingData);
 }
 
+function clearOutputFiles(processingData, callback) {
+  async.series([
+    function(callback) {
+      fs.unlink(config.outFileByDataset, function(err) {
+        if(err) callback(null, 'ERR');
+        else callback(null, 'OK');
+      });
+    }, 
+    function(callback) {
+      fs.unlink(config.outFileByVersion, function(err) {
+        if(err) callback(null, 'ERR');
+        else callback(null, 'OK');
+      });
+    }
+  ],
+    function(err, results) {
+      console.log('File clear results: ' + results);
+      callback(null, processingData);
+    }
+  );
+}
+
+function writeByDataset(processingData, callback) {
+  console.log('Writing by dataset');
+  processingData.byDataset = '';
+  for(let i=0; i<processingData.datasets.length; i++) {
+    let datasetName = processingData.datasets[i];
+    console.log('  write ' + datasetName);
+    writeDataset(
+      config.outFileByDataset, 
+      datasetName, 
+      processingData.datasetRecords, 
+      processingData.benchmarkRecords, 
+      function(err) {
+        if(err) {
+          console.log('Write error: ' + err);
+        }
+      }
+    );
+    //appendRecords(datasetName, processingData.byDataset);
+    //let odmVersion = benchmarkRecord.ODM_VERSION;
+    //if(!processingData.versions.includes(odmVersion)) processingData.versions.push(odmVersion);
+  }
+
+  //...
+  callback(null, processingData);
+}
+
+function writeDataset(fileName, datasetName, datasetRecords, benchmarkRecords) {
+
+  //  var fs = require('fs')
+  var writer = fs.createWriteStream(fileName, {flags: 'a'});
+
+  writer.write(datasetName + '\n') // append string to your file
+  writer.write('more data\n') // again
+  writer.write('and more\n') // again
+
+  writer.end() // close string
+
+  //...
+
+}
+
 function displayResults(processingData, callback) {
   console.log(outputSeparator);
   console.log('Benchmark data processing complete')
@@ -103,6 +167,7 @@ function displayResults(processingData, callback) {
   console.log('  Unique ODM versions: ' + processingData.versions.length);
   console.log(outputSeparator);
 }
+
 
 // write
 // fs.writeFile("out/test.out", "Hey there!", function(err) {
