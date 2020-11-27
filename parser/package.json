@@ -8,6 +8,7 @@
   "author": "Corey Snipes <corey@twomile.com>",
   "license": "NONE",
   "dependencies": {
+    "async": "^3.*",
     "csv-parser": "^2.*"
   },
   "devDependencies": {}

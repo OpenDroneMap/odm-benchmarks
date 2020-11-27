@@ -14,15 +14,78 @@
 
 const csv = require('csv-parser')
 const fs = require('fs');
+const async = require("async");
+
 //const results = [];
 //const columnRecords = [];
-const datasetRecords = [];
-const benchmarkRecords = [];
-const datasets = [];
+//const datasetRecords = [];
+//const benchmarkRecords = [];
+//const datasets = [];
 
 //let inFileColumns = '../data/columns.csv';
 let inFileDatasets = '../data/datasets.csv';
 let inFileBenchmarks = '../data/benchmarks.csv';
+
+async.waterfall([
+  readDatasets,
+  readBenchmarks,
+  parseDatasets,
+  displayResults
+], function(err, result) {
+  if(err) console.log('ERROR: ' + err);
+  console.log('all done');
+});
+
+function readDatasets(callback) {
+  let processingData = {
+    datasetRecords: [], 
+    benchmarkRecords: [],
+    datasets: []
+  };
+  console.log('reading datasets');
+  fs.createReadStream(inFileDatasets)
+    .pipe(csv())
+    .on('data', (data) => processingData.datasetRecords.push(data))
+    .on('end', () => {
+      console.log('*** read datasets ***');
+      callback(null, processingData);
+      //console.log(datasetRecords);
+    });
+}
+
+function readBenchmarks(processingData, callback) {
+  console.log('reading benchmarks');
+  fs.createReadStream(inFileBenchmarks)
+    .pipe(csv())
+    .on('data', (data) => processingData.benchmarkRecords.push(data))
+    .on('end', () => {
+      console.log('*** read benchmarks ***');
+      //console.log(benchmarkRecords);
+      callback(null, processingData);
+    });
+
+}
+
+function parseDatasets(processingData, callback) {
+  console.log('parsing datasets');
+
+  for(let i=0; i<processingData.benchmarkRecords.length; i++) {
+    let benchmarkRecord = processingData.benchmarkRecords[i];
+    let datasetName = benchmarkRecord.DATASET;
+    console.log('  Record ' + i + ': ' + datasetName);
+    if(!processingData.datasets.includes(datasetName)) processingData.datasets.push(datasetName);
+  }  
+  callback(null, processingData);
+}
+
+function displayResults(processingData, callback) {
+  console.log('displaying results');
+  console.log('---------------------');
+  console.log('  benchmark records: ' + processingData.benchmarkRecords.length);
+  console.log('  datasets: ' + processingData.datasets.length);
+  //console.log(JSON.stringify(processingData.datasets));
+  console.log('---------------------');
+}
 
 // write
 // fs.writeFile("out/test.out", "Hey there!", function(err) {
@@ -42,32 +105,34 @@ let inFileBenchmarks = '../data/benchmarks.csv';
 //   });
 
 // read datasets
-fs.createReadStream(inFileDatasets)
-  .pipe(csv())
-  .on('data', (data) => datasetRecords.push(data))
-  .on('end', () => {
-    console.log('*** read datasets ***');
-    //console.log(datasetRecords);
-  });
+// fs.createReadStream(inFileDatasets)
+//   .pipe(csv())
+//   .on('data', (data) => datasetRecords.push(data))
+//   .on('end', () => {
+//     console.log('*** read datasets ***');
+//     //console.log(datasetRecords);
+//   });
 
-// read benchmarks
-fs.createReadStream(inFileBenchmarks)
-  .pipe(csv())
-  .on('data', (data) => benchmarkRecords.push(data))
-  .on('end', () => {
-    console.log('*** read benchmarks ***');
-    //console.log(benchmarkRecords);
-  });
+// // read benchmarks
+// fs.createReadStream(inFileBenchmarks)
+//   .pipe(csv())
+//   .on('data', (data) => benchmarkRecords.push(data))
+//   .on('end', () => {
+//     console.log('*** read benchmarks ***');
+//     //console.log(benchmarkRecords);
+//   });
 
 // read unique datasets
-for(let i=0; i<benchmarkRecords.length; i++) {
+// console.log('read datasets');
+// for(let i=0; i<benchmarkRecords.length; i++) {
   
-  record = {};
-  request = requestList[i];
-  record.requestName = request.name;
-  console.log('  Request ' + i + ': ' + record.requestName);
+//   //record = {};
+//   benchmarkRecord = benchmarkRecords[i];
+//   //record.requestName = request.name;
+//   //benchmarkRecord
+//   console.log('  Record ' + i + ': ' + benchmarkRecord.DATASET);
 
-}
+// }
 
 // read unique ODM versions
 
