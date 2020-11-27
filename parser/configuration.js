@@ -5,8 +5,12 @@
  * -----------------------------------------------------------------------------
  */
 
-
 "use strict";
+
+module.exports = (config) => {
+  config.inFileDatasets = '../data/datasets.csv';
+  config.inFileBenchmarks = '../data/benchmarks.csv';  
+}
 
 //COLUMN: INCLUDE_IN_SUMMARY
 const columns = {

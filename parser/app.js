@@ -15,21 +15,24 @@
 const csv = require('csv-parser')
 const fs = require('fs');
 const async = require("async");
+const outputSeparator = "]------------------------------------------[";
+const config = {};
 
-//const results = [];
-//const columnRecords = [];
-//const datasetRecords = [];
-//const benchmarkRecords = [];
-//const datasets = [];
+require ('./configuration')(config);
 
-//let inFileColumns = '../data/columns.csv';
-let inFileDatasets = '../data/datasets.csv';
-let inFileBenchmarks = '../data/benchmarks.csv';
+console.log(outputSeparator);
+console.log('Starting benchmarks data parsing');
+console.log('  Datasets: ' + config.inFileDatasets);
+console.log('  Benchmarks: ' + config.inFileBenchmarks);
+console.log(outputSeparator);
 
 async.waterfall([
   readDatasets,
   readBenchmarks,
-  parseDatasets,
+  parseUniqueDatasets,
+  parseUniqueVersions,
+  //writeByDataset,
+  //writeByVersion,
   displayResults
 ], function(err, result) {
   if(err) console.log('ERROR: ' + err);
@@ -37,54 +40,68 @@ async.waterfall([
 });
 
 function readDatasets(callback) {
+
   let processingData = {
     datasetRecords: [], 
     benchmarkRecords: [],
-    datasets: []
+    datasets: [],
+    versions: []
   };
-  console.log('reading datasets');
-  fs.createReadStream(inFileDatasets)
+
+  console.log('Reading dataset definitions')
+  fs.createReadStream(config.inFileDatasets)
     .pipe(csv())
     .on('data', (data) => processingData.datasetRecords.push(data))
     .on('end', () => {
-      console.log('*** read datasets ***');
+      console.log('Num defined datasets: ' + processingData.datasetRecords.length);
       callback(null, processingData);
-      //console.log(datasetRecords);
     });
+
 }
 
 function readBenchmarks(processingData, callback) {
-  console.log('reading benchmarks');
-  fs.createReadStream(inFileBenchmarks)
+  console.log('Reading raw benchmarks data');
+  fs.createReadStream(config.inFileBenchmarks)
     .pipe(csv())
     .on('data', (data) => processingData.benchmarkRecords.push(data))
     .on('end', () => {
-      console.log('*** read benchmarks ***');
-      //console.log(benchmarkRecords);
+      console.log('Num benchmark records: ' + processingData.benchmarkRecords.length);
       callback(null, processingData);
     });
-
 }
 
-function parseDatasets(processingData, callback) {
-  console.log('parsing datasets');
-
+function parseUniqueDatasets(processingData, callback) {
+  console.log('Parsing unique datasets');
   for(let i=0; i<processingData.benchmarkRecords.length; i++) {
     let benchmarkRecord = processingData.benchmarkRecords[i];
     let datasetName = benchmarkRecord.DATASET;
-    console.log('  Record ' + i + ': ' + datasetName);
     if(!processingData.datasets.includes(datasetName)) processingData.datasets.push(datasetName);
-  }  
+  }
+  processingData.datasets.sort();
+  //console.log(JSON.stringify(processingData.datasets));
+  callback(null, processingData);
+}
+
+function parseUniqueVersions(processingData, callback) {
+  console.log('Parsing unique ODM versions');
+  for(let i=0; i<processingData.benchmarkRecords.length; i++) {
+    let benchmarkRecord = processingData.benchmarkRecords[i];
+    let odmVersion = benchmarkRecord.ODM_VERSION;
+    if(!processingData.versions.includes(odmVersion)) processingData.versions.push(odmVersion);
+  }
+  processingData.versions.sort();
+  processingData.versions.reverse();
+  //console.log(JSON.stringify(processingData.versions));
   callback(null, processingData);
 }
 
 function displayResults(processingData, callback) {
-  console.log('displaying results');
-  console.log('---------------------');
-  console.log('  benchmark records: ' + processingData.benchmarkRecords.length);
-  console.log('  datasets: ' + processingData.datasets.length);
-  //console.log(JSON.stringify(processingData.datasets));
-  console.log('---------------------');
+  console.log(outputSeparator);
+  console.log('Benchmark data processing complete')
+  console.log('  Benchmark records: ' + processingData.benchmarkRecords.length);
+  console.log('  Unique datasets: ' + processingData.datasets.length);
+  console.log('  Unique ODM versions: ' + processingData.versions.length);
+  console.log(outputSeparator);
 }
 
 // write
