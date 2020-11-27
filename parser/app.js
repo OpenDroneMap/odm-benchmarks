@@ -140,6 +140,7 @@ function readBenchmarksByDataset(datasetName, datasetRecords, benchmarkRecords) 
   let datasetRecord = null;
   let benchmarkRecord = null;
   let benchmarkRecordString = null;
+  const fieldNames = '   TIME |  TEST DATE |   RAM |        CPU TYPE |    ODM |     PRESET |  RESIZE |\n';
   const separatorString = '---------------------------------------------------------------------------------------\n';
 
   appendString += datasetName + '\n';
@@ -152,6 +153,9 @@ function readBenchmarksByDataset(datasetName, datasetRecords, benchmarkRecords) 
     appendString += 'URL: ' + datasetRecord.DATASET_URL + '\n';
     appendString += datasetRecord.DESCRIPTION + '\n';
   }
+
+  appendString += separatorString;
+  appendString += fieldNames;
   appendString += separatorString;
 
   for(let i=0; i<benchmarkRecords.length; i++) {
@@ -162,9 +166,9 @@ function readBenchmarksByDataset(datasetName, datasetRecords, benchmarkRecords) 
     benchmarkRecordString += benchmarkRecord.PROCESSING_TIME.padStart(7, ' ') + ' | ';
     benchmarkRecordString += benchmarkRecord.TEST_DATE.padStart(10, ' ') + ' | ';
     benchmarkRecordString += benchmarkRecord.RAM_SIZE.padStart(5, ' ') + ' | ';
-    benchmarkRecordString += benchmarkRecord.CPU_TYPE.padStart(15, ' ') + ' | ';
+    benchmarkRecordString += benchmarkRecord.CPU_TYPE.substring(0, 15).padStart(15, ' ') + ' | ';
     benchmarkRecordString += benchmarkRecord.ODM_VERSION.padStart(6, ' ') + ' | ';
-    benchmarkRecordString += benchmarkRecord.CONFIG_NAME.padStart(10, ' ') + ' | ';
+    benchmarkRecordString += benchmarkRecord.CONFIG_NAME.substring(0, 10).padStart(10, ' ') + ' | ';
     benchmarkRecordString += benchmarkRecord.CONFIG_RESIZE.padStart(7, ' ') + ' | ';
     //...
     benchmarkRecordString += '\n';
