@@ -32,6 +32,7 @@ async.waterfall([
   parseUniqueDatasets,
   parseUniqueVersions,
   clearOutputFiles,
+  parseByDataset,
   writeByDataset,
   //writeByVersion,
   displayResults
@@ -118,45 +119,76 @@ function clearOutputFiles(processingData, callback) {
   );
 }
 
-function writeByDataset(processingData, callback) {
-  console.log('Writing by dataset');
-  processingData.byDataset = '';
+function parseByDataset(processingData, callback) {
+  console.log('Parsing by dataset');
+  processingData.byDatasetString = '';
   for(let i=0; i<processingData.datasets.length; i++) {
     let datasetName = processingData.datasets[i];
-    console.log('  write ' + datasetName);
-    writeDataset(
-      config.outFileByDataset, 
+    console.log('  Parse ' + datasetName);
+    processingData.byDatasetString += readBenchmarksByDataset(
       datasetName, 
       processingData.datasetRecords, 
-      processingData.benchmarkRecords, 
-      function(err) {
-        if(err) {
-          console.log('Write error: ' + err);
-        }
-      }
+      processingData.benchmarkRecords
     );
-    //appendRecords(datasetName, processingData.byDataset);
-    //let odmVersion = benchmarkRecord.ODM_VERSION;
-    //if(!processingData.versions.includes(odmVersion)) processingData.versions.push(odmVersion);
   }
-
-  //...
   callback(null, processingData);
 }
 
-function writeDataset(fileName, datasetName, datasetRecords, benchmarkRecords) {
+function readBenchmarksByDataset(datasetName, datasetRecords, benchmarkRecords) {
 
-  //  var fs = require('fs')
-  var writer = fs.createWriteStream(fileName, {flags: 'a'});
+  let appendString = '';
+  let datasetRecord = null;
+  let benchmarkRecord = null;
+  let benchmarkRecordString = null;
+  const separatorString = '---------------------------------------------------------------------------------------\n';
 
-  writer.write(datasetName + '\n') // append string to your file
-  writer.write('more data\n') // again
-  writer.write('and more\n') // again
+  appendString += datasetName + '\n';
 
-  writer.end() // close string
+  for(let i=0; i<datasetRecords.length; i++) {
+    datasetRecord = datasetRecords[i];
+    if(datasetRecord.DATASET != datasetName) continue;
+    appendString += 'Photos: ' + datasetRecord.PHOTO_COUNT + '\n';
+    appendString += 'Collected: ' + datasetRecord.COLLECTED_MONTH + '\n';
+    appendString += 'URL: ' + datasetRecord.DATASET_URL + '\n';
+    appendString += datasetRecord.DESCRIPTION + '\n';
+  }
+  appendString += separatorString;
+
+  for(let i=0; i<benchmarkRecords.length; i++) {
+    benchmarkRecord = benchmarkRecords[i];
+    if(benchmarkRecord.DATASET != datasetName) continue;
+    if(benchmarkRecord.PROCESSING_SUCCESS != 'Y') continue;
+    benchmarkRecordString = '';
+    benchmarkRecordString += benchmarkRecord.PROCESSING_TIME.padStart(7, ' ') + ' | ';
+    benchmarkRecordString += benchmarkRecord.TEST_DATE.padStart(10, ' ') + ' | ';
+    benchmarkRecordString += benchmarkRecord.RAM_SIZE.padStart(5, ' ') + ' | ';
+    benchmarkRecordString += benchmarkRecord.CPU_TYPE.padStart(15, ' ') + ' | ';
+    benchmarkRecordString += benchmarkRecord.ODM_VERSION.padStart(6, ' ') + ' | ';
+    benchmarkRecordString += benchmarkRecord.CONFIG_NAME.padStart(10, ' ') + ' | ';
+    benchmarkRecordString += benchmarkRecord.CONFIG_RESIZE.padStart(7, ' ') + ' | ';
+    //...
+    benchmarkRecordString += '\n';
+    appendString += benchmarkRecordString;
+  }
+  appendString += separatorString;
+
+
+  return appendString;
 
   //...
 
+}
+
+function writeByDataset(processingData, callback) {
+  console.log('Writing benchmarks by dataset: ' + config.outFileByDataset);
+  fs.writeFile(
+    config.outFileByDataset, 
+    processingData.byDatasetString, 
+    function(err) {
+      if(err) console.log('File write error: ' + err);
+      callback(null, processingData);
+    }
+  ); 
 }
 
 function displayResults(processingData, callback) {
