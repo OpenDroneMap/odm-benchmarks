@@ -3,7 +3,13 @@
 
 This repository is a part of the [ODM](https://github.com/OpenDroneMap) project and is dedicated to benchmark sample datasets found in the [ODMData](https://github.com/OpenDroneMap/ODMdata) repository and a few other thrid party sources, to better understand the behavioural characterists of ODM. 
 
-## Datasets for benchmarking
+OpenDroneMap benchmarking data is summarized in the following pages:
+
+* View benchmark data [organized by dataset](./data-parsed/by-dataset.txt) (TXT)
+* View benchmark data [organized by ODM version](./data-parsed/by-version.txt) (TXT)
+* View benchmark [raw data](./data/benchmarks.csv) (CSV)
+
+## Datasets for Benchmarking
 
 | Dataset       | No of Photos | Date      |                                             Source |                                                                                    URL |                                                                     Contributor |
 | :------------ | ------------ | --------- | ------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
@@ -25,11 +31,7 @@ This repository is a part of the [ODM](https://github.com/OpenDroneMap) project 
 | 4th Ave       | 82           | Nov. 2017 |            [DroneMapper](https://dronemapper.com/) |                                [Dronemapper.com](https://dronemapper.com/sample_data/) |      [DroneMapper sample data collection](https://dronemapper.com/sample_data/) |
 | Red Rocks     | 45           | Jan. 2013 |            [DroneMapper](https://dronemapper.com/) |                                [Dronemapper.com](https://dronemapper.com/sample_data/) |      [DroneMapper sample data collection](https://dronemapper.com/sample_data/) |
 
-## Data Visualization
-
-This feature is **coming soon**, for now you can look at the `benchmarks.csv` file in the `data` directory for more information.
-
-## How to Benchmark
+## How to Contribute Benchmarks
 
 This section provides instructions for contributing to the ODM Benchmarks project.
 
