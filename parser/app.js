@@ -85,7 +85,6 @@ function parseUniqueDatasets(processingData, callback) {
     if(!processingData.datasets.includes(datasetName)) processingData.datasets.push(datasetName);
   }
   processingData.datasets.sort();
-  //console.log(JSON.stringify(processingData.datasets));
   callback(null, processingData);
 }
 
@@ -145,12 +144,8 @@ function readBenchmarksByDataset(datasetName, datasetRecords, benchmarkRecords) 
   let appendString = '';
   let datasetRecord = null;
   let benchmarkRecord = null;
-  //let benchmarkRecordString = null;
-  //const fieldNames = '   TIME |  TEST DATE |   RAM |        CPU TYPE |    ODM |     PRESET |  RESIZE |\n';
-  //const separatorString = '---------------------------------------------------------------------------------------\n';
 
   appendString += datasetName + '\n';
-
   for(let i=0; i<datasetRecords.length; i++) {
     datasetRecord = datasetRecords[i];
     if(datasetRecord.DATASET != datasetName) continue;
@@ -162,28 +157,13 @@ function readBenchmarksByDataset(datasetName, datasetRecords, benchmarkRecords) 
 
   appendString += getFieldHeaderString();
 
-  // appendString += separatorString;
-  // appendString += fieldNames;
-  // appendString += separatorString;
-
   for(let i=0; i<benchmarkRecords.length; i++) {
     benchmarkRecord = benchmarkRecords[i];
     if(benchmarkRecord.DATASET != datasetName) continue;
     if(benchmarkRecord.PROCESSING_SUCCESS != 'Y') continue;
-
     appendString += getBenchmarkRecordString(benchmarkRecord);
-    // benchmarkRecordString = '';
-    // benchmarkRecordString += benchmarkRecord.PROCESSING_TIME.padStart(7, ' ') + ' | ';
-    // benchmarkRecordString += benchmarkRecord.TEST_DATE.padStart(10, ' ') + ' | ';
-    // benchmarkRecordString += benchmarkRecord.RAM_SIZE.padStart(5, ' ') + ' | ';
-    // benchmarkRecordString += benchmarkRecord.CPU_TYPE.substring(0, 15).padStart(15, ' ') + ' | ';
-    // benchmarkRecordString += benchmarkRecord.ODM_VERSION.padStart(6, ' ') + ' | ';
-    // benchmarkRecordString += benchmarkRecord.CONFIG_NAME.substring(0, 10).padStart(10, ' ') + ' | ';
-    // benchmarkRecordString += benchmarkRecord.CONFIG_RESIZE.padStart(7, ' ') + ' | ';
-    // benchmarkRecordString += '\n';
-    // appendString += benchmarkRecordString;
   }
-  //appendString += separatorString;
+
   appendString += '\n\n';
 
   return appendString;
@@ -222,35 +202,17 @@ function readBenchmarksByVersion(versionName, benchmarkRecords) {
 
   let appendString = '';
   let benchmarkRecord = null;
-  //let benchmarkRecordString = null;
-  //const fieldNames = '   DATASET |    TIME |  TEST DATE |   RAM |        CPU TYPE |    ODM |     PRESET |  RESIZE |\n';
-  //const separatorString = '---------------------------------------------------------------------------------------------\n';
 
   appendString += 'OpenDroneMap Version ' + versionName + '\n';
+
   appendString += getFieldHeaderString();
-  // appendString += separatorString;
-  // appendString += fieldNames;
-  // appendString += separatorString;
 
   for(let i=0; i<benchmarkRecords.length; i++) {
     benchmarkRecord = benchmarkRecords[i];
     if(benchmarkRecord.ODM_VERSION != versionName) continue;
     if(benchmarkRecord.PROCESSING_SUCCESS != 'Y') continue;
-
     appendString += getBenchmarkRecordString(benchmarkRecord);
-    // benchmarkRecordString = '';
-    // benchmarkRecordString += benchmarkRecord.DATASET.substring(0, 10).padStart(10, ' ') + ' | ';
-    // benchmarkRecordString += benchmarkRecord.PROCESSING_TIME.padStart(7, ' ') + ' | ';
-    // benchmarkRecordString += benchmarkRecord.TEST_DATE.padStart(10, ' ') + ' | ';
-    // benchmarkRecordString += benchmarkRecord.RAM_SIZE.padStart(5, ' ') + ' | ';
-    // benchmarkRecordString += benchmarkRecord.CPU_TYPE.substring(0, 15).padStart(15, ' ') + ' | ';
-    // benchmarkRecordString += benchmarkRecord.ODM_VERSION.padStart(6, ' ') + ' | ';
-    // benchmarkRecordString += benchmarkRecord.CONFIG_NAME.substring(0, 10).padStart(10, ' ') + ' | ';
-    // benchmarkRecordString += benchmarkRecord.CONFIG_RESIZE.padStart(7, ' ') + ' | ';
-    // benchmarkRecordString += '\n';
-    // appendString += benchmarkRecordString;
   }
-  //appendString += separatorString;
   appendString += '\n\n';
 
   return appendString;
@@ -313,4 +275,3 @@ function displayResults(processingData, callback) {
   console.log('  Unique ODM versions: ' + processingData.versions.length);
   console.log(outputSeparator);
 }
-
