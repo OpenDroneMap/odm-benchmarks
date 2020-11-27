@@ -9,7 +9,6 @@
  * -----------------------------------------------------------------------------
  */
 
-
 "use strict";
 
 const csv = require('csv-parser')
@@ -19,6 +18,8 @@ const outputSeparator = "]------------------------------------------[";
 const config = {};
 
 require ('./configuration')(config);
+
+// ----------------------------- START -----------------------------------------
 
 console.log(outputSeparator);
 console.log('Starting benchmarks data parsing');
@@ -34,12 +35,16 @@ async.waterfall([
   clearOutputFiles,
   parseByDataset,
   writeByDataset,
-  //writeByVersion,
+  parseByVersion,
+  writeByVersion,
   displayResults
 ], function(err, result) {
   if(err) console.log('ERROR: ' + err);
   console.log('all done');
 });
+
+// -----------------------------  END  -----------------------------------------
+
 
 function readDatasets(callback) {
 
@@ -93,7 +98,6 @@ function parseUniqueVersions(processingData, callback) {
   }
   processingData.versions.sort();
   processingData.versions.reverse();
-  //console.log(JSON.stringify(processingData.versions));
   callback(null, processingData);
 }
 
@@ -122,6 +126,7 @@ function clearOutputFiles(processingData, callback) {
 function parseByDataset(processingData, callback) {
   console.log('Parsing by dataset');
   processingData.byDatasetString = '';
+  processingData.byDatasetString += getFileWarning();
   for(let i=0; i<processingData.datasets.length; i++) {
     let datasetName = processingData.datasets[i];
     console.log('  Parse ' + datasetName);
@@ -131,6 +136,7 @@ function parseByDataset(processingData, callback) {
       processingData.benchmarkRecords
     );
   }
+  processingData.byDatasetString += getFileWarning();
   callback(null, processingData);
 }
 
@@ -139,9 +145,9 @@ function readBenchmarksByDataset(datasetName, datasetRecords, benchmarkRecords) 
   let appendString = '';
   let datasetRecord = null;
   let benchmarkRecord = null;
-  let benchmarkRecordString = null;
-  const fieldNames = '   TIME |  TEST DATE |   RAM |        CPU TYPE |    ODM |     PRESET |  RESIZE |\n';
-  const separatorString = '---------------------------------------------------------------------------------------\n';
+  //let benchmarkRecordString = null;
+  //const fieldNames = '   TIME |  TEST DATE |   RAM |        CPU TYPE |    ODM |     PRESET |  RESIZE |\n';
+  //const separatorString = '---------------------------------------------------------------------------------------\n';
 
   appendString += datasetName + '\n';
 
@@ -154,32 +160,33 @@ function readBenchmarksByDataset(datasetName, datasetRecords, benchmarkRecords) 
     appendString += datasetRecord.DESCRIPTION + '\n';
   }
 
-  appendString += separatorString;
-  appendString += fieldNames;
-  appendString += separatorString;
+  appendString += getFieldHeaderString();
+
+  // appendString += separatorString;
+  // appendString += fieldNames;
+  // appendString += separatorString;
 
   for(let i=0; i<benchmarkRecords.length; i++) {
     benchmarkRecord = benchmarkRecords[i];
     if(benchmarkRecord.DATASET != datasetName) continue;
     if(benchmarkRecord.PROCESSING_SUCCESS != 'Y') continue;
-    benchmarkRecordString = '';
-    benchmarkRecordString += benchmarkRecord.PROCESSING_TIME.padStart(7, ' ') + ' | ';
-    benchmarkRecordString += benchmarkRecord.TEST_DATE.padStart(10, ' ') + ' | ';
-    benchmarkRecordString += benchmarkRecord.RAM_SIZE.padStart(5, ' ') + ' | ';
-    benchmarkRecordString += benchmarkRecord.CPU_TYPE.substring(0, 15).padStart(15, ' ') + ' | ';
-    benchmarkRecordString += benchmarkRecord.ODM_VERSION.padStart(6, ' ') + ' | ';
-    benchmarkRecordString += benchmarkRecord.CONFIG_NAME.substring(0, 10).padStart(10, ' ') + ' | ';
-    benchmarkRecordString += benchmarkRecord.CONFIG_RESIZE.padStart(7, ' ') + ' | ';
-    //...
-    benchmarkRecordString += '\n';
-    appendString += benchmarkRecordString;
-  }
-  appendString += separatorString;
 
+    appendString += getBenchmarkRecordString(benchmarkRecord);
+    // benchmarkRecordString = '';
+    // benchmarkRecordString += benchmarkRecord.PROCESSING_TIME.padStart(7, ' ') + ' | ';
+    // benchmarkRecordString += benchmarkRecord.TEST_DATE.padStart(10, ' ') + ' | ';
+    // benchmarkRecordString += benchmarkRecord.RAM_SIZE.padStart(5, ' ') + ' | ';
+    // benchmarkRecordString += benchmarkRecord.CPU_TYPE.substring(0, 15).padStart(15, ' ') + ' | ';
+    // benchmarkRecordString += benchmarkRecord.ODM_VERSION.padStart(6, ' ') + ' | ';
+    // benchmarkRecordString += benchmarkRecord.CONFIG_NAME.substring(0, 10).padStart(10, ' ') + ' | ';
+    // benchmarkRecordString += benchmarkRecord.CONFIG_RESIZE.padStart(7, ' ') + ' | ';
+    // benchmarkRecordString += '\n';
+    // appendString += benchmarkRecordString;
+  }
+  //appendString += separatorString;
+  appendString += '\n\n';
 
   return appendString;
-
-  //...
 
 }
 
@@ -195,6 +202,109 @@ function writeByDataset(processingData, callback) {
   ); 
 }
 
+function parseByVersion(processingData, callback) {
+  console.log('Parsing by version');
+  processingData.byVersionString = '';
+  processingData.byVersionString += getFileWarning();
+  for(let i=0; i<processingData.versions.length; i++) {
+    let versionName = processingData.versions[i];
+    console.log('  Parse ' + versionName);
+    processingData.byVersionString += readBenchmarksByVersion(
+      versionName, 
+      processingData.benchmarkRecords
+    );
+  }
+  processingData.byVersionString += getFileWarning();
+  callback(null, processingData);
+}
+
+function readBenchmarksByVersion(versionName, benchmarkRecords) {
+
+  let appendString = '';
+  let benchmarkRecord = null;
+  //let benchmarkRecordString = null;
+  //const fieldNames = '   DATASET |    TIME |  TEST DATE |   RAM |        CPU TYPE |    ODM |     PRESET |  RESIZE |\n';
+  //const separatorString = '---------------------------------------------------------------------------------------------\n';
+
+  appendString += 'OpenDroneMap Version ' + versionName + '\n';
+  appendString += getFieldHeaderString();
+  // appendString += separatorString;
+  // appendString += fieldNames;
+  // appendString += separatorString;
+
+  for(let i=0; i<benchmarkRecords.length; i++) {
+    benchmarkRecord = benchmarkRecords[i];
+    if(benchmarkRecord.ODM_VERSION != versionName) continue;
+    if(benchmarkRecord.PROCESSING_SUCCESS != 'Y') continue;
+
+    appendString += getBenchmarkRecordString(benchmarkRecord);
+    // benchmarkRecordString = '';
+    // benchmarkRecordString += benchmarkRecord.DATASET.substring(0, 10).padStart(10, ' ') + ' | ';
+    // benchmarkRecordString += benchmarkRecord.PROCESSING_TIME.padStart(7, ' ') + ' | ';
+    // benchmarkRecordString += benchmarkRecord.TEST_DATE.padStart(10, ' ') + ' | ';
+    // benchmarkRecordString += benchmarkRecord.RAM_SIZE.padStart(5, ' ') + ' | ';
+    // benchmarkRecordString += benchmarkRecord.CPU_TYPE.substring(0, 15).padStart(15, ' ') + ' | ';
+    // benchmarkRecordString += benchmarkRecord.ODM_VERSION.padStart(6, ' ') + ' | ';
+    // benchmarkRecordString += benchmarkRecord.CONFIG_NAME.substring(0, 10).padStart(10, ' ') + ' | ';
+    // benchmarkRecordString += benchmarkRecord.CONFIG_RESIZE.padStart(7, ' ') + ' | ';
+    // benchmarkRecordString += '\n';
+    // appendString += benchmarkRecordString;
+  }
+  //appendString += separatorString;
+  appendString += '\n\n';
+
+  return appendString;
+
+}
+
+function writeByVersion(processingData, callback) {
+  console.log('Writing benchmarks by version: ' + config.outFileByVersion);
+  fs.writeFile(
+    config.outFileByVersion, 
+    processingData.byVersionString, 
+    function(err) {
+      if(err) console.log('File write error: ' + err);
+      callback(null, processingData);
+    }
+  ); 
+}
+
+function getFieldHeaderString() {
+  let appendString = '';
+  appendString += '---------------------------------------------------------------------------------------------\n';
+  appendString += '   DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |\n';
+  appendString += '---------------------------------------------------------------------------------------------\n';
+  return appendString;
+}
+
+function getBenchmarkRecordString(benchmarkRecord) {
+
+  let benchmarkRecordString = '';
+  try {
+    benchmarkRecordString += benchmarkRecord.DATASET.substring(0, 10).padStart(10, ' ') + ' | ';
+    benchmarkRecordString += benchmarkRecord.PROCESSING_TIME.padStart(7, ' ') + ' | ';
+    benchmarkRecordString += benchmarkRecord.ODM_VERSION.padStart(6, ' ') + ' | ';
+    benchmarkRecordString += benchmarkRecord.CONFIG_NAME.substring(0, 10).padStart(10, ' ') + ' | ';
+    benchmarkRecordString += benchmarkRecord.CONFIG_RESIZE.padStart(7, ' ') + ' | ';
+    benchmarkRecordString += benchmarkRecord.RAM_SIZE.padStart(5, ' ') + ' | ';
+    benchmarkRecordString += benchmarkRecord.CPU_TYPE.substring(0, 15).padStart(15, ' ') + ' | ';
+    benchmarkRecordString += benchmarkRecord.TEST_DATE.padStart(10, ' ') + ' | ';
+    benchmarkRecordString += '\n';
+  } catch(err) {
+    if(err) console.log('Parse error: ' + err);
+  }
+  return benchmarkRecordString;
+}
+
+function getFileWarning() {
+  let appendString = '';
+  appendString += '=============================================================================================\n';
+  appendString += '    This file is automatically generated from the benchmarks CSV data.  Do not edit.\n';
+  appendString += '=============================================================================================\n';
+  appendString += '\n\n';
+  return appendString;
+}
+
 function displayResults(processingData, callback) {
   console.log(outputSeparator);
   console.log('Benchmark data processing complete')
@@ -204,181 +314,3 @@ function displayResults(processingData, callback) {
   console.log(outputSeparator);
 }
 
-
-// write
-// fs.writeFile("out/test.out", "Hey there!", function(err) {
-//     if(err) {
-//         return console.log(err);
-//     }
-//     console.log("The file was saved!");
-// }); 
-
-// read columns
-// fs.createReadStream(inFileColumns)
-//   .pipe(csv())
-//   .on('data', (data) => columnRecords.push(data))
-//   .on('end', () => {
-//     console.log('*** columns ***');
-//     console.log(columnRecords);
-//   });
-
-// read datasets
-// fs.createReadStream(inFileDatasets)
-//   .pipe(csv())
-//   .on('data', (data) => datasetRecords.push(data))
-//   .on('end', () => {
-//     console.log('*** read datasets ***');
-//     //console.log(datasetRecords);
-//   });
-
-// // read benchmarks
-// fs.createReadStream(inFileBenchmarks)
-//   .pipe(csv())
-//   .on('data', (data) => benchmarkRecords.push(data))
-//   .on('end', () => {
-//     console.log('*** read benchmarks ***');
-//     //console.log(benchmarkRecords);
-//   });
-
-// read unique datasets
-// console.log('read datasets');
-// for(let i=0; i<benchmarkRecords.length; i++) {
-  
-//   //record = {};
-//   benchmarkRecord = benchmarkRecords[i];
-//   //record.requestName = request.name;
-//   //benchmarkRecord
-//   console.log('  Record ' + i + ': ' + benchmarkRecord.DATASET);
-
-// }
-
-// read unique ODM versions
-
-// const createCsvWriter = require('csv-writer').createObjectCsvWriter;
-
-// let inputFile = 'NOT_SET';
-// let outputFile = 'out/test.csv';
-// let csvWriter;
-// let resultData, requestList, request, iterations;
-// let requestTimeList, requestTime;
-// let testPassFailCounts, testPassFailItems, testPassFail;
-// let record;
-// let recordList = [];
-
-
-// // ------------------------------------- PARSE ARGUMENTS -----------------------
-
-// var args = process.argv.slice(2);
-
-// if(args.length === 1) {
-//   inputFile = args[0];
-// }
-// else showUsage();
-
-
-// // ------------------------------------- MAIN ----------------------------------
-
-// console.log('--------------------------------------------------');
-// console.log('  inputFile: ' + inputFile);
-// console.log('  outputFile: ' + outputFile);
-// console.log('--------------------------------------------------');
-
-// // set up output file
-// try {
-//   csvWriter = createCsvWriter({
-//       path: outputFile,
-//       header: [
-//           {id: 'requestName', title: 'TEST'},
-//           {id: 'iterations', title: 'ITERATIONS'},
-//           {id: 'requestTimeAvg', title: 'REQ_TIME_AVG'},
-//           {id: 'requestTimeLow', title: 'REQ_TIME_LOW'},
-//           {id: 'requestTimeHigh', title: 'REQ_TIME_HIGH'},
-//           {id: 'passTotal', title: 'PASS_TOTAL'},
-//           {id: 'failTotal', title: 'FAIL_TOTAL'}
-//       ]
-//   });  
-// } catch(err) {
-//   console.log('Failed to establish output file: ' + err);
-//   process.exit(1);
-// }
-
-// // load and parse datafile
-// try  {
-//   resultData = require('./' + inputFile);
-// } catch(err) {
-//   console.log('Failed to load datafile: ' + err);
-//   process.exit(1);
-// }
-
-// // parse results
-// try  {
-//   requestList = resultData.results;
-//   console.log('Requests: ' + requestList.length);
-//   for(let i=0; i<requestList.length; i++) {
-    
-//     record = {};
-//     request = requestList[i];
-//     record.requestName = request.name;
-//     console.log('  Request ' + i + ': ' + record.requestName);
-    
-//     // request times
-//     record.requestTimeLow = null;
-//     record.requestTimeHigh = 0.0;
-//     record.requestTimeAvg = 0.0;
-//     record.requestTimeTotal = 0.0;
-//     requestTimeList = request.times;
-//     record.iterations = requestTimeList.length;
-//     for(let j=0; j<requestTimeList.length; j++) {
-//       requestTime = parseFloat(requestTimeList[j]);
-//       //console.log('    * Time: ' + requestTime);
-//       record.requestTimeTotal += requestTime;
-//       if(requestTime > record.requestTimeHigh) record.requestTimeHigh = requestTime;
-//       if(!record.requestTimeLow || requestTime < record.requestTimeLow) record.requestTimeLow = requestTime;
-//     }
-//     record.requestTimeAvg = (record.requestTimeTotal / requestTimeList.length).toFixed(2);
-//     console.log('    Iterations: ' + record.iterations);
-//     console.log('    Time AVG: ' + record.requestTimeAvg);
-//     console.log('    Time LOW: ' + record.requestTimeLow);
-//     console.log('    Time HIGH: ' + record.requestTimeHigh);
-    
-//     // pass/fail counts
-//     record.passTotal = 0;
-//     record.failTotal = 0;
-//     testPassFailCounts = request.testPassFailCounts;
-//     testPassFailItems = Object.keys(testPassFailCounts);
-//     for(let j=0; j<testPassFailItems.length; j++) {
-//       testPassFail = testPassFailCounts[testPassFailItems[j]];
-//       record.passTotal += parseInt(testPassFail.pass);
-//       record.failTotal += parseInt(testPassFail.fail);
-//     }
-//     console.log('    Pass: ' + record.passTotal);
-//     console.log('    Fail: ' + record.failTotal);
-    
-//     // add record to list
-//     recordList.push(record);
-    
-//   }
-// } catch(err) {
-//   console.log('Failed to parse results: ' + err);
-//   process.exit(1);
-// }
-
-// // write results to CSV
-// try  {
-//   csvWriter.writeRecords(recordList)       // returns a promise
-//       .then(() => {
-//           console.log('Wrote CSV data to ' + outputFile);
-//       });
-// } catch(err) {
-//   console.log('Failed to load datafile: ' + err);
-//   process.exit(1);
-// }
-
-// // -----------------------------------------------------------------------------
-
-// function showUsage() {
-//   console.log('usage: node app.js [INPUT_FILE]');
-//   process.exit();
-// }
-
-// -----------------------------------------------------------------------------
