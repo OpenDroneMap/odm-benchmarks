@@ -12,6 +12,10 @@ OpenDroneMap Version 2.1.1
     Seneca |  1h 56m |  2.1.1 |    Default |       N | 32 GB |   Ryzen 5 1500x | 2020-11-12 | 
     Bellus |  0h 52m |  2.1.1 |    Default |       N | 32 GB |   Ryzen 5 1500x | 2020-11-14 | 
      Lewis |  0h 42m |  2.1.1 |    Default |       N | 32 GB |   Ryzen 5 1500x | 2020-11-14 | 
+    Seneca |  1h 46m |  2.1.1 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-12-03 | 
+    Seneca |  1h 07m |  2.1.1 |    Default |       N | 16 GB |        Intel i5 | 2020-12-03 | 
+    Seneca |  1h 47m |  2.1.1 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-12-03 | 
+    Seneca |  1h 08m |  2.1.1 |    Default |       N | 16 GB |        Intel i5 | 2020-12-03 | 
 
 
 OpenDroneMap Version 2.1.0
@@ -32,49 +36,37 @@ OpenDroneMap Version 2.0.0
   Aukerman |  0h 31m |  2.0.0 |    Default | 2048 px |  8 GB |   Ryzen 5 1500x | 2020-09-26 | 
 
 
-OpenDroneMap Version 1.3.4
+OpenDroneMap Version 0.9.8
 ---------------------------------------------------------------------------------------------
    DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
 ---------------------------------------------------------------------------------------------
-    Shitan |  7h 50m |  1.3.4 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-23 | 
-Rising Val |  8h 55m |  1.3.4 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-26 | 
-    Banana |  0h 12m |  1.3.4 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-28 | 
-    Banana |  0h 13m |  1.3.4 |   3D Model | 2048 px | 16 GB |        Intel i5 | 2020-03-28 | 
-    Banana |  0h 20m |  1.3.4 |   3D Model |       N | 16 GB |        Intel i5 | 2020-03-28 | 
- Wietrznia |  3h 51m |  1.3.4 |   3D Model | 2048 px | 16 GB |        Intel i5 | 2020-03-29 | 
-   Tuniu 1 |  3h 34m |  1.3.4 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-31 | 
-   Tuniu 1 |  3h 37m |  1.3.4 |    DSM/DTM | 2048 px | 16 GB |        Intel i5 | 2020-03-31 | 
-   Tuniu 1 |  3h 29m |  1.3.4 |   3D Model | 2048 px | 16 GB |        Intel i5 | 2020-04-01 | 
- Red Rocks |  0h 45m |  1.3.4 |   3D Model | 2048 px | 16 GB |        Intel i5 | 2020-04-03 | 
- Red Rocks |  1h 40m |  1.3.4 |   3D Model |       N | 16 GB |        Intel i5 | 2020-04-04 | 
-
-
-OpenDroneMap Version 1.3.3
----------------------------------------------------------------------------------------------
-   DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
----------------------------------------------------------------------------------------------
-       Zoo |   5h 4m |  1.3.3 |    Default | 2048 px | 32 GB | Intel Xeon Plat | 2020-04-11 | 
-       Zoo |  2h 28m |  1.3.3 |    Default | 2048 px | 64 GB | Intel Xeon 5650 | 2020-04-11 | 
-       Zoo |  7h 49m |  1.3.3 | High Resol |       N | 64 GB | Intel Xeon 5650 | 2020-04-12 | 
-
-
-OpenDroneMap Version 1.3.1
----------------------------------------------------------------------------------------------
-   DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
----------------------------------------------------------------------------------------------
-    Toledo |   1h 9m |  1.3.1 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-07 | 
-  Aukerman |   1h 1m |  1.3.1 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-10 | 
-    Quarry |  1h 38m |  1.3.1 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-11 | 
-    Bellus |  1h 27m |  1.3.1 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-13 | 
-  Garfield |  0h 11m |  1.3.1 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-13 | 
-     Lewis |   2h 0m |  1.3.1 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-14 | 
-    Seneca |   2h 4m |  1.3.1 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-14 | 
- Waterbury |  2h 50m |  1.3.1 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-15 | 
-     Sance |   2h 4m |  1.3.1 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-20 | 
- Wietrznia |  3h 22m |  1.3.1 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-21 | 
-       Zoo |   7h 2m |  1.3.1 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-21 | 
- Wietrznia |   9h 9m |  1.3.1 |   3D Model |       N | 16 GB |        Intel i5 | 2020-03-29 | 
-   4th Ave |   1h 0m |  1.3.1 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-04-02 | 
+    Toledo |   1h 9m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-07 | 
+  Aukerman |   1h 1m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-10 | 
+    Quarry |  1h 38m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-11 | 
+    Bellus |  1h 27m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-13 | 
+  Garfield |  0h 11m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-13 | 
+     Lewis |   2h 0m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-14 | 
+    Seneca |   2h 4m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-14 | 
+ Waterbury |  2h 50m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-15 | 
+     Sance |   2h 4m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-20 | 
+ Wietrznia |  3h 22m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-21 | 
+       Zoo |   7h 2m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-21 | 
+    Shitan |  7h 50m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-23 | 
+Rising Val |  8h 55m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-26 | 
+    Banana |  0h 12m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-28 | 
+    Banana |  0h 13m |  0.9.8 |   3D Model | 2048 px | 16 GB |        Intel i5 | 2020-03-28 | 
+    Banana |  0h 20m |  0.9.8 |   3D Model |       N | 16 GB |        Intel i5 | 2020-03-28 | 
+ Wietrznia |  3h 51m |  0.9.8 |   3D Model | 2048 px | 16 GB |        Intel i5 | 2020-03-29 | 
+ Wietrznia |   9h 9m |  0.9.8 |   3D Model |       N | 16 GB |        Intel i5 | 2020-03-29 | 
+   Tuniu 1 |  3h 34m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-31 | 
+   Tuniu 1 |  3h 37m |  0.9.8 |    DSM/DTM | 2048 px | 16 GB |        Intel i5 | 2020-03-31 | 
+   Tuniu 1 |  3h 29m |  0.9.8 |   3D Model | 2048 px | 16 GB |        Intel i5 | 2020-04-01 | 
+   4th Ave |   1h 0m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-04-02 | 
+ Red Rocks |  0h 45m |  0.9.8 |   3D Model | 2048 px | 16 GB |        Intel i5 | 2020-04-03 | 
+ Red Rocks |  1h 40m |  0.9.8 |   3D Model |       N | 16 GB |        Intel i5 | 2020-04-04 | 
+       Zoo |   5h 4m |  0.9.8 |    Default | 2048 px | 32 GB | Intel Xeon Plat | 2020-04-11 | 
+       Zoo |  2h 28m |  0.9.8 |    Default | 2048 px | 64 GB | Intel Xeon 5650 | 2020-04-11 | 
+       Zoo |  7h 49m |  0.9.8 | High Resol |       N | 64 GB | Intel Xeon 5650 | 2020-04-12 | 
 
 
 =============================================================================================
