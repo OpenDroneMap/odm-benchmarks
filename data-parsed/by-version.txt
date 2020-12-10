@@ -3,6 +3,30 @@
 =============================================================================================
 
 
+OpenDroneMap Version undefined
+---------------------------------------------------------------------------------------------
+   DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
+---------------------------------------------------------------------------------------------
+
+
+OpenDroneMap Version 2.2.1
+---------------------------------------------------------------------------------------------
+   DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
+---------------------------------------------------------------------------------------------
+    Toledo |  1h 06m |  2.2.1 |    Default |    2048 | 16 GB |        Intel i5 | 2020-12-04 | 
+    Toledo |  1h 10m |  2.2.1 |    Default |       N | 16 GB |        Intel i5 | 2020-12-04 | 
+  Aukerman |  0h 50m |  2.2.1 |    Default |    2048 | 16 GB |        Intel i5 | 2020-12-04 | 
+  Aukerman |  0h 50m |  2.2.1 |    Default |       N | 16 GB |        Intel i5 | 2020-12-04 | 
+    Bellus |  1h 03m |  2.2.1 |    Default |    2048 | 16 GB |        Intel i5 | 2020-12-05 | 
+    Bellus |  1h 05m |  2.2.1 |    Default |       N | 16 GB |        Intel i5 | 2020-12-05 | 
+     Lewis |  1h 08m |  2.2.1 |    Default |    2048 | 16 GB |        Intel i5 | 2020-12-05 | 
+     Lewis |  1h 19m |  2.2.1 |    Default |       N | 16 GB |        Intel i5 | 2020-12-05 | 
+    Seneca |  1h 46m |  2.2.1 |    Default |    2048 | 16 GB |        Intel i5 | 2020-12-05 | 
+    Seneca |  1h 07m |  2.2.1 |    Default |       N | 16 GB |        Intel i5 | 2020-12-05 | 
+    Seneca |  1h 47m |  2.2.1 |    Default |    2048 | 16 GB |        Intel i5 | 2020-12-05 | 
+    Seneca |  1h 08m |  2.2.1 |    Default |       N | 16 GB |        Intel i5 | 2020-12-05 | 
+
+
 OpenDroneMap Version 2.1.1
 ---------------------------------------------------------------------------------------------
    DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
