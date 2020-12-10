@@ -56,9 +56,9 @@ ID,DATASET,PROCESSING_TIME,PROCESSING_SUCCESS,ERROR_TYPE,RAM_SIZE,RAM_CLOCK_SPEE
 55,Seneca,1h 07m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,N,,2020-12-05,[Corey Snipes](https://github.com/coreysnipes/),-
 56,Seneca,1h 47m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,2048,,2020-12-05,[Corey Snipes](https://github.com/coreysnipes/),-
 57,Seneca,1h 08m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,N,,2020-12-05,[Corey Snipes](https://github.com/coreysnipes/),-
-58,Rising Valley,Crashed at 4h 27m,N,Code 1,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Multispectral,2048,,2020-12-06,[Corey Snipes](https://github.com/coreysnipes/),"Process exited with code 1", probably OOM
-59,Rising Valley,Crashed at 4h 23m,N,Code 1,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,N,,2020-12-06,[Corey Snipes](https://github.com/coreysnipes/),"Process exited with code 1", probably OOM
-60,Rising Valley,Crashed at 4h 22m,N,Code 1,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,2048,,2020-12-06,[Corey Snipes](https://github.com/coreysnipes/),"Process exited with code 1", probably OOM
+58,Rising Valley,Crashed at 4h 27m,N,Code 1,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Multispectral,2048,,2020-12-06,[Corey Snipes](https://github.com/coreysnipes/),"Process exited with code 1" - probably OOM
+59,Rising Valley,Crashed at 4h 23m,N,Code 1,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,N,,2020-12-06,[Corey Snipes](https://github.com/coreysnipes/),"Process exited with code 1" - probably OOM
+60,Rising Valley,Crashed at 4h 22m,N,Code 1,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,2048,,2020-12-06,[Corey Snipes](https://github.com/coreysnipes/),"Process exited with code 1" - probably OOM
 61,Wietrznia,2h 49m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,2048,,2020-12-07,[Corey Snipes](https://github.com/coreysnipes/),-
 62,Wietrznia,2h 48m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,N,,2020-12-07,[Corey Snipes](https://github.com/coreysnipes/),-
 63,Quarry,1h 38m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,N,,2020-12-07,[Corey Snipes](https://github.com/coreysnipes/),-
