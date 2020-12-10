@@ -44,3 +44,25 @@ ID,DATASET,PROCESSING_TIME,PROCESSING_SUCCESS,ERROR_TYPE,RAM_SIZE,RAM_CLOCK_SPEE
 43,Seneca,1h 07m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.1.1,N,Default,N,,2020-12-03,[Corey Snipes](https://github.com/coreysnipes/),-
 44,Seneca,1h 47m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.1.1,N,Default,2048 px,,2020-12-03,[Corey Snipes](https://github.com/coreysnipes/),-
 45,Seneca,1h 08m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.1.1,N,Default,N,,2020-12-03,[Corey Snipes](https://github.com/coreysnipes/),-
+46,Toledo,1h 06m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,2048,,2020-12-04,[Corey Snipes](https://github.com/coreysnipes/),-
+47,Toledo,1h 10m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,N,,2020-12-04,[Corey Snipes](https://github.com/coreysnipes/),-
+48,Aukerman,0h 50m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,2048,,2020-12-04,[Corey Snipes](https://github.com/coreysnipes/),-
+49,Aukerman,0h 50m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,N,,2020-12-04,[Corey Snipes](https://github.com/coreysnipes/),-
+50,Bellus,1h 03m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,2048,,2020-12-05,[Corey Snipes](https://github.com/coreysnipes/),-
+51,Bellus,1h 05m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,N,,2020-12-05,[Corey Snipes](https://github.com/coreysnipes/),-
+52,Lewis,1h 08m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,2048,,2020-12-05,[Corey Snipes](https://github.com/coreysnipes/),-
+53,Lewis,1h 19m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,N,,2020-12-05,[Corey Snipes](https://github.com/coreysnipes/),-
+54,Seneca,1h 46m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,2048,,2020-12-05,[Corey Snipes](https://github.com/coreysnipes/),-
+55,Seneca,1h 07m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,N,,2020-12-05,[Corey Snipes](https://github.com/coreysnipes/),-
+56,Seneca,1h 47m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,2048,,2020-12-05,[Corey Snipes](https://github.com/coreysnipes/),-
+57,Seneca,1h 08m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,N,,2020-12-05,[Corey Snipes](https://github.com/coreysnipes/),-
+58,Rising Valley,Crashed at 4h 27m,N,Code 1,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Multispectral,2048,,2020-12-06,[Corey Snipes](https://github.com/coreysnipes/),"Process exited with code 1", probably OOM
+59,Rising Valley,Crashed at 4h 23m,N,Code 1,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,N,,2020-12-06,[Corey Snipes](https://github.com/coreysnipes/),"Process exited with code 1", probably OOM
+60,Rising Valley,Crashed at 4h 22m,N,Code 1,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,2048,,2020-12-06,[Corey Snipes](https://github.com/coreysnipes/),"Process exited with code 1", probably OOM
+61,Wietrznia,2h 49m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,2048,,2020-12-07,[Corey Snipes](https://github.com/coreysnipes/),-
+62,Wietrznia,2h 48m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,N,,2020-12-07,[Corey Snipes](https://github.com/coreysnipes/),-
+63,Quarry,1h 38m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,N,,2020-12-07,[Corey Snipes](https://github.com/coreysnipes/),-
+64,Quarry,1h 29m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,Default,2048,,2020-12-07,[Corey Snipes](https://github.com/coreysnipes/),-
+65,Quarry,Crashed at 2h 29m,N,Code 137,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,High Resolution,N,,2020-12-07,[Corey Snipes](https://github.com/coreysnipes/),"Process exited with code 137"
+66,Quarry,1h 36m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,3D Model,N,,2020-12-07,[Corey Snipes](https://github.com/coreysnipes/),-
+67,Quarry,Crashed at 2h 30m,N,Code 137,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,High Resolution,N,,2020-12-07,[Corey Snipes](https://github.com/coreysnipes/),"Process exited with code 137"
