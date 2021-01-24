@@ -11,8 +11,9 @@ This dataset is from [DroneMapper sample data collection](https://dronemapper.co
 ---------------------------------------------------------------------------------------------
    DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
 ---------------------------------------------------------------------------------------------
-   4th Ave |   1h 0m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-04-02 | 
-   4th Ave |  0h 38m |  2.0.0 |    Default | 2048 px |  8 GB |   Ryzen 5 1500x | 2020-09-26 | 
+   4th Ave |   1h 0m |  0.9.8 |    Default |    2048 | 16 GB |        Intel i5 | 2020-04-02 | 
+   4th Ave |  0h 38m |  2.0.0 |    Default |    2048 |  8 GB |   Ryzen 5 1500x | 2020-09-26 | 
+   4th Ave |  0h 28m |  2.3.3 |    Default |    2048 | 64 GB |    Xeon E5-1620 | 2021-01-05 | 
 
 
 Aukerman
@@ -23,11 +24,24 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ---------------------------------------------------------------------------------------------
    DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
 ---------------------------------------------------------------------------------------------
-  Aukerman |   1h 1m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-10 | 
-  Aukerman |  0h 31m |  2.0.0 |    Default | 2048 px |  8 GB |   Ryzen 5 1500x | 2020-09-26 | 
+  Aukerman |   1h 1m |  0.9.8 |    Default |    2048 | 16 GB |        Intel i5 | 2020-03-10 | 
+  Aukerman |  0h 31m |  2.0.0 |    Default |    2048 |  8 GB |   Ryzen 5 1500x | 2020-09-26 | 
   Aukerman |  0h 25m |  2.1.0 |    Default |       N | 32 GB |   Ryzen 5 1500x | 2020-11-08 | 
   Aukerman |  0h 50m |  2.2.1 |    Default |    2048 | 16 GB |        Intel i5 | 2020-12-04 | 
   Aukerman |  0h 50m |  2.2.1 |    Default |       N | 16 GB |        Intel i5 | 2020-12-04 | 
+  Aukerman |  1h 49m |  2.3.3 |    Default |       N | 64 GB |    Xeon E5-1620 | 2021-01-05 | 
+  Aukerman |  0h 38m |  2.3.3 |    Default |    2048 | 64 GB |    Xeon E5-1620 | 2021-01-05 | 
+  Aukerman |  0h 13m |  2.3.3 |    Default |    2048 | 64 GB |    Xeon E5-1620 | 2021-01-08 | 
+  Aukerman |  0h 13m |  2.3.3 |    Default |    2048 | 64 GB |    Xeon E5-1620 | 2021-01-08 | 
+  Aukerman |  1h 22m |  2.3.3 |    Default |       N | 64 GB |    Xeon E5-1620 | 2021-01-08 | 
+  Aukerman |  1h 10m |  2.3.3 |    Default |       N | 64 GB |    Xeon E5-1620 | 2021-01-08 | 
+  Aukerman |  1h 49m |  2.3.3 | High Resol |    2048 | 64 GB |    Xeon E5-1620 | 2021-01-08 | 
+  Aukerman |  2h 32m |  2.3.3 | High Resol |       N | 64 GB |    Xeon E5-1620 | 2021-01-08 | 
+  Aukerman |  0h 28m |  2.3.3 |   3D Model |    2048 | 64 GB |    Xeon E5-1620 | 2021-01-18 | 
+  Aukerman |  1h 40m |  2.3.3 |   3D Model |       N | 64 GB |    Xeon E5-1620 | 2021-01-18 | 
+  Aukerman |  1h 15m |  2.3.3 |   3D Model |       N | 64 GB |    Xeon E5-1620 | 2021-01-21 | 
+  Aukerman |  1h 53m |  2.3.3 | High Resol |       N | 64 GB |    Xeon E5-1620 | 2021-01-21 | 
+  Aukerman |  8h 40m |  2.3.3 |    Default |       N | 64 GB |    Xeon E5-1620 | 2021-01-21 | 
 
 
 Banana
@@ -38,8 +52,8 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ---------------------------------------------------------------------------------------------
    DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
 ---------------------------------------------------------------------------------------------
-    Banana |  0h 12m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-28 | 
-    Banana |  0h 13m |  0.9.8 |   3D Model | 2048 px | 16 GB |        Intel i5 | 2020-03-28 | 
+    Banana |  0h 12m |  0.9.8 |    Default |    2048 | 16 GB |        Intel i5 | 2020-03-28 | 
+    Banana |  0h 13m |  0.9.8 |   3D Model |    2048 | 16 GB |        Intel i5 | 2020-03-28 | 
     Banana |  0h 20m |  0.9.8 |   3D Model |       N | 16 GB |        Intel i5 | 2020-03-28 | 
     Banana |   0h 5m |  2.0.0 |    Default |       N |  8 GB |   Ryzen 5 1500x | 2020-09-26 | 
 
@@ -52,10 +66,16 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ---------------------------------------------------------------------------------------------
    DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
 ---------------------------------------------------------------------------------------------
-    Bellus |  1h 27m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-13 | 
+    Bellus |  1h 27m |  0.9.8 |    Default |    2048 | 16 GB |        Intel i5 | 2020-03-13 | 
     Bellus |  0h 52m |  2.1.1 |    Default |       N | 32 GB |   Ryzen 5 1500x | 2020-11-14 | 
     Bellus |  1h 03m |  2.2.1 |    Default |    2048 | 16 GB |        Intel i5 | 2020-12-05 | 
     Bellus |  1h 05m |  2.2.1 |    Default |       N | 16 GB |        Intel i5 | 2020-12-05 | 
+    Bellus |  0h 14m |  2.3.3 |    Default |    2048 | 64 GB |    Xeon E5-1620 | 2021-01-08 | 
+    Bellus |  0h 15m |  2.3.3 |    Default |    2048 | 64 GB |    Xeon E5-1620 | 2021-01-08 | 
+    Bellus |  0h 42m |  2.3.3 |    Default |       N | 64 GB |    Xeon E5-1620 | 2021-01-08 | 
+    Bellus |  0h 36m |  2.3.3 |    Default |       N | 64 GB |    Xeon E5-1620 | 2021-01-08 | 
+    Bellus |  1h 21m |  2.3.3 | High Resol |    2048 | 64 GB |    Xeon E5-1620 | 2021-01-08 | 
+    Bellus |  2h 06m |  2.3.3 | High Resol |       N | 64 GB |    Xeon E5-1620 | 2021-01-08 | 
 
 
 Garfield
@@ -66,8 +86,10 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ---------------------------------------------------------------------------------------------
    DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
 ---------------------------------------------------------------------------------------------
-  Garfield |  0h 11m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-13 | 
-  Garfield |   0h 7m |  2.0.0 |    Default | 2048 px |  8 GB |   Ryzen 5 1500x | 2020-09-26 | 
+  Garfield |  0h 11m |  0.9.8 |    Default |    2048 | 16 GB |        Intel i5 | 2020-03-13 | 
+  Garfield |   0h 7m |  2.0.0 |    Default |    2048 |  8 GB |   Ryzen 5 1500x | 2020-09-26 | 
+  Garfield |  0h 04m |  2.3.3 |    Default |    2048 | 64 GB |    Xeon E5-1620 | 2021-01-05 | 
+  Garfield |  0h 19m |  2.3.3 |    Default |    2048 | 64 GB |    Xeon E5-1620 | 2021-01-05 | 
 
 
 Lewis
@@ -78,10 +100,32 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ---------------------------------------------------------------------------------------------
    DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
 ---------------------------------------------------------------------------------------------
-     Lewis |   2h 0m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-14 | 
+     Lewis |   2h 0m |  0.9.8 |    Default |    2048 | 16 GB |        Intel i5 | 2020-03-14 | 
      Lewis |  0h 42m |  2.1.1 |    Default |       N | 32 GB |   Ryzen 5 1500x | 2020-11-14 | 
      Lewis |  1h 08m |  2.2.1 |    Default |    2048 | 16 GB |        Intel i5 | 2020-12-05 | 
      Lewis |  1h 19m |  2.2.1 |    Default |       N | 16 GB |        Intel i5 | 2020-12-05 | 
+
+
+Mur Barrier
+Photos: 293
+Collected: -
+URL: [OneDrive](https://1drv.ms/u/s!AsDrAVdsoyVVwlb4xRKuxcPAbfNx)
+This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Colin](https://community.opendronemap.org/u/Mur).
+---------------------------------------------------------------------------------------------
+   DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
+---------------------------------------------------------------------------------------------
+Mur Barrie |  0h 59m |  2.3.3 |    Default |    2048 | 64 GB |    Xeon E5-1620 | 2021-01-05 | 
+
+
+Poets Park Stockpile
+Photos: 865
+Collected: -
+URL: [AeroSurvey](https://dashboard.aerosurvey.co.nz/files/shared/245.tar.gz)
+This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) collection, contributed by [Ben](https://community.opendronemap.org/u/ITWarrior). Stockpile, 33M altitude, Mavic Pro.
+---------------------------------------------------------------------------------------------
+   DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
+---------------------------------------------------------------------------------------------
+Poets Park |  3h 12m |  2.3.3 |    Default |    2048 | 64 GB |    Xeon E5-1620 | 2021-01-05 | 
 
 
 Quarry
@@ -92,8 +136,11 @@ This dataset is from the [Sensefly sample data collection](https://www.sensefly.
 ---------------------------------------------------------------------------------------------
    DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
 ---------------------------------------------------------------------------------------------
-    Quarry |  1h 38m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-11 | 
+    Quarry |  1h 38m |  0.9.8 |    Default |    2048 | 16 GB |        Intel i5 | 2020-03-11 | 
     Quarry |  0h 51m |  2.1.1 |    Default |       N | 32 GB |   Ryzen 5 1500x | 2020-11-11 | 
+    Quarry |  1h 38m |  2.2.1 |    Default |       N | 16 GB |        Intel i5 | 2020-12-07 | 
+    Quarry |  1h 29m |  2.2.1 |    Default |    2048 | 16 GB |        Intel i5 | 2020-12-07 | 
+    Quarry |  1h 36m |  2.2.1 |   3D Model |       N | 16 GB |        Intel i5 | 2020-12-07 | 
 
 
 Red Rocks
@@ -104,7 +151,7 @@ This dataset is from [DroneMapper sample data collection](https://dronemapper.co
 ---------------------------------------------------------------------------------------------
    DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
 ---------------------------------------------------------------------------------------------
- Red Rocks |  0h 45m |  0.9.8 |   3D Model | 2048 px | 16 GB |        Intel i5 | 2020-04-03 | 
+ Red Rocks |  0h 45m |  0.9.8 |   3D Model |    2048 | 16 GB |        Intel i5 | 2020-04-03 | 
  Red Rocks |  1h 40m |  0.9.8 |   3D Model |       N | 16 GB |        Intel i5 | 2020-04-04 | 
 
 
@@ -116,7 +163,8 @@ This is a NIR dataset from the [ODMData](https://github.com/OpenDroneMap/ODMdata
 ---------------------------------------------------------------------------------------------
    DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
 ---------------------------------------------------------------------------------------------
-Rising Val |  8h 55m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-26 | 
+Rising Val |  8h 55m |  0.9.8 |    Default |    2048 | 16 GB |        Intel i5 | 2020-03-26 | 
+Rising Val |  1h 10m |  2.3.3 |    Default |    2048 | 64 GB |    Xeon E5-1620 | 2021-01-05 | 
 
 
 Sance
@@ -127,7 +175,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ---------------------------------------------------------------------------------------------
    DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
 ---------------------------------------------------------------------------------------------
-     Sance |   2h 4m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-20 | 
+     Sance |   2h 4m |  0.9.8 |    Default |    2048 | 16 GB |        Intel i5 | 2020-03-20 | 
 
 
 Seneca
@@ -138,11 +186,11 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ---------------------------------------------------------------------------------------------
    DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
 ---------------------------------------------------------------------------------------------
-    Seneca |   2h 4m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-14 | 
+    Seneca |   2h 4m |  0.9.8 |    Default |    2048 | 16 GB |        Intel i5 | 2020-03-14 | 
     Seneca |  1h 56m |  2.1.1 |    Default |       N | 32 GB |   Ryzen 5 1500x | 2020-11-12 | 
-    Seneca |  1h 46m |  2.1.1 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-12-03 | 
+    Seneca |  1h 46m |  2.1.1 |    Default |    2048 | 16 GB |        Intel i5 | 2020-12-03 | 
     Seneca |  1h 07m |  2.1.1 |    Default |       N | 16 GB |        Intel i5 | 2020-12-03 | 
-    Seneca |  1h 47m |  2.1.1 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-12-03 | 
+    Seneca |  1h 47m |  2.1.1 |    Default |    2048 | 16 GB |        Intel i5 | 2020-12-03 | 
     Seneca |  1h 08m |  2.1.1 |    Default |       N | 16 GB |        Intel i5 | 2020-12-03 | 
     Seneca |  1h 46m |  2.2.1 |    Default |    2048 | 16 GB |        Intel i5 | 2020-12-05 | 
     Seneca |  1h 07m |  2.2.1 |    Default |       N | 16 GB |        Intel i5 | 2020-12-05 | 
@@ -158,7 +206,8 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ---------------------------------------------------------------------------------------------
    DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
 ---------------------------------------------------------------------------------------------
-    Shitan |  7h 50m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-23 | 
+    Shitan |  7h 50m |  0.9.8 |    Default |    2048 | 16 GB |        Intel i5 | 2020-03-23 | 
+    Shitan |  1h 13m |  2.3.3 |    Default |    2048 | 64 GB |    Xeon E5-1620 | 2021-01-05 | 
 
 
 Toledo
@@ -169,10 +218,11 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ---------------------------------------------------------------------------------------------
    DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
 ---------------------------------------------------------------------------------------------
-    Toledo |   1h 9m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-07 | 
+    Toledo |   1h 9m |  0.9.8 |    Default |    2048 | 16 GB |        Intel i5 | 2020-03-07 | 
     Toledo |  0h 33m |  2.1.1 |    Default |       N | 32 GB |   Ryzen 5 1500x | 2020-11-09 | 
     Toledo |  1h 06m |  2.2.1 |    Default |    2048 | 16 GB |        Intel i5 | 2020-12-04 | 
     Toledo |  1h 10m |  2.2.1 |    Default |       N | 16 GB |        Intel i5 | 2020-12-04 | 
+    Toledo |  0h 24m |  2.3.3 |    Default |       N | 64 GB |    Xeon E5-1620 | 2021-01-05 | 
 
 
 Tuniu 1
@@ -183,9 +233,9 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ---------------------------------------------------------------------------------------------
    DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
 ---------------------------------------------------------------------------------------------
-   Tuniu 1 |  3h 34m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-31 | 
-   Tuniu 1 |  3h 37m |  0.9.8 |    DSM/DTM | 2048 px | 16 GB |        Intel i5 | 2020-03-31 | 
-   Tuniu 1 |  3h 29m |  0.9.8 |   3D Model | 2048 px | 16 GB |        Intel i5 | 2020-04-01 | 
+   Tuniu 1 |  3h 34m |  0.9.8 |    Default |    2048 | 16 GB |        Intel i5 | 2020-03-31 | 
+   Tuniu 1 |  3h 37m |  0.9.8 |    DSM/DTM |    2048 | 16 GB |        Intel i5 | 2020-03-31 | 
+   Tuniu 1 |  3h 29m |  0.9.8 |   3D Model |    2048 | 16 GB |        Intel i5 | 2020-04-01 | 
 
 
 Waterbury
@@ -196,7 +246,8 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ---------------------------------------------------------------------------------------------
    DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
 ---------------------------------------------------------------------------------------------
- Waterbury |  2h 50m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-15 | 
+ Waterbury |  2h 50m |  0.9.8 |    Default |    2048 | 16 GB |        Intel i5 | 2020-03-15 | 
+ Waterbury |  0h 48m |  2.3.3 |    Default |    2048 | 64 GB |    Xeon E5-1620 | 2021-01-05 | 
 
 
 Wietrznia
@@ -207,9 +258,12 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ---------------------------------------------------------------------------------------------
    DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
 ---------------------------------------------------------------------------------------------
- Wietrznia |  3h 22m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-21 | 
- Wietrznia |  3h 51m |  0.9.8 |   3D Model | 2048 px | 16 GB |        Intel i5 | 2020-03-29 | 
+ Wietrznia |  3h 22m |  0.9.8 |    Default |    2048 | 16 GB |        Intel i5 | 2020-03-21 | 
+ Wietrznia |  3h 51m |  0.9.8 |   3D Model |    2048 | 16 GB |        Intel i5 | 2020-03-29 | 
  Wietrznia |   9h 9m |  0.9.8 |   3D Model |       N | 16 GB |        Intel i5 | 2020-03-29 | 
+ Wietrznia |  2h 49m |  2.2.1 |    Default |    2048 | 16 GB |        Intel i5 | 2020-12-07 | 
+ Wietrznia |  2h 48m |  2.2.1 |    Default |       N | 16 GB |        Intel i5 | 2020-12-07 | 
+ Wietrznia |  0h 50m |  2.3.3 |    Default |    2048 | 64 GB |    Xeon E5-1620 | 2021-01-05 | 
 
 
 Zoo
@@ -220,17 +274,12 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ---------------------------------------------------------------------------------------------
    DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
 ---------------------------------------------------------------------------------------------
-       Zoo |   7h 2m |  0.9.8 |    Default | 2048 px | 16 GB |        Intel i5 | 2020-03-21 | 
-       Zoo |   5h 4m |  0.9.8 |    Default | 2048 px | 32 GB | Intel Xeon Plat | 2020-04-11 | 
-       Zoo |  2h 28m |  0.9.8 |    Default | 2048 px | 64 GB | Intel Xeon 5650 | 2020-04-11 | 
+       Zoo |   7h 2m |  0.9.8 |    Default |    2048 | 16 GB |        Intel i5 | 2020-03-21 | 
+       Zoo |   5h 4m |  0.9.8 |    Default |    2048 | 32 GB | Intel Xeon Plat | 2020-04-11 | 
+       Zoo |  2h 28m |  0.9.8 |    Default |    2048 | 64 GB | Intel Xeon 5650 | 2020-04-11 | 
        Zoo |  7h 49m |  0.9.8 | High Resol |       N | 64 GB | Intel Xeon 5650 | 2020-04-12 | 
-       Zoo |  4h 14m |  2.1.0 |    Default | 2048 px | 32 GB |   Ryzen 5 1500x | 2020-11-08 | 
-
-
-undefined
----------------------------------------------------------------------------------------------
-   DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |
----------------------------------------------------------------------------------------------
+       Zoo |  4h 14m |  2.1.0 |    Default |    2048 | 32 GB |   Ryzen 5 1500x | 2020-11-08 | 
+       Zoo |  0h 58m |  2.3.3 |    Default |    2048 | 64 GB |    Xeon E5-1620 | 2021-01-05 | 
 
 
 =============================================================================================
