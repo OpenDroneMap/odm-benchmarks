@@ -233,9 +233,9 @@ function writeByVersion(processingData, callback) {
 
 function getFieldHeaderString() {
   let appendString = '';
-  appendString += '---------------------------------------------------------------------------------------------\n';
-  appendString += '   DATASET |    TIME |    ODM |     PRESET |  RESIZE |   RAM |        CPU TYPE |  TEST DATE |\n';
-  appendString += '---------------------------------------------------------------------------------------------\n';
+  appendString += '----------------------------------------------------------------------------------------------------------------------\n';
+  appendString += '   DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |\n';
+  appendString += '----------------------------------------------------------------------------------------------------------------------\n';
   return appendString;
 }
 
@@ -245,12 +245,14 @@ function getBenchmarkRecordString(benchmarkRecord) {
   try {
     benchmarkRecordString += benchmarkRecord.DATASET.substring(0, 10).padStart(10, ' ') + ' | ';
     benchmarkRecordString += benchmarkRecord.PROCESSING_TIME.padStart(7, ' ') + ' | ';
+    benchmarkRecordString += benchmarkRecord.TEST_DATE.padStart(10, ' ') + ' | ';
+    benchmarkRecordString += benchmarkRecord.RAM_SIZE.padStart(6, ' ') + ' | ';
+    benchmarkRecordString += benchmarkRecord.CPU_TYPE.substring(0, 12).padStart(12, ' ') + ' | ';
+    benchmarkRecordString += benchmarkRecord.CPU_NUM_CORES.substring(0, 5).padStart(5, ' ') + ' | ';
     benchmarkRecordString += benchmarkRecord.ODM_VERSION.padStart(6, ' ') + ' | ';
     benchmarkRecordString += benchmarkRecord.CONFIG_NAME.substring(0, 10).padStart(10, ' ') + ' | ';
     benchmarkRecordString += benchmarkRecord.CONFIG_RESIZE.padStart(7, ' ') + ' | ';
-    benchmarkRecordString += benchmarkRecord.RAM_SIZE.padStart(5, ' ') + ' | ';
-    benchmarkRecordString += benchmarkRecord.CPU_TYPE.substring(0, 15).padStart(15, ' ') + ' | ';
-    benchmarkRecordString += benchmarkRecord.TEST_DATE.padStart(10, ' ') + ' | ';
+    benchmarkRecordString += benchmarkRecord.CONFIG_OTHER.substring(0, 16).padStart(16, ' ') + ' | ';
     benchmarkRecordString += '\n';
   } catch(err) {
     if(err) console.log('Parse error: ' + err);
