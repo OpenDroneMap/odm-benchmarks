@@ -66,3 +66,16 @@ ID,DATASET,PROCESSING_TIME,PROCESSING_SUCCESS,ERROR_TYPE,RAM_SIZE,RAM_CLOCK_SPEE
 65,Quarry,Crashed at 2h 29m,N,Code 137,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,High Resolution,N,,2020-12-07,[Corey Snipes](https://github.com/coreysnipes/),"Process exited with code 137"
 66,Quarry,1h 36m,Y,-,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,3D Model,N,,2020-12-07,[Corey Snipes](https://github.com/coreysnipes/),-
 67,Quarry,Crashed at 2h 30m,N,Code 137,16 GB,2133 MT/s,Intel i5,2.3 Ghz,4,SSD,Ubuntu 18.04,Docker,2.2.1,N,High Resolution,N,,2020-12-07,[Corey Snipes](https://github.com/coreysnipes/),"Process exited with code 137"
+68,Garfield,0h 04m,Y,-,64 GB,1333 MT/s,Intel Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.3.3,N,Default,2048,,2021-01-05,[Corey Snipes](https://github.com/coreysnipes/),-
+69,Garfield,0h 19m,Y,-,64 GB,1333 MT/s,Intel Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.3.3,N,Default,2048,,2021-01-05,[Corey Snipes](https://github.com/coreysnipes/),-
+70,Toledo,0h 24m,Y,-,64 GB,1333 MT/s,Intel Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.3.3,N,Default,N,,2021-01-05,[Corey Snipes](https://github.com/coreysnipes/),-
+71,4th Ave,0h 28m,Y,-,64 GB,1333 MT/s,Intel Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.3.3,N,Default,2048,,2021-01-05,[Corey Snipes](https://github.com/coreysnipes/),-
+72,Aukerman,1h 49m,Y,-,64 GB,1333 MT/s,Intel Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.3.3,N,Default,N,,2021-01-05,[Corey Snipes](https://github.com/coreysnipes/),-
+73,Aukerman,0h 38m,Y,-,64 GB,1333 MT/s,Intel Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.3.3,N,Default,2048,,2021-01-05,[Corey Snipes](https://github.com/coreysnipes/),-
+74,Waterbury,0h 48m,Y,-,64 GB,1333 MT/s,Intel Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.3.3,N,Default,2048,,2021-01-05,[Corey Snipes](https://github.com/coreysnipes/),-
+75,Wietrznia,0h 50m,Y,-,64 GB,1333 MT/s,Intel Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.3.3,N,Default,2048,,2021-01-05,[Corey Snipes](https://github.com/coreysnipes/),-
+76,Zoo,0h 58m,Y,-,64 GB,1333 MT/s,Intel Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.3.3,N,Default,2048,,2021-01-05,[Corey Snipes](https://github.com/coreysnipes/),-
+77,Shitan,1h 13m,Y,-,64 GB,1333 MT/s,Intel Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.3.3,N,Default,2048,,2021-01-05,[Corey Snipes](https://github.com/coreysnipes/),-
+78,Rising Valley,1h 10m,Y,-,64 GB,1333 MT/s,Intel Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.3.3,N,Default,2048,,2021-01-05,[Corey Snipes](https://github.com/coreysnipes/),-
+79,Mur Barrier,0h 59m,Y,-,64 GB,1333 MT/s,Intel Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.3.3,N,Default,2048,,2021-01-05,[Corey Snipes](https://github.com/coreysnipes/),-
+80,Poets Park,3h 12m,Y,-,64 GB,1333 MT/s,Intel Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.3.3,N,Default,2048,,2021-01-05,[Corey Snipes](https://github.com/coreysnipes/),-
