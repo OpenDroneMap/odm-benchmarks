@@ -234,13 +234,8 @@ function writeByVersion(processingData, callback) {
 function getFieldHeaderString() {
   let appendString = '';
   appendString += '----------------------------------------------------------------------------------------------------------------------\n';
-  //appendString += '   DATASET |    TIME |  TEST DATE |    ODM |     PRESET |  RESIZE | ADDL CONFIG |   RAM |        CPU TYPE | CORES |\n';
   appendString += '   DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |\n';
   appendString += '----------------------------------------------------------------------------------------------------------------------\n';
-
-  // add:  config, cores
-  // CPU_NUM_CORES
-  // CONFIG_OTHER
   return appendString;
 }
 
