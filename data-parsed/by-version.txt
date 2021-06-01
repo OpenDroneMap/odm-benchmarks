@@ -10,6 +10,9 @@ OpenDroneMap Version 2.5.1
     Banana |   0h 4m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
  Red Rocks |  0h 13m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
     Bellus |  0h 25m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
+    Banana |   0h 5m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
+ Red Rocks |  0h 20m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
+    Bellus |  0h 24m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
 
 
 OpenDroneMap Version 2.3.3
