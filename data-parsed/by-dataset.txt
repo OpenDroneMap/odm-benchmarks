@@ -56,6 +56,8 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
     Banana |  0h 13m | 2020-03-28 |  16 GB |     Intel i5 |     4 |  0.9.8 |   3D Model |    2048 |                  | 
     Banana |  0h 20m | 2020-03-28 |  16 GB |     Intel i5 |     4 |  0.9.8 |   3D Model |       N |                  | 
     Banana |   0h 5m | 2020-09-26 |   8 GB | Ryzen 5 1500 |     8 |  2.0.0 |    Default |       N |                  | 
+    Banana |   0h 4m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
+    Banana |   0h 5m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
 
 
 Bellus
@@ -76,6 +78,8 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
     Bellus |  0h 36m | 2021-01-08 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |       N |                  | 
     Bellus |  1h 21m | 2021-01-08 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 | High Resol |    2048 |                  | 
     Bellus |  2h 06m | 2021-01-08 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 | High Resol |       N |                  | 
+    Bellus |  0h 25m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
+    Bellus |  0h 24m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
 
 
 Garfield
@@ -153,6 +157,8 @@ This dataset is from [DroneMapper sample data collection](https://dronemapper.co
 ----------------------------------------------------------------------------------------------------------------------
  Red Rocks |  0h 45m | 2020-04-03 |  16 GB |     Intel i5 |     4 |  0.9.8 |   3D Model |    2048 |                  | 
  Red Rocks |  1h 40m | 2020-04-04 |  16 GB |     Intel i5 |     4 |  0.9.8 |   3D Model |       N |                  | 
+ Red Rocks |  0h 13m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
+ Red Rocks |  0h 20m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
 
 
 Rising Valley
