@@ -102,3 +102,4 @@ ID,DATASET,PROCESSING_TIME,PROCESSING_SUCCESS,ERROR_TYPE,RAM_SIZE,RAM_CLOCK_SPEE
 101,Banana,0h 5m,Y,-,32 GB,2733MT/s,Ryzen 5 2600,3.4 Ghz,6,NVMe SSD,Windows 10 20H2 19042.985,Docker,2.5.1,N,Default,2048,,2021-06-01,[Jeongyong Park](https://github.com/chisquare88/,Docker 20.10.6/WSL2 based Engine
 102,Red Rocks,0h 20m,Y,-,32 GB,2733MT/s,Ryzen 5 2600,3.4 Ghz,6,NVMe SSD,Windows 10 20H2 19042.985,Dokcer,2.5.1,N,Default,2048,,2021-06-01,[Jeongyong Park](https://github.com/chisquare88/,Docker 20.10.6/WSL2 based Engine
 102,Bellus,0h 24m,Y,-,32 GB,2733MT/s,Ryzen 5 2600,3.4 Ghz,6,NVMe SSD,Windows 10 20H2 19042.985,Dokcer,2.5.1,N,Default,2048,,2021-06-01,[Jeongyong Park](https://github.com/chisquare88/,Docker 20.10.6/WSL2 based Engine
+103,Banana,0h 16m 07s,Y,-,4 GB,3200MT/s,"Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC",1.5GHz,4,Micro SD Xc,Ubuntu 20.04,Docker,2.6.4,N,Default,N,,2021-10-05,[Anand Mahesh](https://github.com/manand881),Raspberry Pi 4 4GB RAM
