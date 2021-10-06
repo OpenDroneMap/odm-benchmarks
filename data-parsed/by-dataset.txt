@@ -58,6 +58,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
     Banana |   0h 5m | 2020-09-26 |   8 GB | Ryzen 5 1500 |     8 |  2.0.0 |    Default |       N |                  | 
     Banana |   0h 4m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
     Banana |   0h 5m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
+    Banana | 0h 16m 07s | 2021-10-05 |   4 GB | Broadcom BCM |     4 |  2.6.4 |    Default |       N |                  | 
 
 
 Bellus
