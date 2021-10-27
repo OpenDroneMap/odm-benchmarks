@@ -3,11 +3,26 @@
 =============================================================================================
 
 
+OpenDroneMap Version 2.6.6
+----------------------------------------------------------------------------------------------------------------------
+   DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
+----------------------------------------------------------------------------------------------------------------------
+  Aukerman |  0h 12m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |       Y |                  | 
+  Aukerman |  0h 16m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | Fast Ortho |       N |                  | 
+  Aukerman |  0h 55m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | High Resol |       N |                  | 
+    Banana |  0h 34m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |       Y |                  | 
+    Banana |  0h 39m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | Fast Ortho |       N |                  | 
+    Banana |  0h 43m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | High Resol |       N |                  | 
+    Bellus |  0h 14m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |       Y |                  | 
+    Bellus |  0h 22m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | Fast Ortho |       N |                  | 
+    Bellus |  1h 12m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | High Resol |       N |                  | 
+
+
 OpenDroneMap Version 2.6.4
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
-    Banana | 0h 16m 07s | 2021-10-05 |   4 GB | Broadcom BCM |     4 |  2.6.4 |    Default |       N |                  | 
+    Banana |  0h 16m | 2021-10-05 |   4 GB | Broadcom BCM |     4 |  2.6.4 |    Default |       N |                  | 
 
 
 OpenDroneMap Version 2.5.1

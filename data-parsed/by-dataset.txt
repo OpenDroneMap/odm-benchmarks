@@ -42,6 +42,9 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
   Aukerman |  1h 15m | 2021-01-21 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |   3D Model |       N | pc-quality Ultra | 
   Aukerman |  1h 53m | 2021-01-21 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 | High Resol |       N | pc-quality Ultra | 
   Aukerman |  8h 40m | 2021-01-21 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |       N | pc-quality Ultra | 
+  Aukerman |  0h 12m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |       Y |                  | 
+  Aukerman |  0h 16m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | Fast Ortho |       N |                  | 
+  Aukerman |  0h 55m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | High Resol |       N |                  | 
 
 
 Banana
@@ -58,7 +61,10 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
     Banana |   0h 5m | 2020-09-26 |   8 GB | Ryzen 5 1500 |     8 |  2.0.0 |    Default |       N |                  | 
     Banana |   0h 4m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
     Banana |   0h 5m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
-    Banana | 0h 16m 07s | 2021-10-05 |   4 GB | Broadcom BCM |     4 |  2.6.4 |    Default |       N |                  | 
+    Banana |  0h 16m | 2021-10-05 |   4 GB | Broadcom BCM |     4 |  2.6.4 |    Default |       N |                  | 
+    Banana |  0h 34m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |       Y |                  | 
+    Banana |  0h 39m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | Fast Ortho |       N |                  | 
+    Banana |  0h 43m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | High Resol |       N |                  | 
 
 
 Bellus
@@ -81,6 +87,9 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
     Bellus |  2h 06m | 2021-01-08 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 | High Resol |       N |                  | 
     Bellus |  0h 25m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
     Bellus |  0h 24m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
+    Bellus |  0h 14m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |       Y |                  | 
+    Bellus |  0h 22m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | Fast Ortho |       N |                  | 
+    Bellus |  1h 12m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | High Resol |       N |                  | 
 
 
 Garfield

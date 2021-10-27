@@ -102,4 +102,13 @@ ID,DATASET,PROCESSING_TIME,PROCESSING_SUCCESS,ERROR_TYPE,RAM_SIZE,RAM_CLOCK_SPEE
 101,Banana,0h 5m,Y,-,32 GB,2733MT/s,Ryzen 5 2600,3.4 Ghz,6,NVMe SSD,Windows 10 20H2 19042.985,Docker,2.5.1,N,Default,2048,,2021-06-01,[Jeongyong Park](https://github.com/chisquare88/,Docker 20.10.6/WSL2 based Engine
 102,Red Rocks,0h 20m,Y,-,32 GB,2733MT/s,Ryzen 5 2600,3.4 Ghz,6,NVMe SSD,Windows 10 20H2 19042.985,Dokcer,2.5.1,N,Default,2048,,2021-06-01,[Jeongyong Park](https://github.com/chisquare88/,Docker 20.10.6/WSL2 based Engine
 102,Bellus,0h 24m,Y,-,32 GB,2733MT/s,Ryzen 5 2600,3.4 Ghz,6,NVMe SSD,Windows 10 20H2 19042.985,Dokcer,2.5.1,N,Default,2048,,2021-06-01,[Jeongyong Park](https://github.com/chisquare88/,Docker 20.10.6/WSL2 based Engine
-103,Banana,0h 16m 07s,Y,-,4 GB,3200MT/s,"Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC",1.5GHz,4,Micro SD Xc,Ubuntu 20.04,Docker,2.6.4,N,Default,N,,2021-10-05,[Anand Mahesh](https://github.com/manand881),Raspberry Pi 4 4GB RAM
+103,Banana,0h 16m,Y,-,4 GB,3200MT/s,"Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC",1.5GHz,4,Micro SD Xc,Ubuntu 20.04,Docker,2.6.4,N,Default,N,,2021-10-05,[Anand Mahesh](https://github.com/manand881),Raspberry Pi 4 4GB RAM
+104,Aukerman,0h 12m,Y,-,64 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.6.6,N,Default,Y,,2021-10-24,[Corey Snipes](https://github.com/coreysnipes/),-
+105,Aukerman,0h 16m,Y,-,64 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.6.6,N,Fast Ortho,N,,2021-10-24,[Corey Snipes](https://github.com/coreysnipes/),-
+106,Aukerman,0h 55m,Y,-,64 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.6.6,N,High Resolution,N,,2021-10-24,[Corey Snipes](https://github.com/coreysnipes/),-
+107,Banana,0h 34m,Y,-,64 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.6.6,N,Default,Y,,2021-10-24,[Corey Snipes](https://github.com/coreysnipes/),-
+108,Banana,0h 39m,Y,-,64 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.6.6,N,Fast Ortho,N,,2021-10-24,[Corey Snipes](https://github.com/coreysnipes/),-
+109,Banana,0h 43m,Y,-,64 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.6.6,N,High Resolution,N,,2021-10-24,[Corey Snipes](https://github.com/coreysnipes/),-
+110,Bellus,0h 14m,Y,-,64 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.6.6,N,Default,Y,,2021-10-24,[Corey Snipes](https://github.com/coreysnipes/),-
+111,Bellus,0h 22m,Y,-,64 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.6.6,N,Fast Ortho,N,,2021-10-24,[Corey Snipes](https://github.com/coreysnipes/),-
+112,Bellus,1h 12m,Y,-,64 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.6.6,N,High Resolution,N,,2021-10-24,[Corey Snipes](https://github.com/coreysnipes/),-
