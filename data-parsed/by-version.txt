@@ -3,6 +3,22 @@
 =============================================================================================
 
 
+OpenDroneMap Version 2.7.2
+----------------------------------------------------------------------------------------------------------------------
+   DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
+----------------------------------------------------------------------------------------------------------------------
+  Aukerman |  0h 12m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+    Banana |   0h 4m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+    Bellus |  0h 14m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+Brighton B |   0h 3m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+     Lewis |  0h 19m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+    Toledo |  0h 15m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+       Zoo |   1h 2m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+    Shitan |   1h 3m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+   Tuniu 1 |  0h 37m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+   Tuniu 2 |  0h 39m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+
+
 OpenDroneMap Version 2.7.0
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
@@ -26,6 +42,10 @@ OpenDroneMap Version 2.6.6
     Bellus |  0h 14m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |       Y |                  | 
     Bellus |  0h 22m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | Fast Ortho |       N |                  | 
     Bellus |  1h 12m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | High Resol |       N |                  | 
+  Aukerman |  0h 12m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |    2048 |                  | 
+    Bellus |  0h 14m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |    2048 |                  | 
+     Lewis |  0h 24m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |    2048 |                  | 
+    Toledo |  0h 16m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |    2048 |                  | 
 
 
 OpenDroneMap Version 2.6.4
