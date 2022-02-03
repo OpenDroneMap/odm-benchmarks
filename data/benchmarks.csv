@@ -134,4 +134,8 @@ ID,DATASET,PROCESSING_TIME,PROCESSING_SUCCESS,ERROR_TYPE,RAM_SIZE,RAM_CLOCK_SPEE
 132,Aukerman,0h 11m,Y,-,32 GB,3200 MT/s,Intel i7-11800H,2.3 Ghz (4.6 Ghz Turbo boost),8,NVMe SSD,Windows 11,Native,2.7.2,N,Default,N,2022-02-1,[Alastair Wilson],NVIDIA GeForce RTX 3050Ti
 133,Aukerman,0h 19m,Y,-,32 GB,3200 MT/s,Intel i7-11800H,2.3 Ghz (4.6 Ghz Turbo boost),8,NVMe SSD,Windows 11,Native,2.7.2,N,High Resolution,N,2022-02-1,[Alastair Wilson],-
 134,Aukerman,0h 16m,Y,-,32 GB,3200 MT/s,Intel i7-11800H,2.3 Ghz (4.6 Ghz Turbo boost),8,NVMe SSD,Windows 11,Native,2.7.2,N,High Resolution,N,2022-02-1,[Alastair Wilson],NVIDIA GeForce RTX 3050Ti
-
+135,Aukerman,1h 2m,Y,-,32 GB,3200 MT/s,Intel i7-11800H,2.3 Ghz (4.6 Ghz Turbo boost),8,NVMe SSD,Windows 11,Native,2.7.2,N,Default,N,pc-quality Ultra,2022-02-1,[Alastair Wilson],No GPU used build 47
+136,Aukerman,1h 0m,Y,-,32 GB,3200 MT/s,Intel i7-11800H,2.3 Ghz (4.6 Ghz Turbo boost),8,NVMe SSD,Windows 11,Native,2.7.2,N,Default,N,pc-quality Ultra,2022-02-1,[Alastair Wilson], NVIDIA GeForce RTX 3050Ti
+137,Brighton Beach,0h 12m,Y,-,16 GB,2666 MT/s,Core i7-1165G7,2.8 Ghz (4.7 Ghz Turbo boost),8,SSD,Windows 10,Native,2.7.1,N,custom,N,Dem-resolution=2 | dsm=true | ignore-gsd=true | mesh-octree=12 | mesh-size=300000 | orthophoto-res=2 | pc-geometric=true | pc-quality = high,2022-01-06,[Ichsan2895](https://github.com/ichsan2895/),No GPU used
+138,Banana,0h 37m,Y,-,16 GB,2666 MT/s,Core i7-1165G7,2.8 Ghz (4.7 Ghz Turbo boost),8,SSD,Windows 10,Native,2.7.1,N,custom,N,mesh-octree=14 | mesh-size=300000 | pc-geometric=true | pc-quality = ultra,2022-02-02,[Ichsan2895](https://github.com/ichsan2895/),No GPU used
+138,Banana,0h 25m,Y,-,16 GB,2666 MT/s,Core i5-8250U,1.6 Ghz (3.44 Ghz Turbo boost),8,SSD,Windows 10,Native,2.7.1,N,custom,N,mesh-octree=14 | mesh-size=300000 | pc-geometric=true | pc-quality = ultra,2022-02-02,[Ichsan2895](https://github.com/ichsan2895/),No GPU used
