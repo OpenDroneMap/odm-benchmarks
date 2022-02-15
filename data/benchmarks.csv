@@ -130,3 +130,6 @@ ID,DATASET,PROCESSING_TIME,PROCESSING_SUCCESS,ERROR_TYPE,RAM_SIZE,RAM_CLOCK_SPEE
 128,Shitan,1h 3m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.7.2,N,Default,2048,,2022-01-27,[Corey Snipes](https://github.com/coreysnipes/),-
 129,Tuniu 1,0h 37m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.7.2,N,Default,2048,,2022-01-27,[Corey Snipes](https://github.com/coreysnipes/),-
 130,Tuniu 2,0h 39m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.7.2,N,Default,2048,,2022-01-27,[Corey Snipes](https://github.com/coreysnipes/),-
+131,Aukerman,0h 9m,Y,-,40 GB,3200 MT/s,Ryzen 5 5500U,2.1 (4 Ghz boost),6,SDD,Mint 20.3,Docker,2.7.2,N,Default,2048,,2022-02-16,[Rob Alley](https://github.com/roballey),-
+132,Aukerman,0h 30m,Y,-,40 GB,3200 MT/s,Ryzen 5 5500U,2.1 (4 Ghz boost),6,SDD,Mint 20.3,Docker,2.7.2,N,High Resolution,N,,2022-02-16,[Rob Alley](https://github.com/roballey),-
+133,Aukerman,0h 5m,Y,-,40 GB,3200 MT/s,Ryzen 5 5500U,2.1 (4 Ghz boost),6,SDD,Mint 20.3,Docker,2.7.2,N,Fast Ortho,2048,,2022-02-16,[Rob Alley](https://github.com/roballey),-
