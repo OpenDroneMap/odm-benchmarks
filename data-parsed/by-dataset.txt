@@ -47,6 +47,15 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
   Aukerman |  0h 55m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | High Resol |       N |                  | 
   Aukerman |  0h 12m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |    2048 |                  | 
   Aukerman |  0h 12m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+  Aukerman |  0h 13m | 2022-02-01 |  32 GB | Intel i7-118 |     8 |  2.7.2 |    Default |       N |                  | 
+  Aukerman |  0h 11m | 2022-02-01 |  32 GB | Intel i7-118 |     8 |  2.7.2 |    Default |       N |                  | 
+  Aukerman |  0h 19m | 2022-02-01 |  32 GB | Intel i7-118 |     8 |  2.7.2 | High Resol |       N |                  | 
+  Aukerman |  0h 16m | 2022-02-01 |  32 GB | Intel i7-118 |     8 |  2.7.2 | High Resol |       N |                  | 
+  Aukerman |   1h 2m | 2022-02-01 |  32 GB | Intel i7-118 |     8 |  2.7.2 |    Default |       N | pc-quality Ultra | 
+  Aukerman |   1h 0m | 2022-02-01 |  32 GB | Intel i7-118 |     8 |  2.7.2 |    Default |       N | pc-quality Ultra | 
+  Aukerman |   0h 9m | 2022-02-16 |  40 GB | Ryzen 5 5500 |     6 |  2.7.2 |    Default |    2048 |                  | 
+  Aukerman |  0h 30m | 2022-02-16 |  40 GB | Ryzen 5 5500 |     6 |  2.7.2 | High Resol |       N |                  | 
+  Aukerman |   0h 5m | 2022-02-16 |  40 GB | Ryzen 5 5500 |     6 |  2.7.2 | Fast Ortho |    2048 |                  | 
 
 
 Banana
@@ -69,6 +78,8 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
     Banana |  0h 43m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | High Resol |       N |                  | 
     Banana |  0h 12m | 2022-01-06 |   8 GB | Core i3-530M |     4 |  2.7.0 |   3D Model |    2048 |                  | 
     Banana |   0h 4m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+    Banana |  0h 37m | 2022-02-02 |  16 GB | Core i7-1165 |     8 |  2.7.1 |     custom |       N | mesh-octree=14 | | 
+    Banana |  0h 25m | 2022-02-02 |  16 GB | Core i5-8250 |     8 |  2.7.1 |     custom |       N | mesh-octree=14 | | 
 
 
 Bellus
@@ -110,6 +121,7 @@ Brighton B |   0h 7m | 2022-01-06 |   8 GB | Core i3-530M |     4 |  2.7.0 |    
 Brighton B |  0h 16m | 2022-01-06 |  16 GB | Core i5-8250 |     8 |  2.7.0 |     custom |       N | Dem-resolution=2 | 
 Brighton B |  0h 12m | 2022-01-06 |  16 GB | Core i5-8250 |     8 |  2.7.0 |     custom |       N | Dem-resolution=2 | 
 Brighton B |   0h 3m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+Brighton B |  0h 12m | 2022-01-06 |  16 GB | Core i7-1165 |     8 |  2.7.1 |     custom |       N | Dem-resolution=2 | 
 
 
 Garfield
