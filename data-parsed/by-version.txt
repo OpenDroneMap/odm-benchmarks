@@ -17,6 +17,24 @@ Brighton B |   0h 3m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    
     Shitan |   1h 3m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
    Tuniu 1 |  0h 37m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
    Tuniu 2 |  0h 39m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+  Aukerman |  0h 13m | 2022-02-01 |  32 GB | Intel i7-118 |     8 |  2.7.2 |    Default |       N |                  | 
+  Aukerman |  0h 11m | 2022-02-01 |  32 GB | Intel i7-118 |     8 |  2.7.2 |    Default |       N |                  | 
+  Aukerman |  0h 19m | 2022-02-01 |  32 GB | Intel i7-118 |     8 |  2.7.2 | High Resol |       N |                  | 
+  Aukerman |  0h 16m | 2022-02-01 |  32 GB | Intel i7-118 |     8 |  2.7.2 | High Resol |       N |                  | 
+  Aukerman |   1h 2m | 2022-02-01 |  32 GB | Intel i7-118 |     8 |  2.7.2 |    Default |       N | pc-quality Ultra | 
+  Aukerman |   1h 0m | 2022-02-01 |  32 GB | Intel i7-118 |     8 |  2.7.2 |    Default |       N | pc-quality Ultra | 
+  Aukerman |   0h 9m | 2022-02-16 |  40 GB | Ryzen 5 5500 |     6 |  2.7.2 |    Default |    2048 |                  | 
+  Aukerman |  0h 30m | 2022-02-16 |  40 GB | Ryzen 5 5500 |     6 |  2.7.2 | High Resol |       N |                  | 
+  Aukerman |   0h 5m | 2022-02-16 |  40 GB | Ryzen 5 5500 |     6 |  2.7.2 | Fast Ortho |    2048 |                  | 
+
+
+OpenDroneMap Version 2.7.1
+----------------------------------------------------------------------------------------------------------------------
+   DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
+----------------------------------------------------------------------------------------------------------------------
+Brighton B |  0h 12m | 2022-01-06 |  16 GB | Core i7-1165 |     8 |  2.7.1 |     custom |       N | Dem-resolution=2 | 
+    Banana |  0h 37m | 2022-02-02 |  16 GB | Core i7-1165 |     8 |  2.7.1 |     custom |       N | mesh-octree=14 | | 
+    Banana |  0h 25m | 2022-02-02 |  16 GB | Core i5-8250 |     8 |  2.7.1 |     custom |       N | mesh-octree=14 | | 
 
 
 OpenDroneMap Version 2.7.0
