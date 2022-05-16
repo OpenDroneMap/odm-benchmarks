@@ -300,6 +300,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
    Tuniu 1 |  3h 29m | 2020-04-01 |  16 GB |     Intel i5 |     4 |  0.9.8 |   3D Model |    2048 |                  | 
    Tuniu 1 |  0h 37m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
    Tuniu 1 |  0h 37m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+   Tuniu 1 |  0h 18m | 2022-05-16 |  32 GB | Apple M1 Max |     8 |  2.8.4 |    Default |    2048 |                  | 
 
 
 Tuniu 2
