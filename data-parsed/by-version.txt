@@ -21,6 +21,7 @@ Brighton B |   0h 5m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    
        Zoo |  1h 28m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
        Zoo |  1h 22m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
     Shitan |  1h 41m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+   Tuniu 1 |  0h 18m | 2022-05-16 |  32 GB | Apple M1 Max |     8 |  2.8.4 |    Default |    2048 |                  | 
 
 
 OpenDroneMap Version 2.7.2
