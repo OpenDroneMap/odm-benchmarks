@@ -57,6 +57,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
   Aukerman |  0h 30m | 2022-02-16 |  40 GB | Ryzen 5 5500 |     6 |  2.7.2 | High Resol |       N |                  | 
   Aukerman |   0h 5m | 2022-02-16 |  40 GB | Ryzen 5 5500 |     6 |  2.7.2 | Fast Ortho |    2048 |                  | 
   Aukerman |  0h 13m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+  Aukerman |  0h 14m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Banana
@@ -82,6 +83,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
     Banana |  0h 37m | 2022-02-02 |  16 GB | Core i7-1165 |     8 |  2.7.1 |     custom |       N | mesh-octree=14 | | 
     Banana |  0h 25m | 2022-02-02 |  16 GB | Core i5-8250 |     8 |  2.7.1 |     custom |       N | mesh-octree=14 | | 
     Banana |   0h 3m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+    Banana |   0h 4m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Bellus
@@ -110,6 +112,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
     Bellus |  0h 14m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |    2048 |                  | 
     Bellus |  0h 14m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
     Bellus |  0h 17m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+    Bellus |  0h 18m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Brighton Beach
@@ -126,6 +129,7 @@ Brighton B |  0h 12m | 2022-01-06 |  16 GB | Core i5-8250 |     8 |  2.7.0 |    
 Brighton B |   0h 3m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
 Brighton B |  0h 12m | 2022-01-06 |  16 GB | Core i7-1165 |     8 |  2.7.1 |     custom |       N | Dem-resolution=2 | 
 Brighton B |   0h 5m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+Brighton B |   0h 6m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Garfield
@@ -157,6 +161,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
      Lewis |  0h 24m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |    2048 |                  | 
      Lewis |  0h 19m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
      Lewis |  0h 26m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+     Lewis |  0h 23m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Mur Barrier
@@ -267,6 +272,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
     Shitan |  1h 43m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
     Shitan |  1h 42m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
     Shitan |  1h 41m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+    Shitan |  1h 11m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Toledo
@@ -285,6 +291,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
     Toledo |  0h 16m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |    2048 |                  | 
     Toledo |  0h 15m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
     Toledo |  0h 15m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+    Toledo |  0h 19m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Tuniu 1
@@ -301,6 +308,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
    Tuniu 1 |  0h 37m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
    Tuniu 1 |  0h 37m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
    Tuniu 1 |  0h 18m | 2022-05-16 |  32 GB | Apple M1 Max |     8 |  2.8.4 |    Default |    2048 |                  | 
+   Tuniu 1 |  0h 41m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Tuniu 2
@@ -309,6 +317,7 @@ Tuniu 2
 ----------------------------------------------------------------------------------------------------------------------
    Tuniu 2 |  0h 39m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
    Tuniu 2 |  0h 40m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+   Tuniu 2 |  0h 44m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Waterbury
@@ -357,6 +366,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
        Zoo |  1h 28m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
        Zoo |  1h 28m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
        Zoo |  1h 22m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+       Zoo |  1h 10m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 =============================================================================================
