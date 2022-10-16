@@ -11,9 +11,9 @@ This dataset is from [DroneMapper sample data collection](https://dronemapper.co
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
-   4th Ave |   1h 0m | 2020-04-02 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
-   4th Ave |  0h 38m | 2020-09-26 |   8 GB | Ryzen 5 1500 |     8 |  2.0.0 |    Default |    2048 |                  | 
-   4th Ave |  0h 28m | 2021-01-05 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
+   4th Ave |   1h 0m |   4/2/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
+   4th Ave |  0h 38m |  9/26/2020 |   8 GB | Ryzen 5 1500 |     8 |  2.0.0 |    Default |    2048 |                  | 
+   4th Ave |  0h 28m |   1/5/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
 
 
 Aukerman
@@ -24,40 +24,40 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
-  Aukerman |   1h 1m | 2020-03-10 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
-  Aukerman |  0h 31m | 2020-09-26 |   8 GB | Ryzen 5 1500 |     8 |  2.0.0 |    Default |    2048 |                  | 
-  Aukerman |  0h 25m | 2020-11-08 |  32 GB | Ryzen 5 1500 |     8 |  2.1.0 |    Default |       N |                  | 
-  Aukerman |  0h 50m | 2020-12-04 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |    2048 |                  | 
-  Aukerman |  0h 50m | 2020-12-04 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |       N |                  | 
-  Aukerman |  1h 49m | 2021-01-05 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |       N |                  | 
-  Aukerman |  0h 38m | 2021-01-05 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
-  Aukerman |  0h 13m | 2021-01-08 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
-  Aukerman |  0h 13m | 2021-01-08 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
-  Aukerman |  1h 22m | 2021-01-08 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |       N |                  | 
-  Aukerman |  1h 10m | 2021-01-08 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |       N |                  | 
-  Aukerman |  1h 49m | 2021-01-08 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 | High Resol |    2048 |                  | 
-  Aukerman |  2h 32m | 2021-01-08 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 | High Resol |       N |                  | 
-  Aukerman |  0h 28m | 2021-01-18 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |   3D Model |    2048 |                  | 
-  Aukerman |  1h 40m | 2021-01-18 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |   3D Model |       N |                  | 
-  Aukerman |  1h 15m | 2021-01-21 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |   3D Model |       N | pc-quality Ultra | 
-  Aukerman |  1h 53m | 2021-01-21 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 | High Resol |       N | pc-quality Ultra | 
-  Aukerman |  8h 40m | 2021-01-21 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |       N | pc-quality Ultra | 
-  Aukerman |  0h 12m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |       Y |                  | 
-  Aukerman |  0h 16m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | Fast Ortho |       N |                  | 
-  Aukerman |  0h 55m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | High Resol |       N |                  | 
-  Aukerman |  0h 12m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |    2048 |                  | 
-  Aukerman |  0h 12m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
-  Aukerman |  0h 13m | 2022-02-01 |  32 GB | Intel i7-118 |     8 |  2.7.2 |    Default |       N |                  | 
-  Aukerman |  0h 11m | 2022-02-01 |  32 GB | Intel i7-118 |     8 |  2.7.2 |    Default |       N |                  | 
-  Aukerman |  0h 19m | 2022-02-01 |  32 GB | Intel i7-118 |     8 |  2.7.2 | High Resol |       N |                  | 
-  Aukerman |  0h 16m | 2022-02-01 |  32 GB | Intel i7-118 |     8 |  2.7.2 | High Resol |       N |                  | 
-  Aukerman |   1h 2m | 2022-02-01 |  32 GB | Intel i7-118 |     8 |  2.7.2 |    Default |       N | pc-quality Ultra | 
-  Aukerman |   1h 0m | 2022-02-01 |  32 GB | Intel i7-118 |     8 |  2.7.2 |    Default |       N | pc-quality Ultra | 
-  Aukerman |   0h 9m | 2022-02-16 |  40 GB | Ryzen 5 5500 |     6 |  2.7.2 |    Default |    2048 |                  | 
-  Aukerman |  0h 30m | 2022-02-16 |  40 GB | Ryzen 5 5500 |     6 |  2.7.2 | High Resol |       N |                  | 
-  Aukerman |   0h 5m | 2022-02-16 |  40 GB | Ryzen 5 5500 |     6 |  2.7.2 | Fast Ortho |    2048 |                  | 
-  Aukerman |  0h 13m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
-  Aukerman |  0h 14m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
+  Aukerman |   1h 1m |  3/10/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
+  Aukerman |  0h 31m |  9/26/2020 |   8 GB | Ryzen 5 1500 |     8 |  2.0.0 |    Default |    2048 |                  | 
+  Aukerman |  0h 25m |  11/8/2020 |  32 GB | Ryzen 5 1500 |     8 |  2.1.0 |    Default |       N |                  | 
+  Aukerman |  0h 50m |  12/4/2020 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |    2048 |                  | 
+  Aukerman |  0h 50m |  12/4/2020 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |       N |                  | 
+  Aukerman |  1h 49m |   1/5/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |       N |                  | 
+  Aukerman |  0h 38m |   1/5/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
+  Aukerman |  0h 13m |   1/8/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
+  Aukerman |  0h 13m |   1/8/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
+  Aukerman |  1h 22m |   1/8/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |       N |                  | 
+  Aukerman |  1h 10m |   1/8/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |       N |                  | 
+  Aukerman |  1h 49m |   1/8/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 | High Resol |    2048 |                  | 
+  Aukerman |  2h 32m |   1/8/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 | High Resol |       N |                  | 
+  Aukerman |  0h 28m |  1/18/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |   3D Model |    2048 |                  | 
+  Aukerman |  1h 40m |  1/18/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |   3D Model |       N |                  | 
+  Aukerman |  1h 15m |  1/21/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |   3D Model |       N | pc-quality Ultra | 
+  Aukerman |  1h 53m |  1/21/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 | High Resol |       N | pc-quality Ultra | 
+  Aukerman |  8h 40m |  1/21/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |       N | pc-quality Ultra | 
+  Aukerman |  0h 12m | 10/24/2021 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |       Y |                  | 
+  Aukerman |  0h 16m | 10/24/2021 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | Fast Ortho |       N |                  | 
+  Aukerman |  0h 55m | 10/24/2021 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | High Resol |       N |                  | 
+  Aukerman |  0h 12m |  1/27/2022 |  56 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |    2048 |                  | 
+  Aukerman |  0h 12m |  1/27/2022 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+  Aukerman |  0h 13m |   2/1/2022 |  32 GB | Intel i7-118 |     8 |  2.7.2 |    Default |       N |                  | 
+  Aukerman |  0h 11m |   2/1/2022 |  32 GB | Intel i7-118 |     8 |  2.7.2 |    Default |       N |                  | 
+  Aukerman |  0h 19m |   2/1/2022 |  32 GB | Intel i7-118 |     8 |  2.7.2 | High Resol |       N |                  | 
+  Aukerman |  0h 16m |   2/1/2022 |  32 GB | Intel i7-118 |     8 |  2.7.2 | High Resol |       N |                  | 
+  Aukerman |   1h 2m |   2/1/2022 |  32 GB | Intel i7-118 |     8 |  2.7.2 |    Default |       N | pc-quality Ultra | 
+  Aukerman |   1h 0m |   2/1/2022 |  32 GB | Intel i7-118 |     8 |  2.7.2 |    Default |       N | pc-quality Ultra | 
+  Aukerman |   0h 9m |  2/16/2022 |  40 GB | Ryzen 5 5500 |     6 |  2.7.2 |    Default |    2048 |                  | 
+  Aukerman |  0h 30m |  2/16/2022 |  40 GB | Ryzen 5 5500 |     6 |  2.7.2 | High Resol |       N |                  | 
+  Aukerman |   0h 5m |  2/16/2022 |  40 GB | Ryzen 5 5500 |     6 |  2.7.2 | Fast Ortho |    2048 |                  | 
+  Aukerman |  0h 13m |  4/30/2022 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+  Aukerman |  0h 14m |  9/25/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Banana
@@ -68,22 +68,22 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
-    Banana |  0h 12m | 2020-03-28 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
-    Banana |  0h 13m | 2020-03-28 |  16 GB |     Intel i5 |     4 |  0.9.8 |   3D Model |    2048 |                  | 
-    Banana |  0h 20m | 2020-03-28 |  16 GB |     Intel i5 |     4 |  0.9.8 |   3D Model |       N |                  | 
-    Banana |   0h 5m | 2020-09-26 |   8 GB | Ryzen 5 1500 |     8 |  2.0.0 |    Default |       N |                  | 
-    Banana |   0h 4m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
-    Banana |   0h 5m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
-    Banana |  0h 16m | 2021-10-05 |   4 GB | Broadcom BCM |     4 |  2.6.4 |    Default |       N |                  | 
-    Banana |  0h 34m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |       Y |                  | 
-    Banana |  0h 39m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | Fast Ortho |       N |                  | 
-    Banana |  0h 43m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | High Resol |       N |                  | 
-    Banana |  0h 12m | 2022-01-06 |   8 GB | Core i3-530M |     4 |  2.7.0 |   3D Model |    2048 |                  | 
-    Banana |   0h 4m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
-    Banana |  0h 37m | 2022-02-02 |  16 GB | Core i7-1165 |     8 |  2.7.1 |     custom |       N | mesh-octree=14 | | 
-    Banana |  0h 25m | 2022-02-02 |  16 GB | Core i5-8250 |     8 |  2.7.1 |     custom |       N | mesh-octree=14 | | 
-    Banana |   0h 3m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
-    Banana |   0h 4m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
+    Banana |  0h 12m |  3/28/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
+    Banana |  0h 13m |  3/28/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |   3D Model |    2048 |                  | 
+    Banana |  0h 20m |  3/28/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |   3D Model |       N |                  | 
+    Banana |   0h 5m |  9/26/2020 |   8 GB | Ryzen 5 1500 |     8 |  2.0.0 |    Default |       N |                  | 
+    Banana |   0h 4m |   6/1/2021 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
+    Banana |   0h 5m |   6/1/2021 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
+    Banana |  0h 16m |  10/5/2021 |   4 GB | Broadcom BCM |     4 |  2.6.4 |    Default |       N |                  | 
+    Banana |  0h 34m | 10/24/2021 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |       Y |                  | 
+    Banana |  0h 39m | 10/24/2021 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | Fast Ortho |       N |                  | 
+    Banana |  0h 43m | 10/24/2021 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | High Resol |       N |                  | 
+    Banana |  0h 12m |   1/6/2022 |   8 GB | Core i3-530M |     4 |  2.7.0 |   3D Model |    2048 |                  | 
+    Banana |   0h 4m |  1/27/2022 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+    Banana |  0h 37m |   2/2/2022 |  16 GB | Core i7-1165 |     8 |  2.7.1 |     custom |       N | mesh-octree=14 | | 
+    Banana |  0h 25m |   2/2/2022 |  16 GB | Core i5-8250 |     8 |  2.7.1 |     custom |       N | mesh-octree=14 | | 
+    Banana |   0h 3m |  4/30/2022 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+    Banana |   0h 4m |  9/25/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Bellus
@@ -94,25 +94,25 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
-    Bellus |  1h 27m | 2020-03-13 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
-    Bellus |  0h 52m | 2020-11-14 |  32 GB | Ryzen 5 1500 |     8 |  2.1.1 |    Default |       N |                  | 
-    Bellus |  1h 03m | 2020-12-05 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |    2048 |                  | 
-    Bellus |  1h 05m | 2020-12-05 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |       N |                  | 
-    Bellus |  0h 14m | 2021-01-08 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
-    Bellus |  0h 15m | 2021-01-08 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
-    Bellus |  0h 42m | 2021-01-08 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |       N |                  | 
-    Bellus |  0h 36m | 2021-01-08 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |       N |                  | 
-    Bellus |  1h 21m | 2021-01-08 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 | High Resol |    2048 |                  | 
-    Bellus |  2h 06m | 2021-01-08 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 | High Resol |       N |                  | 
-    Bellus |  0h 25m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
-    Bellus |  0h 24m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
-    Bellus |  0h 14m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |       Y |                  | 
-    Bellus |  0h 22m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | Fast Ortho |       N |                  | 
-    Bellus |  1h 12m | 2021-10-24 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | High Resol |       N |                  | 
-    Bellus |  0h 14m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |    2048 |                  | 
-    Bellus |  0h 14m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
-    Bellus |  0h 17m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
-    Bellus |  0h 18m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
+    Bellus |  1h 27m |  3/13/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
+    Bellus |  0h 52m | 11/14/2020 |  32 GB | Ryzen 5 1500 |     8 |  2.1.1 |    Default |       N |                  | 
+    Bellus |  1h 03m |  12/5/2020 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |    2048 |                  | 
+    Bellus |  1h 05m |  12/5/2020 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |       N |                  | 
+    Bellus |  0h 14m |   1/8/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
+    Bellus |  0h 15m |   1/8/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
+    Bellus |  0h 42m |   1/8/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |       N |                  | 
+    Bellus |  0h 36m |   1/8/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |       N |                  | 
+    Bellus |  1h 21m |   1/8/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 | High Resol |    2048 |                  | 
+    Bellus |  2h 06m |   1/8/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 | High Resol |       N |                  | 
+    Bellus |  0h 25m |   6/1/2021 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
+    Bellus |  0h 24m |   6/1/2021 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
+    Bellus |  0h 14m | 10/24/2021 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |       Y |                  | 
+    Bellus |  0h 22m | 10/24/2021 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | Fast Ortho |       N |                  | 
+    Bellus |  1h 12m | 10/24/2021 |  64 GB | Xeon E5-1620 |     8 |  2.6.6 | High Resol |       N |                  | 
+    Bellus |  0h 14m |  1/27/2022 |  56 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |    2048 |                  | 
+    Bellus |  0h 14m |  1/27/2022 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+    Bellus |  0h 17m |  4/30/2022 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+    Bellus |  0h 18m |  9/25/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Brighton Beach
@@ -123,13 +123,13 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
-Brighton B |   0h 7m | 2022-01-06 |   8 GB | Core i3-530M |     4 |  2.7.0 |    DSM+DTM |    2048 |                  | 
-Brighton B |  0h 16m | 2022-01-06 |  16 GB | Core i5-8250 |     8 |  2.7.0 |     custom |       N | Dem-resolution=2 | 
-Brighton B |  0h 12m | 2022-01-06 |  16 GB | Core i5-8250 |     8 |  2.7.0 |     custom |       N | Dem-resolution=2 | 
-Brighton B |   0h 3m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
-Brighton B |  0h 12m | 2022-01-06 |  16 GB | Core i7-1165 |     8 |  2.7.1 |     custom |       N | Dem-resolution=2 | 
-Brighton B |   0h 5m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
-Brighton B |   0h 6m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
+Brighton B |   0h 7m |   1/6/2022 |   8 GB | Core i3-530M |     4 |  2.7.0 |    DSM/DTM |    2048 |                  | 
+Brighton B |  0h 16m |   1/6/2022 |  16 GB | Core i5-8250 |     8 |  2.7.0 |     custom |       N | Dem-resolution=2 | 
+Brighton B |  0h 12m |   1/6/2022 |  16 GB | Core i5-8250 |     8 |  2.7.0 |     custom |       N | Dem-resolution=2 | 
+Brighton B |   0h 3m |  1/27/2022 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+Brighton B |  0h 12m |   1/6/2022 |  16 GB | Core i7-1165 |     8 |  2.7.1 |     custom |       N | Dem-resolution=2 | 
+Brighton B |   0h 5m |  4/30/2022 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+Brighton B |   0h 6m |  9/25/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Garfield
@@ -140,10 +140,10 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
-  Garfield |  0h 11m | 2020-03-13 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
-  Garfield |   0h 7m | 2020-09-26 |   8 GB | Ryzen 5 1500 |     8 |  2.0.0 |    Default |    2048 |                  | 
-  Garfield |  0h 04m | 2021-01-05 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
-  Garfield |  0h 19m | 2021-01-05 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
+  Garfield |  0h 11m |  3/13/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
+  Garfield |   0h 7m |  9/26/2020 |   8 GB | Ryzen 5 1500 |     8 |  2.0.0 |    Default |    2048 |                  | 
+  Garfield |  0h 04m |   1/5/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
+  Garfield |  0h 19m |   1/5/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
 
 
 Lewis
@@ -154,14 +154,21 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
-     Lewis |   2h 0m | 2020-03-14 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
-     Lewis |  0h 42m | 2020-11-14 |  32 GB | Ryzen 5 1500 |     8 |  2.1.1 |    Default |       N |                  | 
-     Lewis |  1h 08m | 2020-12-05 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |    2048 |                  | 
-     Lewis |  1h 19m | 2020-12-05 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |       N |                  | 
-     Lewis |  0h 24m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |    2048 |                  | 
-     Lewis |  0h 19m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
-     Lewis |  0h 26m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
-     Lewis |  0h 23m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
+     Lewis |   2h 0m |  3/14/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
+     Lewis |  0h 42m | 11/14/2020 |  32 GB | Ryzen 5 1500 |     8 |  2.1.1 |    Default |       N |                  | 
+     Lewis |  1h 08m |  12/5/2020 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |    2048 |                  | 
+     Lewis |  1h 19m |  12/5/2020 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |       N |                  | 
+     Lewis |  0h 24m |  1/27/2022 |  56 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |    2048 |                  | 
+     Lewis |  0h 19m |  1/27/2022 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+     Lewis |  0h 26m |  4/30/2022 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+     Lewis |  0h 23m |  9/25/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
+
+
+Miracle Park
+----------------------------------------------------------------------------------------------------------------------
+   DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
+----------------------------------------------------------------------------------------------------------------------
+Miracle Pa |  0h 23m |  10/2/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Mur Barrier
@@ -172,7 +179,8 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
-Mur Barrie |  0h 59m | 2021-01-05 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
+Mur Barrie |  0h 59m |   1/5/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
+Mur Barrie |  0h 52m |  10/2/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Poets Park Stockpile
@@ -183,7 +191,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
-Poets Park |  3h 12m | 2021-01-05 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
+Poets Park |  3h 12m |   1/5/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
 
 
 Quarry
@@ -194,11 +202,11 @@ This dataset is from the [Sensefly sample data collection](https://www.sensefly.
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
-    Quarry |  1h 38m | 2020-03-11 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
-    Quarry |  0h 51m | 2020-11-11 |  32 GB | Ryzen 5 1500 |     8 |  2.1.1 |    Default |       N |                  | 
-    Quarry |  1h 38m | 2020-12-07 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |       N |                  | 
-    Quarry |  1h 29m | 2020-12-07 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |    2048 |                  | 
-    Quarry |  1h 36m | 2020-12-07 |  16 GB |     Intel i5 |     4 |  2.2.1 |   3D Model |       N |                  | 
+    Quarry |  1h 38m |  3/11/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
+    Quarry |  0h 51m | 11/11/2020 |  32 GB | Ryzen 5 1500 |     8 |  2.1.1 |    Default |       N |                  | 
+    Quarry |  1h 38m |  12/7/2020 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |       N |                  | 
+    Quarry |  1h 29m |  12/7/2020 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |    2048 |                  | 
+    Quarry |  1h 36m |  12/7/2020 |  16 GB |     Intel i5 |     4 |  2.2.1 |   3D Model |       N |                  | 
 
 
 Red Rocks
@@ -209,10 +217,10 @@ This dataset is from [DroneMapper sample data collection](https://dronemapper.co
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
- Red Rocks |  0h 45m | 2020-04-03 |  16 GB |     Intel i5 |     4 |  0.9.8 |   3D Model |    2048 |                  | 
- Red Rocks |  1h 40m | 2020-04-04 |  16 GB |     Intel i5 |     4 |  0.9.8 |   3D Model |       N |                  | 
- Red Rocks |  0h 13m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
- Red Rocks |  0h 20m | 2021-06-01 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
+ Red Rocks |  0h 45m |   4/3/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |   3D Model |    2048 |                  | 
+ Red Rocks |  1h 40m |   4/4/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |   3D Model |       N |                  | 
+ Red Rocks |  0h 13m |   6/1/2021 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
+ Red Rocks |  0h 20m |   6/1/2021 |  32 GB | Ryzen 5 2600 |     6 |  2.5.1 |    Default |    2048 |                  | 
 
 
 Rising Valley
@@ -223,8 +231,8 @@ This is a NIR dataset from the [ODMData](https://github.com/OpenDroneMap/ODMdata
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
-Rising Val |  8h 55m | 2020-03-26 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
-Rising Val |  1h 10m | 2021-01-05 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
+Rising Val |  8h 55m |  3/26/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
+Rising Val |  1h 10m |   1/5/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
 
 
 Sance
@@ -235,7 +243,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
-     Sance |   2h 4m | 2020-03-20 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
+     Sance |   2h 4m |  3/20/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
 
 
 Seneca
@@ -246,16 +254,31 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
-    Seneca |   2h 4m | 2020-03-14 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
-    Seneca |  1h 56m | 2020-11-12 |  32 GB | Ryzen 5 1500 |     8 |  2.1.1 |    Default |       N |                  | 
-    Seneca |  1h 46m | 2020-12-03 |  16 GB |     Intel i5 |     4 |  2.1.1 |    Default |    2048 |                  | 
-    Seneca |  1h 07m | 2020-12-03 |  16 GB |     Intel i5 |     4 |  2.1.1 |    Default |       N |                  | 
-    Seneca |  1h 47m | 2020-12-03 |  16 GB |     Intel i5 |     4 |  2.1.1 |    Default |    2048 |                  | 
-    Seneca |  1h 08m | 2020-12-03 |  16 GB |     Intel i5 |     4 |  2.1.1 |    Default |       N |                  | 
-    Seneca |  1h 46m | 2020-12-05 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |    2048 |                  | 
-    Seneca |  1h 07m | 2020-12-05 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |       N |                  | 
-    Seneca |  1h 47m | 2020-12-05 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |    2048 |                  | 
-    Seneca |  1h 08m | 2020-12-05 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |       N |                  | 
+    Seneca |   2h 4m |  3/14/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
+    Seneca |  1h 56m | 11/12/2020 |  32 GB | Ryzen 5 1500 |     8 |  2.1.1 |    Default |       N |                  | 
+    Seneca |  1h 46m |  12/3/2020 |  16 GB |     Intel i5 |     4 |  2.1.1 |    Default |    2048 |                  | 
+    Seneca |  1h 07m |  12/3/2020 |  16 GB |     Intel i5 |     4 |  2.1.1 |    Default |       N |                  | 
+    Seneca |  1h 47m |  12/3/2020 |  16 GB |     Intel i5 |     4 |  2.1.1 |    Default |    2048 |                  | 
+    Seneca |  1h 08m |  12/3/2020 |  16 GB |     Intel i5 |     4 |  2.1.1 |    Default |       N |                  | 
+    Seneca |  1h 46m |  12/5/2020 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |    2048 |                  | 
+    Seneca |  1h 07m |  12/5/2020 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |       N |                  | 
+    Seneca |  1h 47m |  12/5/2020 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |    2048 |                  | 
+    Seneca |  1h 08m |  12/5/2020 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |       N |                  | 
+
+
+Sheffield Cross
+Photos: 172
+Collected: May 2018
+URL: [GitHub](https://github.com/pierotofy/drone_dataset_sheffield_cross)
+Residential park near Tampa, FL, USA. All shots taken at a ~70 degree angle, cross pattern, no nadir.
+----------------------------------------------------------------------------------------------------------------------
+   DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
+----------------------------------------------------------------------------------------------------------------------
+Sheffield  |  0h 41m |  10/1/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
+Sheffield  |   1h 5m |  10/2/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |       N |                  | 
+Sheffield  |   1h 5m |  10/3/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |       N |                  | 
+Sheffield  |   1h 6m |  10/5/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |       N |                  | 
+Sheffield  |   1h 5m |  10/5/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |       N |                  | 
 
 
 Shitan
@@ -266,13 +289,27 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
-    Shitan |  7h 50m | 2020-03-23 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
-    Shitan |  1h 13m | 2021-01-05 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
-    Shitan |   1h 3m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
-    Shitan |  1h 43m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
-    Shitan |  1h 42m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
-    Shitan |  1h 41m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
-    Shitan |  1h 11m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
+    Shitan |  7h 50m |  3/23/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
+    Shitan |  1h 13m |   1/5/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
+    Shitan |   1h 3m |  1/27/2022 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+    Shitan |  1h 43m |  4/30/2022 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+    Shitan |  1h 42m |  4/30/2022 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+    Shitan |  1h 41m |  4/30/2022 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+    Shitan |  1h 11m |  9/25/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
+    Shitan |  1h 44m |  10/3/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |       N |                  | 
+    Shitan |  1h 43m |  10/3/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |       N |                  | 
+    Shitan |  1h 44m |  10/4/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |       N |                  | 
+    Shitan |  1h 43m |  10/5/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |       N |                  | 
+    Shitan |  3h 20m |  10/6/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 | High Resol |       N |                  | 
+    Shitan |  1h 46m |  10/7/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    DSM/DTM |       N |                  | 
+    Shitan |  0h 49m |  10/7/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |      Field |       N |                  | 
+    Shitan |  2h 51m |  10/8/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |     Forest |       N |                  | 
+    Shitan |  1h 44m |  10/9/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |       N |                  | 
+    Shitan |   4h 0m | 10/11/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |  Buildings |       N |                  | 
+    Shitan |  3h 18m | 10/12/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |   3D Model |       N |                  | 
+    Shitan |  3h 11m | 10/13/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |     Volume |       N |                  | 
+    Shitan |  3h 34m | 10/13/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 | Multispect |       N |                  | 
+    Shitan |  1h 11m | 10/14/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Toledo
@@ -283,15 +320,29 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
-    Toledo |   1h 9m | 2020-03-07 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
-    Toledo |  0h 33m | 2020-11-09 |  32 GB | Ryzen 5 1500 |     8 |  2.1.1 |    Default |       N |                  | 
-    Toledo |  1h 06m | 2020-12-04 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |    2048 |                  | 
-    Toledo |  1h 10m | 2020-12-04 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |       N |                  | 
-    Toledo |  0h 24m | 2021-01-05 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |       N |                  | 
-    Toledo |  0h 16m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |    2048 |                  | 
-    Toledo |  0h 15m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
-    Toledo |  0h 15m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
-    Toledo |  0h 19m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
+    Toledo |   1h 9m |   3/7/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
+    Toledo |  0h 33m |  11/9/2020 |  32 GB | Ryzen 5 1500 |     8 |  2.1.1 |    Default |       N |                  | 
+    Toledo |  1h 06m |  12/4/2020 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |    2048 |                  | 
+    Toledo |  1h 10m |  12/4/2020 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |       N |                  | 
+    Toledo |  0h 24m |   1/5/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |       N |                  | 
+    Toledo |  0h 16m |  1/27/2022 |  56 GB | Xeon E5-1620 |     8 |  2.6.6 |    Default |    2048 |                  | 
+    Toledo |  0h 15m |  1/27/2022 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+    Toledo |  0h 15m |  4/30/2022 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+    Toledo |  0h 19m |  9/25/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
+    Toledo |  0h 25m |  10/3/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |       N |                  | 
+    Toledo |  0h 25m |  10/4/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |       N |                  | 
+    Toledo |  0h 25m |  10/5/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |       N |                  | 
+    Toledo |  0h 25m |  10/5/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |       N |                  | 
+    Toledo |  0h 44m |  10/6/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 | High Resol |       N |                  | 
+    Toledo |  0h 26m |  10/6/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    DSM/DTM |       N |                  | 
+    Toledo |  0h 12m |  10/7/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |      Field |       N |                  | 
+    Toledo |  0h 51m |  10/8/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |     Forest |       N |                  | 
+    Toledo |  0h 25m |  10/9/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |       N |                  | 
+    Toledo |  0h 53m |  10/9/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |  Buildings |       N |                  | 
+    Toledo |  0h 52m | 10/11/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |   3D Model |       N |                  | 
+    Toledo |  0h 42m | 10/12/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |     Volume |       N |                  | 
+    Toledo |  0h 29m | 10/13/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 | Multispect |       N |                  | 
+    Toledo |  0h 18m | 10/14/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Tuniu 1
@@ -302,22 +353,22 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
-   Tuniu 1 |  3h 34m | 2020-03-31 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
-   Tuniu 1 |  3h 37m | 2020-03-31 |  16 GB |     Intel i5 |     4 |  0.9.8 |    DSM/DTM |    2048 |                  | 
-   Tuniu 1 |  3h 29m | 2020-04-01 |  16 GB |     Intel i5 |     4 |  0.9.8 |   3D Model |    2048 |                  | 
-   Tuniu 1 |  0h 37m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
-   Tuniu 1 |  0h 37m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
-   Tuniu 1 |  0h 18m | 2022-05-16 |  32 GB | Apple M1 Max |     8 |  2.8.4 |    Default |    2048 |                  | 
-   Tuniu 1 |  0h 41m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
+   Tuniu 1 |  3h 34m |  3/31/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
+   Tuniu 1 |  3h 37m |  3/31/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |    DSM/DTM |    2048 |                  | 
+   Tuniu 1 |  3h 29m |   4/1/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |   3D Model |    2048 |                  | 
+   Tuniu 1 |  0h 37m |  1/27/2022 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+   Tuniu 1 |  0h 37m |  4/30/2022 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+   Tuniu 1 |  0h 18m |  5/16/2022 |  32 GB | Apple M1 Max |     8 |  2.8.4 |    Default |    2048 |                  | 
+   Tuniu 1 |  0h 41m |  9/25/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Tuniu 2
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
-   Tuniu 2 |  0h 39m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
-   Tuniu 2 |  0h 40m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
-   Tuniu 2 |  0h 44m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
+   Tuniu 2 |  0h 39m |  1/27/2022 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+   Tuniu 2 |  0h 40m |  4/30/2022 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+   Tuniu 2 |  0h 44m |  9/26/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Waterbury
@@ -328,8 +379,9 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
- Waterbury |  2h 50m | 2020-03-15 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
- Waterbury |  0h 48m | 2021-01-05 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
+ Waterbury |  2h 50m |  3/15/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
+ Waterbury |  0h 48m |   1/5/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
+ Waterbury |  0h 32m |  10/1/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Wietrznia
@@ -340,12 +392,27 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
- Wietrznia |  3h 22m | 2020-03-21 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
- Wietrznia |  3h 51m | 2020-03-29 |  16 GB |     Intel i5 |     4 |  0.9.8 |   3D Model |    2048 |                  | 
- Wietrznia |   9h 9m | 2020-03-29 |  16 GB |     Intel i5 |     4 |  0.9.8 |   3D Model |       N |                  | 
- Wietrznia |  2h 49m | 2020-12-07 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |    2048 |                  | 
- Wietrznia |  2h 48m | 2020-12-07 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |       N |                  | 
- Wietrznia |  0h 50m | 2021-01-05 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
+ Wietrznia |  3h 22m |  3/21/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
+ Wietrznia |  3h 51m |  3/29/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |   3D Model |    2048 |                  | 
+ Wietrznia |   9h 9m |  3/29/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |   3D Model |       N |                  | 
+ Wietrznia |  2h 49m |  12/7/2020 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |    2048 |                  | 
+ Wietrznia |  2h 48m |  12/7/2020 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |       N |                  | 
+ Wietrznia |  0h 50m |   1/5/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
+ Wietrznia |  0h 47m |  10/2/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
+ Wietrznia |  1h 45m |  10/2/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |       N |                  | 
+ Wietrznia |  1h 44m |  10/3/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |       N |                  | 
+ Wietrznia |  1h 46m |  10/4/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |       N |                  | 
+ Wietrznia |  1h 44m |  10/4/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |       N |                  | 
+ Wietrznia |  1h 50m |  10/6/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 | High Resol |       N |                  | 
+ Wietrznia |  1h 51m |  10/6/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    DSM/DTM |       N |                  | 
+ Wietrznia |  0h 22m |  10/7/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |      Field |       N |                  | 
+ Wietrznia |  1h 45m |  10/7/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |     Forest |       N |                  | 
+ Wietrznia |  1h 44m |  10/9/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |       N |                  | 
+ Wietrznia |  6h 11m | 10/10/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |  Buildings |       N |                  | 
+ Wietrznia |  4h 47m | 10/11/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |   3D Model |       N |                  | 
+ Wietrznia |  4h 49m | 10/12/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |     Volume |       N |                  | 
+ Wietrznia |  1h 53m | 10/13/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 | Multispect |       N |                  | 
+ Wietrznia |  0h 44m | 10/14/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 Zoo
@@ -356,17 +423,17 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
 ----------------------------------------------------------------------------------------------------------------------
-       Zoo |   7h 2m | 2020-03-21 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
-       Zoo |   5h 4m | 2020-04-11 |  32 GB | Intel Xeon P | (unkn |  0.9.8 |    Default |    2048 |                  | 
-       Zoo |  2h 28m | 2020-04-11 |  64 GB | Intel Xeon 5 | (unkn |  0.9.8 |    Default |    2048 |                  | 
-       Zoo |  7h 49m | 2020-04-12 |  64 GB | Intel Xeon 5 | (unkn |  0.9.8 | High Resol |       N |                  | 
-       Zoo |  4h 14m | 2020-11-08 |  32 GB | Ryzen 5 1500 |     8 |  2.1.0 |    Default |    2048 |                  | 
-       Zoo |  0h 58m | 2021-01-05 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
-       Zoo |   1h 2m | 2022-01-27 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
-       Zoo |  1h 28m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
-       Zoo |  1h 28m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
-       Zoo |  1h 22m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
-       Zoo |  1h 10m | 2022-04-30 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
+       Zoo |   7h 2m |  3/21/2020 |  16 GB |     Intel i5 |     4 |  0.9.8 |    Default |    2048 |                  | 
+       Zoo |   5h 4m |  4/11/2020 |  32 GB | Intel Xeon P | (unkn |  0.9.8 |    Default |    2048 |                  | 
+       Zoo |  2h 28m |  4/11/2020 |  64 GB | Intel Xeon 5 | (unkn |  0.9.8 |    Default |    2048 |                  | 
+       Zoo |  7h 49m |  4/12/2020 |  64 GB | Intel Xeon 5 | (unkn |  0.9.8 | High Resol |       N |                  | 
+       Zoo |  4h 14m |  11/8/2020 |  32 GB | Ryzen 5 1500 |     8 |  2.1.0 |    Default |    2048 |                  | 
+       Zoo |  0h 58m |   1/5/2021 |  64 GB | Xeon E5-1620 |     8 |  2.3.3 |    Default |    2048 |                  | 
+       Zoo |   1h 2m |  1/27/2022 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
+       Zoo |  1h 28m |  4/30/2022 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+       Zoo |  1h 28m |  4/30/2022 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+       Zoo |  1h 22m |  4/30/2022 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
+       Zoo |  1h 10m |  9/25/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 
 
 =============================================================================================
