@@ -11,20 +11,14 @@ OpenDroneMap benchmarking data is summarized in the following pages:
 
 ## Datasets for Benchmarking
 
-| Dataset       | No of Photos | Date      |                                             Source |                                                                                    URL |                                                                     Contributor |
-| :------------ | ------------ | --------- | ------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| Aukerman      | 77           | June 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) |                            [GitHub](https://github.com/OpenDroneMap/odm_data_aukerman) |                            [Dakota Benjamin](https://github.com/dakotabenjamin) |
-| Banana        | 16           | July 2019 | [ODMData](https://github.com/OpenDroneMap/ODMdata) |                                  [GitHub](https://github.com/pierotofy/dataset_banana) |                                  [Piero Toffanin](https://github.com/pierotofy) |
-| Bellus        | 122          | July 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) |                              [GitHub](https://github.com/OpenDroneMap/odm_data_bellus) |                              [Stephen Mather](https://github.com/smathermather) |
-| Lewis         | 145          | June 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) |                               [GitHub](https://github.com/OpenDroneMap/odm_data_lewis) |                              [Stephen Mather](https://github.com/smathermather) |
-| Shitan        | 493          | Dec. 2018 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [Google Drive](https://drive.google.com/file/d/1Spu1F713Tw-z1XMdnrlD6NT4EhhFy2Lj/view) |             [Yu-Huang Wang](https://community.opendronemap.org/u/Yu-Huang_Wang) |
-| Toledo        | 87           | Oct. 2015 | [ODMData](https://github.com/OpenDroneMap/ODMdata) |                              [GitHub](https://github.com/OpenDroneMap/odm_data_toledo) |             [Dakota Benjamin](https://github.com/dakotabenjamin) |
-| Tuniu 1       | 271          | Apr. 2019 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [Google Drive](https://drive.google.com/file/d/1faBtGK7Jm5lTo_UWLz6onDGYGqlykHPa/view) |                              [Yu-Huang Wang](https://community.opendronemap.org/u/Yu-Huang_Wang) |
-| Tuniu 2       | 297          | Apr. 2019 | [ODMData](https://github.com/OpenDroneMap/ODMdata) | [Google Drive](https://drive.google.com/open?id=12UrLDHA6iZFJYF7OkErccH_xanRHefoZ)     |                              [Yu-Huang Wang](https://community.opendronemap.org/u/Yu-Huang_Wang) |
-| Zoo           | 524          | Oct. 2016 | [ODMData](https://github.com/OpenDroneMap/ODMdata) |                                 [GitHub](https://github.com/OpenDroneMap/odm_data_zoo) |                              [Stephen Mather](https://github.com/smathermather) |
-| Quarry        | 127          | May 2012  |              [Sensefly](https://www.sensefly.com/) |              [Sensefly.com](https://www.sensefly.com/education/datasets/?dataset=1418) | [Sensefly sample data collection](https://www.sensefly.com/education/datasets/) |
-| 4th Ave       | 82           | Nov. 2017 |            [DroneMapper](https://dronemapper.com/) |                                [Dronemapper.com](https://dronemapper.com/sample_data/) |      [DroneMapper sample data collection](https://dronemapper.com/sample_data/) |
-| Red Rocks     | 45           | Jan. 2013 |            [DroneMapper](https://dronemapper.com/) |                                [Dronemapper.com](https://dronemapper.com/sample_data/) |      [DroneMapper sample data collection](https://dronemapper.com/sample_data/) |
+Preferred datasets for benchmarking at this time are:
+
+* Brighton Beach (18 photos)
+* Toledo (87 photos)
+* Wietrznia (225 photos)
+* Shitan (493 photos)
+
+These and many other sample datasets are indexed at the [ODMData repository](https://github.com/OpenDroneMap/ODMdata). 
 
 ## How to Contribute Benchmarks
 
