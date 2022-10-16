@@ -113,7 +113,7 @@ ID,DATASET,PROCESSING_TIME,PROCESSING_SUCCESS,ERROR_TYPE,RAM_SIZE,RAM_CLOCK_SPEE
 112,Bellus,0h 22m,Y,-,64 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.6.6,N,Fast Ortho,N,,10/24/2021,[Corey Snipes](https://github.com/coreysnipes/),-
 113,Bellus,1h 12m,Y,-,64 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.6.6,N,High Resolution,N,,10/24/2021,[Corey Snipes](https://github.com/coreysnipes/),-
 114,Banana,0h 12m,Y,-,8 GB,1200 MT/s,Core i3-530M,2.53 Ghz,4,SSD,MXLinux 19.4,Docker,2.7.0,N,3D Model,2048,,1/6/2022,[Ichsan2895](https://github.com/ichsan2895/),-
-115,Brighton Beach,0h 7m,Y,-,8 GB,1200 MT/s,Core i3-530M,2.53 Ghz,4,SSD,MXLinux 19.4,Docker,2.7.0,N,DSM+DTM,2048,,1/6/2022,[Ichsan2895](https://github.com/ichsan2895/),-
+115,Brighton Beach,0h 7m,Y,-,8 GB,1200 MT/s,Core i3-530M,2.53 Ghz,4,SSD,MXLinux 19.4,Docker,2.7.0,N,DSM/DTM,2048,,1/6/2022,[Ichsan2895](https://github.com/ichsan2895/),-
 116,Brighton Beach,0h 16m,Y,-,16 GB,2400 MT/s,Core i5-8250U,1.6 Ghz (3.34 Ghz Turbo boost),8,SSD,MXLinux 19.4,Docker,2.7.0,N,custom,N,Dem-resolution=2 | dsm=true | ignore-gsd=true | mesh-octree=12 | mesh-size=300000 | orthophoto-res=2 | pc-geometric=true | pc-quality = high,1/6/2022,[Ichsan2895](https://github.com/ichsan2895/),No GPU used
 117,Brighton Beach,0h 12m,Y,-,16 GB,2400 MT/s,Core i5-8250U,1.6 Ghz (3.34 Ghz Turbo boost),8,SSD,MXLinux 19.4,Docker,2.7.0,N,custom,N,Dem-resolution=2 | dsm=true | ignore-gsd=true | mesh-octree=12 | mesh-size=300000 | orthophoto-res=2 | pc-geometric=true | pc-quality = high,1/6/2022,[Ichsan2895](https://github.com/ichsan2895/),Using GPU (Nvidia MX150)
 118,Aukerman,0h 12m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.6.6,N,Default,2048,,1/27/2022,[Corey Snipes](https://github.com/coreysnipes/),-
@@ -188,13 +188,34 @@ ID,DATASET,PROCESSING_TIME,PROCESSING_SUCCESS,ERROR_TYPE,RAM_SIZE,RAM_CLOCK_SPEE
 188,Toledo,0h 25m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Default,N,,10/5/2022,[Corey Snipes](https://github.com/coreysnipes/),-
 189,Sheffield Cross,1h 6m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Default,N,,10/5/2022,[Corey Snipes](https://github.com/coreysnipes/),-
 190,Sheffield Cross,1h 5m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Default,N,,10/5/2022,[Corey Snipes](https://github.com/coreysnipes/),-
-191,,,,,,,,,,,,,,,,,,,,
-192,,,,,,,,,,,,,,,,,,,,
-193,,,,,,,,,,,,,,,,,,,,
-194,,,,,,,,,,,,,,,,,,,,
-195,,,,,,,,,,,,,,,,,,,,
-196,,,,,,,,,,,,,,,,,,,,
-197,,,,,,,,,,,,,,,,,,,,
-198,,,,,,,,,,,,,,,,,,,,
-199,,,,,,,,,,,,,,,,,,,,
-200,,,,,,,,,,,,,,,,,,,,
+191,Wietrznia,1h 50m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,High Resolution,N,,10/6/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+192,Toledo,0h 44m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,High Resolution,N,,10/6/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+193,Shitan,3h 20m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,High Resolution,N,,10/6/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+194,Toledo,0h 26m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,DSM/DTM,N,,10/6/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+195,Wietrznia,1h 51m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,DSM/DTM,N,,10/6/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+196,Shitan,1h 46m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,DSM/DTM,N,,10/7/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+197,Wietrznia,0h 22m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Field,N,,10/7/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+198,Toledo,0h 12m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Field,N,,10/7/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+199,Shitan,Stopped at 0h 44m,N,Not Enough Memory,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Field,N,,10/7/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+200,Shitan,0h 49m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Field,N,,10/7/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+201,Wietrznia,1h 45m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Forest,N,,10/7/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+202,Toledo,0h 51m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Forest,N,,10/8/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+203,Shitan,2h 51m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Forest,N,,10/8/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+204,Toledo,0h 25m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Default,N,,10/9/2022,[Corey Snipes](https://github.com/coreysnipes/),Baseline check
+205,Wietrznia,1h 44m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Default,N,,10/9/2022,[Corey Snipes](https://github.com/coreysnipes/),Baseline check
+206,Shitan,1h 44m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Default,N,,10/9/2022,[Corey Snipes](https://github.com/coreysnipes/),Baseline check
+207,Toledo,0h 53m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Buildings,N,,10/9/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+208,Wietrznia,6h 11m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Buildings,N,,10/10/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+209,Shitan,4h 0m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Buildings,N,,10/11/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+210,Toledo,0h 52m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,3D Model,N,,10/11/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+211,Wietrznia,4h 47m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,3D Model,N,,10/11/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+212,Shitan,3h 18m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,3D Model,N,,10/12/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+213,Toledo,0h 42m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Volume,N,,10/12/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+214,Wietrznia,4h 49m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Volume,N,,10/12/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+215,Shitan,3h 11m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Volume,N,,10/13/2022,[Corey Snipes](https://github.com/coreysnipes/),-
+216,Toledo,0h 29m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Multispectral,N,,10/13/2022,[Corey Snipes](https://github.com/coreysnipes/),Not multispectral dataset
+217,Wietrznia,1h 53m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Multispectral,N,,10/13/2022,[Corey Snipes](https://github.com/coreysnipes/),Not multispectral dataset
+218,Shitan,3h 34m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Multispectral,N,,10/13/2022,[Corey Snipes](https://github.com/coreysnipes/),Contains multispectral data
+219,Toledo,0h 18m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Default,2048,,10/14/2022,[Corey Snipes](https://github.com/coreysnipes/),Baseline check
+220,Wietrznia,0h 44m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Default,2048,,10/14/2022,[Corey Snipes](https://github.com/coreysnipes/),Baseline check
+221,Shitan,1h 11m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Default,2048,,10/14/2022,[Corey Snipes](https://github.com/coreysnipes/),Baseline check
