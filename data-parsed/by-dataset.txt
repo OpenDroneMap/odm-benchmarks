@@ -84,6 +84,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
     Banana |  0h 25m |   2/2/2022 |  16 GB | Core i5-8250 |     8 |  2.7.1 |     custom |       N | mesh-octree=14 | | 
     Banana |   0h 3m |  4/30/2022 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
     Banana |   0h 4m |  9/25/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
+    Banana |  2m 48s | 10/20/2022 | 7.9 GB | Apple M1 Pro |     5 |  2.9.2 |    Default |       N |                  | 
 
 
 Bellus
@@ -130,6 +131,7 @@ Brighton B |   0h 3m |  1/27/2022 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    
 Brighton B |  0h 12m |   1/6/2022 |  16 GB | Core i7-1165 |     8 |  2.7.1 |     custom |       N | Dem-resolution=2 | 
 Brighton B |   0h 5m |  4/30/2022 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
 Brighton B |   0h 6m |  9/25/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
+Brighton B |   5m 9s | 10/20/2022 | 7.9 GB | Apple M1 Pro |     5 |  2.9.2 |    Default |       N |                  | 
 
 
 Garfield
@@ -343,6 +345,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
     Toledo |  0h 42m | 10/12/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |     Volume |       N |                  | 
     Toledo |  0h 29m | 10/13/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 | Multispect |       N |                  | 
     Toledo |  0h 18m | 10/14/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
+    Toledo | 22m 12s | 10/20/2022 | 7.9 GB | Apple M1 Pro |     5 |  2.9.2 |    Default |       N |                  | 
 
 
 Tuniu 1
