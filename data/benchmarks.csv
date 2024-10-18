@@ -219,6 +219,15 @@ ID,DATASET,PROCESSING_TIME,PROCESSING_SUCCESS,ERROR_TYPE,RAM_SIZE,RAM_CLOCK_SPEE
 219,Toledo,0h 18m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Default,2048,,10/14/2022,[Corey Snipes](https://github.com/coreysnipes/),Baseline check
 220,Wietrznia,0h 44m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Default,2048,,10/14/2022,[Corey Snipes](https://github.com/coreysnipes/),Baseline check
 221,Shitan,1h 11m,Y,-,56 GB,1333 MT/s,Xeon E5-1620,3.6 Ghz,8,HDD,Ubuntu 20.04,Docker,2.9.1,N,Default,2048,,10/14/2022,[Corey Snipes](https://github.com/coreysnipes/),Baseline check
-222,Banana,2m 48s,Y,-,7.9 GB,6400 MT/s,Apple M1 Pro,3.2 Ghz,5,SSD,12.6 Monterey,Docker,2.9.2,N,Default,N,,10/20/2022,[Jeongyong Park](https://github.com/Jeongyong-Park)/,-
-223,Brighton Beach,5m 9s,Y,-,7.9 GB,6400 MT/s,Apple M1 Pro,3.2 Ghz,5,SSD,12.6 Monterey,Docker,2.9.2,N,Default,N,,10/20/2022,[Jeongyong Park](https://github.com/Jeongyong-Park),-
-224,Toledo,22m 12s,Y,-,7.9 GB,6400 MT/s,Apple M1 Pro,3.2 Ghz,5,SSD,12.6 Monterey,Docker,2.9.2,N,Default,N,,10/20/2022,[Jeongyong Park](https://github.com/Jeongyong-Park),-
+222,Banana,2m 48s,Y,-,7.9 GB,6400 MT/s,Apple M1 Pro,3.2 Ghz,5,SSD,12.6 Monterey,Docker,2.9.2,N,Default,N,,10/20/2022,[Jeongyong Park](https://github.com/Jeongyong-Park/),-
+223,Brighton Beach,5m 9s,Y,-,7.9 GB,6400 MT/s,Apple M1 Pro,3.2 Ghz,5,SSD,12.6 Monterey,Docker,2.9.2,N,Default,N,,10/20/2022,[Jeongyong Park](https://github.com/Jeongyong-Park/),-
+224,Toledo,22m 12s,Y,-,7.9 GB,6400 MT/s,Apple M1 Pro,3.2 Ghz,5,SSD,12.6 Monterey,Docker,2.9.2,N,Default,N,,10/20/2022,[Jeongyong Park](https://github.com/Jeongyong-Park/),-
+225,Brighton Beach,0h 4m,Y,-,8 GB,7500 MT/s,Ryzen 7 8845HS w/Radeon 780 Graphics,3.8 Ghz,16,NVMe SSD,Windows 11 23H2 22631.4317,Docker,3.5.4,N,Default,N,,10/17/2024,[Jeongyong Park](https://github.com/Jeongyong-Park/),-
+226,Toledo,0h 36m,Y,-,8 GB,7500 MT/s,Ryzen 7 8845HS w/Radeon 780 Graphics,3.8 Ghz,16,NVMe SSD,Windows 11 23H2 22631.4317,Docker,3.5.4,N,Default,N,,10/17/2024,[Jeongyong Park](https://github.com/Jeongyong-Park/),-
+227,Toledo,0h 27m,Y,-,16 GB,7500 MT/s,Ryzen 7 8845HS w/Radeon 780 Graphics,3.8 Ghz,16,NVMe SSD,Windows 11 23H2 22631.4317,Native,3.5.4,N,Default,N,,10/17/2024,[Jeongyong Park](https://github.com/Jeongyong-Park/),-
+228,Wietrznia,1h 10m,Y,-,16 GB,7500 MT/s,Ryzen 7 8845HS w/Radeon 780 Graphics,3.8 Ghz,16,NVMe SSD,Windows 11 23H2 22631.4317,Native,3.5.4,N,Default,N,,10/17/2024,[Jeongyong Park](https://github.com/Jeongyong-Park/),-
+229,Shitan,Crashed at 0h 47m,N,no PLY files available,16 GB,7500 MT/s,Ryzen 7 8845HS w/Radeon 780 Graphics,3.8 Ghz,16,NVMe SSD,Windows 11 23H2 22631.4317,Native,3.5.4,N,Default,N,,10/18/2024,[Jeongyong Park](https://github.com/Jeongyong-Park/),-
+230,Brighton Beach,3m 58s,Y,-,16 GB,7500 MT/s,Ryzen 7 8845HS w/Radeon 780 Graphics,3.8 Ghz,16,NVMe SSD,Windows 11 23H2 22631.4317,Native,3.5.4,N,Default,N,,10/18/2024,[Jeongyong Park](https://github.com/Jeongyong-Park/),-
+231,Banana,3m 15s,Y,-,16 GB,7500 MT/s,Ryzen 7 8845HS w/Radeon 780 Graphics,3.8 Ghz,16,NVMe SSD,Windows 11 23H2 22631.4317,Native,3.5.4,N,Default,N,,10/18/2024,[Jeongyong Park](https://github.com/Jeongyong-Park/),-
+232,Bellus,0h 12m,Y,-,16 GB,7500 MT/s,Ryzen 7 8845HS w/Radeon 780 Graphics,3.8 Ghz,16,NVMe SSD,Windows 11 23H2 22631.4317,Native,3.5.4,N,Default,N,,10/18/2024,[Jeongyong Park](https://github.com/Jeongyong-Park/),Ground Control Point Error
+233,Seneca,0h 35m,Y,-,16 GB,7500 MT/s,Ryzen 7 8845HS w/Radeon 780 Graphics,3.8 Ghz,16,NVMe SSD,Windows 11 23H2 22631.4317,Native,3.5.4,N,Default,N,,10/18/2024,[Jeongyong Park](https://github.com/Jeongyong-Park/),-
