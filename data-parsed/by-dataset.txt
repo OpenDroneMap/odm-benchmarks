@@ -85,6 +85,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
     Banana |   0h 3m |  4/30/2022 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
     Banana |   0h 4m |  9/25/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
     Banana |  2m 48s | 10/20/2022 | 7.9 GB | Apple M1 Pro |     5 |  2.9.2 |    Default |       N |                  | 
+    Banana |  3m 15s | 10/18/2024 |  16 GB | Ryzen 7 8845 |    16 |  3.5.4 |    Default |       N |                  | 
 
 
 Bellus
@@ -114,6 +115,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
     Bellus |  0h 14m |  1/27/2022 |  56 GB | Xeon E5-1620 |     8 |  2.7.2 |    Default |    2048 |                  | 
     Bellus |  0h 17m |  4/30/2022 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
     Bellus |  0h 18m |  9/25/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
+    Bellus |  0h 12m | 10/18/2024 |  16 GB | Ryzen 7 8845 |    16 |  3.5.4 |    Default |       N |                  | 
 
 
 Brighton Beach
@@ -132,6 +134,8 @@ Brighton B |  0h 12m |   1/6/2022 |  16 GB | Core i7-1165 |     8 |  2.7.1 |    
 Brighton B |   0h 5m |  4/30/2022 |  56 GB | Xeon E5-1620 |     8 |  2.8.4 |    Default |    2048 |                  | 
 Brighton B |   0h 6m |  9/25/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
 Brighton B |   5m 9s | 10/20/2022 | 7.9 GB | Apple M1 Pro |     5 |  2.9.2 |    Default |       N |                  | 
+Brighton B |   0h 4m | 10/17/2024 |   8 GB | Ryzen 7 8845 |    16 |  3.5.4 |    Default |       N |                  | 
+Brighton B |  3m 58s | 10/18/2024 |  16 GB | Ryzen 7 8845 |    16 |  3.5.4 |    Default |       N |                  | 
 
 
 Garfield
@@ -266,6 +270,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
     Seneca |  1h 07m |  12/5/2020 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |       N |                  | 
     Seneca |  1h 47m |  12/5/2020 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |    2048 |                  | 
     Seneca |  1h 08m |  12/5/2020 |  16 GB |     Intel i5 |     4 |  2.2.1 |    Default |       N |                  | 
+    Seneca |  0h 35m | 10/18/2024 |  16 GB | Ryzen 7 8845 |    16 |  3.5.4 |    Default |       N |                  | 
 
 
 Sheffield Cross
@@ -346,6 +351,8 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
     Toledo |  0h 29m | 10/13/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 | Multispect |       N |                  | 
     Toledo |  0h 18m | 10/14/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
     Toledo | 22m 12s | 10/20/2022 | 7.9 GB | Apple M1 Pro |     5 |  2.9.2 |    Default |       N |                  | 
+    Toledo |  0h 36m | 10/17/2024 |   8 GB | Ryzen 7 8845 |    16 |  3.5.4 |    Default |       N |                  | 
+    Toledo |  0h 27m | 10/17/2024 |  16 GB | Ryzen 7 8845 |    16 |  3.5.4 |    Default |       N |                  | 
 
 
 Tuniu 1
@@ -416,6 +423,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
  Wietrznia |  4h 49m | 10/12/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |     Volume |       N |                  | 
  Wietrznia |  1h 53m | 10/13/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 | Multispect |       N |                  | 
  Wietrznia |  0h 44m | 10/14/2022 |  56 GB | Xeon E5-1620 |     8 |  2.9.1 |    Default |    2048 |                  | 
+ Wietrznia |  1h 10m | 10/17/2024 |  16 GB | Ryzen 7 8845 |    16 |  3.5.4 |    Default |       N |                  | 
 
 
 Zoo

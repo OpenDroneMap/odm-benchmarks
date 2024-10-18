@@ -3,6 +3,20 @@
 =============================================================================================
 
 
+OpenDroneMap Version 3.5.4
+----------------------------------------------------------------------------------------------------------------------
+   DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
+----------------------------------------------------------------------------------------------------------------------
+Brighton B |   0h 4m | 10/17/2024 |   8 GB | Ryzen 7 8845 |    16 |  3.5.4 |    Default |       N |                  | 
+    Toledo |  0h 36m | 10/17/2024 |   8 GB | Ryzen 7 8845 |    16 |  3.5.4 |    Default |       N |                  | 
+    Toledo |  0h 27m | 10/17/2024 |  16 GB | Ryzen 7 8845 |    16 |  3.5.4 |    Default |       N |                  | 
+ Wietrznia |  1h 10m | 10/17/2024 |  16 GB | Ryzen 7 8845 |    16 |  3.5.4 |    Default |       N |                  | 
+Brighton B |  3m 58s | 10/18/2024 |  16 GB | Ryzen 7 8845 |    16 |  3.5.4 |    Default |       N |                  | 
+    Banana |  3m 15s | 10/18/2024 |  16 GB | Ryzen 7 8845 |    16 |  3.5.4 |    Default |       N |                  | 
+    Bellus |  0h 12m | 10/18/2024 |  16 GB | Ryzen 7 8845 |    16 |  3.5.4 |    Default |       N |                  | 
+    Seneca |  0h 35m | 10/18/2024 |  16 GB | Ryzen 7 8845 |    16 |  3.5.4 |    Default |       N |                  | 
+
+
 OpenDroneMap Version 2.9.2
 ----------------------------------------------------------------------------------------------------------------------
    DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |
