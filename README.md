@@ -7,8 +7,8 @@ This repository is a part of the [ODM](https://github.com/OpenDroneMap) project 
 
 OpenDroneMap benchmarking data is summarized in the following pages:
 
-* View benchmark data [organized by dataset](./data-parsed/by-dataset.txt) (TXT)
-* View benchmark data [organized by ODM version](./data-parsed/by-version.txt) (TXT)
+* View benchmark data [organized by dataset](./data-parsed/by-dataset.md) (Markdown)
+* View benchmark data [organized by ODM version](./data-parsed/by-version.md) (Markdown)
 * View benchmark [raw data](./data/benchmarks.csv) (CSV)
 
 ## Datasets for Benchmarking
