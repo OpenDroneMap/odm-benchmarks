@@ -231,3 +231,4 @@ ID,DATASET,PROCESSING_TIME,PROCESSING_SUCCESS,ERROR_TYPE,RAM_SIZE,RAM_CLOCK_SPEE
 231,Banana,3m 15s,Y,-,16 GB,7500 MT/s,Ryzen 7 8845HS w/Radeon 780 Graphics,3.8 Ghz,16,NVMe SSD,Windows 11 23H2 22631.4317,Native,3.5.4,N,Default,N,,10/18/2024,[Jeongyong Park](https://github.com/Jeongyong-Park/),-
 232,Bellus,0h 12m,Y,-,16 GB,7500 MT/s,Ryzen 7 8845HS w/Radeon 780 Graphics,3.8 Ghz,16,NVMe SSD,Windows 11 23H2 22631.4317,Native,3.5.4,N,Default,N,,10/18/2024,[Jeongyong Park](https://github.com/Jeongyong-Park/),Ground Control Point Error
 233,Seneca,0h 35m,Y,-,16 GB,7500 MT/s,Ryzen 7 8845HS w/Radeon 780 Graphics,3.8 Ghz,16,NVMe SSD,Windows 11 23H2 22631.4317,Native,3.5.4,N,Default,N,,10/18/2024,[Jeongyong Park](https://github.com/Jeongyong-Park/),-
+234,Aukerman,0h 34m,Y,-,16 GB,7500 MT/s,Ryzen 7 8845HS w/Radeon 780 Graphics,3.8 Ghz,16,NVMe SSD,Windows 11 23H2 22631.4317,Native,3.5.4,N,Default,N,,10/18/2024,[Jeongyong Park](https://github.com/Jeongyong-Park/),-

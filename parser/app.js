@@ -1,279 +1,229 @@
 /** ----------------------------------------------------------------------------
  * app.js
- * 
- * For reading the raw benchmarks and configuration data, and writing 
+ *
+ * For reading the raw benchmarks and configuration data, and writing
  * the summary data into the human-readable README.md
- * 
+ *
  * USAGE: node app.js
- * 
+ *
  * -----------------------------------------------------------------------------
  */
-
-"use strict";
+'use strict'
 
 const csv = require('csv-parser')
-const fs = require('fs');
-const async = require("async");
-const outputSeparator = "]------------------------------------------[";
-const config = {};
+const fs = require('fs')
+const fsPromises = require('fs').promises
+const async = require('async')
 
-require ('./configuration')(config);
+const config = require('./configuration')()
 
-// ----------------------------- START -----------------------------------------
+const outputSeparator = '='.repeat(80)
 
-console.log(outputSeparator);
-console.log('Starting benchmarks data parsing');
-console.log('  Datasets: ' + config.inFileDatasets);
-console.log('  Benchmarks: ' + config.inFileBenchmarks);
-console.log(outputSeparator);
+console.log(outputSeparator)
+console.log('Starting benchmarks data parsing')
+console.log(`  Datasets: ${config.inFileDatasets}`)
+console.log(`  Benchmarks: ${config.inFileBenchmarks}`)
+console.log(outputSeparator)
 
-async.waterfall([
-  readDatasets,
-  readBenchmarks,
-  parseUniqueDatasets,
-  parseUniqueVersions,
-  clearOutputFiles,
-  parseByDataset,
-  writeByDataset,
-  parseByVersion,
-  writeByVersion,
-  displayResults
-], function(err, result) {
-  if(err) console.log('ERROR: ' + err);
-  console.log('all done');
-});
-
-// -----------------------------  END  -----------------------------------------
-
-
-function readDatasets(callback) {
-
-  let processingData = {
-    datasetRecords: [], 
-    benchmarkRecords: [],
-    datasets: [],
-    versions: []
-  };
-
-  console.log('Reading dataset definitions')
-  fs.createReadStream(config.inFileDatasets)
-    .pipe(csv())
-    .on('data', (data) => processingData.datasetRecords.push(data))
-    .on('end', () => {
-      console.log('Num defined datasets: ' + processingData.datasetRecords.length);
-      callback(null, processingData);
-    });
-
-}
-
-function readBenchmarks(processingData, callback) {
-  console.log('Reading raw benchmarks data');
-  fs.createReadStream(config.inFileBenchmarks)
-    .pipe(csv())
-    .on('data', (data) => processingData.benchmarkRecords.push(data))
-    .on('end', () => {
-      console.log('Num benchmark records: ' + processingData.benchmarkRecords.length);
-      callback(null, processingData);
-    });
-}
-
-function parseUniqueDatasets(processingData, callback) {
-  console.log('Parsing unique datasets');
-  for(let i=0; i<processingData.benchmarkRecords.length; i++) {
-    let benchmarkRecord = processingData.benchmarkRecords[i];
-    let datasetName = benchmarkRecord.DATASET;
-    if(!processingData.datasets.includes(datasetName)) processingData.datasets.push(datasetName);
-  }
-  processingData.datasets.sort();
-  callback(null, processingData);
-}
-
-function parseUniqueVersions(processingData, callback) {
-  console.log('Parsing unique ODM versions');
-  for(let i=0; i<processingData.benchmarkRecords.length; i++) {
-    let benchmarkRecord = processingData.benchmarkRecords[i];
-    let odmVersion = benchmarkRecord.ODM_VERSION;
-    if(!processingData.versions.includes(odmVersion)) processingData.versions.push(odmVersion);
-  }
-  processingData.versions.sort();
-  processingData.versions.reverse();
-  callback(null, processingData);
-}
-
-function clearOutputFiles(processingData, callback) {
-  async.series([
-    function(callback) {
-      fs.unlink(config.outFileByDataset, function(err) {
-        if(err) callback(null, 'ERR');
-        else callback(null, 'OK');
-      });
-    }, 
-    function(callback) {
-      fs.unlink(config.outFileByVersion, function(err) {
-        if(err) callback(null, 'ERR');
-        else callback(null, 'OK');
-      });
-    }
-  ],
-    function(err, results) {
-      console.log('File clear results: ' + results);
-      callback(null, processingData);
-    }
-  );
-}
-
-function parseByDataset(processingData, callback) {
-  console.log('Parsing by dataset');
-  processingData.byDatasetString = '';
-  processingData.byDatasetString += getFileWarning();
-  for(let i=0; i<processingData.datasets.length; i++) {
-    let datasetName = processingData.datasets[i];
-    console.log('  Parse ' + datasetName);
-    processingData.byDatasetString += readBenchmarksByDataset(
-      datasetName, 
-      processingData.datasetRecords, 
-      processingData.benchmarkRecords
-    );
-  }
-  processingData.byDatasetString += getFileWarning();
-  callback(null, processingData);
-}
-
-function readBenchmarksByDataset(datasetName, datasetRecords, benchmarkRecords) {
-
-  let appendString = '';
-  let datasetRecord = null;
-  let benchmarkRecord = null;
-
-  appendString += datasetName + '\n';
-  for(let i=0; i<datasetRecords.length; i++) {
-    datasetRecord = datasetRecords[i];
-    if(datasetRecord.DATASET != datasetName) continue;
-    appendString += 'Photos: ' + datasetRecord.PHOTO_COUNT + '\n';
-    appendString += 'Collected: ' + datasetRecord.COLLECTED_MONTH + '\n';
-    appendString += 'URL: ' + datasetRecord.DATASET_URL + '\n';
-    appendString += datasetRecord.DESCRIPTION + '\n';
-  }
-
-  appendString += getFieldHeaderString();
-
-  for(let i=0; i<benchmarkRecords.length; i++) {
-    benchmarkRecord = benchmarkRecords[i];
-    if(benchmarkRecord.DATASET != datasetName) continue;
-    if(benchmarkRecord.PROCESSING_SUCCESS != 'Y') continue;
-    appendString += getBenchmarkRecordString(benchmarkRecord);
-  }
-
-  appendString += '\n\n';
-
-  return appendString;
-
-}
-
-function writeByDataset(processingData, callback) {
-  console.log('Writing benchmarks by dataset: ' + config.outFileByDataset);
-  fs.writeFile(
-    config.outFileByDataset, 
-    processingData.byDatasetString, 
-    function(err) {
-      if(err) console.log('File write error: ' + err);
-      callback(null, processingData);
-    }
-  ); 
-}
-
-function parseByVersion(processingData, callback) {
-  console.log('Parsing by version');
-  processingData.byVersionString = '';
-  processingData.byVersionString += getFileWarning();
-  for(let i=0; i<processingData.versions.length; i++) {
-    let versionName = processingData.versions[i];
-    console.log('  Parse ' + versionName);
-    processingData.byVersionString += readBenchmarksByVersion(
-      versionName, 
-      processingData.benchmarkRecords
-    );
-  }
-  processingData.byVersionString += getFileWarning();
-  callback(null, processingData);
-}
-
-function readBenchmarksByVersion(versionName, benchmarkRecords) {
-
-  let appendString = '';
-  let benchmarkRecord = null;
-
-  appendString += 'OpenDroneMap Version ' + versionName + '\n';
-
-  appendString += getFieldHeaderString();
-
-  for(let i=0; i<benchmarkRecords.length; i++) {
-    benchmarkRecord = benchmarkRecords[i];
-    if(benchmarkRecord.ODM_VERSION != versionName) continue;
-    if(benchmarkRecord.PROCESSING_SUCCESS != 'Y') continue;
-    appendString += getBenchmarkRecordString(benchmarkRecord);
-  }
-  appendString += '\n\n';
-
-  return appendString;
-
-}
-
-function writeByVersion(processingData, callback) {
-  console.log('Writing benchmarks by version: ' + config.outFileByVersion);
-  fs.writeFile(
-    config.outFileByVersion, 
-    processingData.byVersionString, 
-    function(err) {
-      if(err) console.log('File write error: ' + err);
-      callback(null, processingData);
-    }
-  ); 
-}
-
-function getFieldHeaderString() {
-  let appendString = '';
-  appendString += '----------------------------------------------------------------------------------------------------------------------\n';
-  appendString += '   DATASET |    TIME |  TEST DATE |    RAM |     CPU TYPE | CORES |    ODM |     PRESET |  RESIZE |      ADDL CONFIG |\n';
-  appendString += '----------------------------------------------------------------------------------------------------------------------\n';
-  return appendString;
-}
-
-function getBenchmarkRecordString(benchmarkRecord) {
-
-  let benchmarkRecordString = '';
+async function main () {
   try {
-    benchmarkRecordString += benchmarkRecord.DATASET.substring(0, 10).padStart(10, ' ') + ' | ';
-    benchmarkRecordString += benchmarkRecord.PROCESSING_TIME.padStart(7, ' ') + ' | ';
-    benchmarkRecordString += benchmarkRecord.TEST_DATE.padStart(10, ' ') + ' | ';
-    benchmarkRecordString += benchmarkRecord.RAM_SIZE.padStart(6, ' ') + ' | ';
-    benchmarkRecordString += benchmarkRecord.CPU_TYPE.substring(0, 12).padStart(12, ' ') + ' | ';
-    benchmarkRecordString += benchmarkRecord.CPU_NUM_CORES.substring(0, 5).padStart(5, ' ') + ' | ';
-    benchmarkRecordString += benchmarkRecord.ODM_VERSION.padStart(6, ' ') + ' | ';
-    benchmarkRecordString += benchmarkRecord.CONFIG_NAME.substring(0, 10).padStart(10, ' ') + ' | ';
-    benchmarkRecordString += benchmarkRecord.CONFIG_RESIZE.padStart(7, ' ') + ' | ';
-    benchmarkRecordString += benchmarkRecord.CONFIG_OTHER.substring(0, 16).padStart(16, ' ') + ' | ';
-    benchmarkRecordString += '\n';
-  } catch(err) {
-    if(err) console.log('Parse error: ' + err);
+    const processingData = {
+      datasetRecords: [],
+      benchmarkRecords: [],
+      datasets: [],
+      versions: []
+    }
+
+    await async.series([
+      async () => {
+        processingData.datasetRecords = await readCsvFile(config.inFileDatasets)
+        console.log(
+          `Num defined datasets: ${processingData.datasetRecords.length}`
+        )
+      },
+      async () => {
+        processingData.benchmarkRecords = await readCsvFile(
+          config.inFileBenchmarks
+        )
+        console.log(
+          `Num benchmark records: ${processingData.benchmarkRecords.length}`
+        )
+      },
+      () => parseUniqueDatasets(processingData),
+      () => parseUniqueVersions(processingData),
+      () => clearOutputFiles(config),
+      () => processDatasets(processingData),
+      () => processVersions(processingData),
+      () => displayResults(processingData)
+    ])
+
+    console.log('All done')
+  } catch (error) {
+    console.error('Error:', error)
   }
-  return benchmarkRecordString;
 }
 
-function getFileWarning() {
-  let appendString = '';
-  appendString += '=============================================================================================\n';
-  appendString += '    This file is automatically generated from the benchmarks CSV data.  Do not edit.\n';
-  appendString += '=============================================================================================\n';
-  appendString += '\n\n';
-  return appendString;
+async function readCsvFile (filePath) {
+  const results = []
+  return new Promise((resolve, reject) => {
+    fs.createReadStream(filePath)
+      .pipe(csv())
+      .on('data', data => results.push(data))
+      .on('end', () => resolve(results))
+      .on('error', error => reject(error))
+  })
 }
 
-function displayResults(processingData, callback) {
-  console.log(outputSeparator);
+function parseUniqueDatasets (processingData) {
+  console.log('Parsing unique datasets')
+  processingData.datasets = [
+    ...new Set(processingData.benchmarkRecords.map(record => record.DATASET))
+  ].sort()
+}
+
+function parseUniqueVersions (processingData) {
+  console.log('Parsing unique ODM versions')
+  processingData.versions = [
+    ...new Set(
+      processingData.benchmarkRecords.map(record => record.ODM_VERSION)
+    )
+  ]
+    .sort()
+    .reverse()
+}
+
+async function clearOutputFiles (config) {
+  const filesToClear = [config.outFileByDataset, config.outFileByVersion]
+
+  for (const file of filesToClear) {
+    try {
+      await fs.unlink(file)
+      console.log(`Cleared: ${file}`)
+    } catch (error) {
+      if (error.code !== 'ENOENT') {
+        console.error(`Error clearing ${file}:`, error)
+      }
+    }
+  }
+}
+
+async function processDatasets (processingData) {
+  console.log('Processing datasets')
+  const content =
+    getFileWarning() +
+    processingData.datasets
+      .map(datasetName =>
+        generateDatasetMarkdown(
+          datasetName,
+          processingData.datasetRecords,
+          processingData.benchmarkRecords
+        )
+      )
+      .join('\n') +
+    getFileWarning()
+
+  await writeFile(config.outFileByDataset, content)
+}
+
+async function processVersions (processingData) {
+  console.log('Processing versions')
+  const content =
+    getFileWarning() +
+    processingData.versions
+      .map(versionName =>
+        generateVersionMarkdown(versionName, processingData.benchmarkRecords)
+      )
+      .join('\n') +
+    getFileWarning()
+
+  await writeFile(config.outFileByVersion, content)
+}
+
+function generateDatasetMarkdown (
+  datasetName,
+  datasetRecords,
+  benchmarkRecords
+) {
+  const datasetRecord = datasetRecords.find(
+    record => record.DATASET === datasetName
+  )
+  let markdown = `## ${datasetName}\n\n`
+
+  if (datasetRecord) {
+    markdown += '| Property | Value |\n|----------|-------|\n'
+    markdown += `| Photos | ${datasetRecord.PHOTO_COUNT} |\n`
+    markdown += `| Collected | ${datasetRecord.COLLECTED_MONTH} |\n`
+    markdown += `| URL | ${datasetRecord.DATASET_URL} |\n\n`
+    markdown += `${datasetRecord.DESCRIPTION}\n\n`
+  }
+
+  markdown += generateBenchmarkTable(
+    benchmarkRecords.filter(
+      record =>
+        record.DATASET === datasetName && record.PROCESSING_SUCCESS === 'Y'
+    )
+  )
+
+  return markdown
+}
+
+function generateVersionMarkdown (versionName, benchmarkRecords) {
+  let markdown = `## OpenDroneMap Version ${versionName}\n\n`
+  markdown += generateBenchmarkTable(
+    benchmarkRecords.filter(
+      record =>
+        record.ODM_VERSION === versionName && record.PROCESSING_SUCCESS === 'Y'
+    )
+  )
+  return markdown
+}
+
+function generateBenchmarkTable (benchmarks) {
+  if (benchmarks.length === 0) return 'No benchmark data available.\n\n'
+
+  let table =
+    '| DATASET | TIME | TEST DATE | RAM | CPU TYPE | CORES | ODM | PRESET | RESIZE | ADDL CONFIG |\n'
+  table +=
+    '|---------|------|-----------|-----|----------|-------|-----|--------|--------|-------------|\n'
+  table += benchmarks.map(getBenchmarkRecordString).join('\n')
+  return table + '\n\n'
+}
+
+function getBenchmarkRecordString (benchmarkRecord) {
+  return `| ${[
+    benchmarkRecord.DATASET,
+    benchmarkRecord.PROCESSING_TIME,
+    benchmarkRecord.TEST_DATE,
+    benchmarkRecord.RAM_SIZE,
+    benchmarkRecord.CPU_TYPE,
+    benchmarkRecord.CPU_NUM_CORES,
+    benchmarkRecord.ODM_VERSION,
+    benchmarkRecord.CONFIG_NAME,
+    benchmarkRecord.CONFIG_RESIZE,
+    benchmarkRecord.CONFIG_OTHER
+  ].join(' | ')} |`
+}
+
+function getFileWarning () {
+  return '> This file is automatically generated from the benchmarks CSV data. Do not edit.\n\n'
+}
+
+function displayResults (processingData) {
+  console.log(outputSeparator)
   console.log('Benchmark data processing complete')
-  console.log('  Benchmark records: ' + processingData.benchmarkRecords.length);
-  console.log('  Unique datasets: ' + processingData.datasets.length);
-  console.log('  Unique ODM versions: ' + processingData.versions.length);
-  console.log(outputSeparator);
+  console.log(`  Benchmark records: ${processingData.benchmarkRecords.length}`)
+  console.log(`  Unique datasets: ${processingData.datasets.length}`)
+  console.log(`  Unique ODM versions: ${processingData.versions.length}`)
+  console.log(outputSeparator)
 }
+
+async function writeFile (filePath, content) {
+  try {
+    await fsPromises.writeFile(filePath, content)
+    console.log(`File written: ${filePath}`)
+  } catch (error) {
+    console.error(`Error writing file ${filePath}:`, error)
+  }
+}
+
+main()
