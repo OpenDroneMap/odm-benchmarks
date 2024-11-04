@@ -25,7 +25,7 @@ console.log(`  Datasets: ${config.inFileDatasets}`)
 console.log(`  Benchmarks: ${config.inFileBenchmarks}`)
 console.log(outputSeparator)
 
-async function main () {
+async function main() {
   try {
     const processingData = {
       datasetRecords: [],
@@ -34,36 +34,34 @@ async function main () {
       versions: []
     }
 
-    await async.series([
-      async () => {
-        processingData.datasetRecords = await readCsvFile(config.inFileDatasets)
-        console.log(
-          `Num defined datasets: ${processingData.datasetRecords.length}`
-        )
-      },
-      async () => {
-        processingData.benchmarkRecords = await readCsvFile(
-          config.inFileBenchmarks
-        )
-        console.log(
-          `Num benchmark records: ${processingData.benchmarkRecords.length}`
-        )
-      },
-      () => parseUniqueDatasets(processingData),
-      () => parseUniqueVersions(processingData),
-      () => clearOutputFiles(config),
-      () => processDatasets(processingData),
-      () => processVersions(processingData),
-      () => displayResults(processingData)
-    ])
+    processingData.datasetRecords = await readCsvFile(config.inFileDatasets)
+    console.log(`Num defined datasets: ${processingData.datasetRecords.length}`)
+
+    processingData.benchmarkRecords = await readCsvFile(config.inFileBenchmarks)
+    console.log(`Num benchmark records: ${processingData.benchmarkRecords.length}`)
+
+  
+    await parseUniqueDatasets(processingData)
+    await parseUniqueVersions(processingData)
+    
+  
+    await clearOutputFiles(config)
+    
+    // data parse and file write
+    await processDatasets(processingData)
+    await processVersions(processingData)
+    
+    
+    displayResults(processingData)
 
     console.log('All done')
   } catch (error) {
     console.error('Error:', error)
+    process.exit(1)
   }
 }
 
-async function readCsvFile (filePath) {
+async function readCsvFile(filePath) {
   const results = []
   return new Promise((resolve, reject) => {
     fs.createReadStream(filePath)
@@ -74,11 +72,12 @@ async function readCsvFile (filePath) {
   })
 }
 
-function parseUniqueDatasets (processingData) {
+async function parseUniqueDatasets(processingData) {
   console.log('Parsing unique datasets')
   processingData.datasets = [
     ...new Set(processingData.benchmarkRecords.map(record => record.DATASET))
   ].sort()
+  console.log(`Found ${processingData.datasets.length} unique datasets`)
 }
 
 function parseUniqueVersions (processingData) {
@@ -150,11 +149,12 @@ function generateDatasetMarkdown (
   let markdown = `## ${datasetName}\n\n`
 
   if (datasetRecord) {
+    markdown += `${datasetRecord.DESCRIPTION}\n\n`
     markdown += '| Property | Value |\n|----------|-------|\n'
     markdown += `| Photos | ${datasetRecord.PHOTO_COUNT} |\n`
     markdown += `| Collected | ${datasetRecord.COLLECTED_MONTH} |\n`
     markdown += `| URL | ${datasetRecord.DATASET_URL} |\n\n`
-    markdown += `${datasetRecord.DESCRIPTION}\n\n`
+    
   }
 
   markdown += generateBenchmarkTable(
