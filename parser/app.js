@@ -13,7 +13,6 @@
 const csv = require('csv-parser')
 const fs = require('fs')
 const fsPromises = require('fs').promises
-const async = require('async')
 
 const config = require('./configuration')()
 
@@ -25,7 +24,7 @@ console.log(`  Datasets: ${config.inFileDatasets}`)
 console.log(`  Benchmarks: ${config.inFileBenchmarks}`)
 console.log(outputSeparator)
 
-async function main() {
+async function main () {
   try {
     const processingData = {
       datasetRecords: [],
@@ -38,20 +37,19 @@ async function main() {
     console.log(`Num defined datasets: ${processingData.datasetRecords.length}`)
 
     processingData.benchmarkRecords = await readCsvFile(config.inFileBenchmarks)
-    console.log(`Num benchmark records: ${processingData.benchmarkRecords.length}`)
+    console.log(
+      `Num benchmark records: ${processingData.benchmarkRecords.length}`
+    )
 
-  
     await parseUniqueDatasets(processingData)
     await parseUniqueVersions(processingData)
-    
-  
+
     await clearOutputFiles(config)
-    
+
     // data parse and file write
     await processDatasets(processingData)
     await processVersions(processingData)
-    
-    
+
     displayResults(processingData)
 
     console.log('All done')
@@ -61,7 +59,7 @@ async function main() {
   }
 }
 
-async function readCsvFile(filePath) {
+async function readCsvFile (filePath) {
   const results = []
   return new Promise((resolve, reject) => {
     fs.createReadStream(filePath)
@@ -72,7 +70,7 @@ async function readCsvFile(filePath) {
   })
 }
 
-async function parseUniqueDatasets(processingData) {
+async function parseUniqueDatasets (processingData) {
   console.log('Parsing unique datasets')
   processingData.datasets = [
     ...new Set(processingData.benchmarkRecords.map(record => record.DATASET))
@@ -154,7 +152,6 @@ function generateDatasetMarkdown (
     markdown += `| Photos | ${datasetRecord.PHOTO_COUNT} |\n`
     markdown += `| Collected | ${datasetRecord.COLLECTED_MONTH} |\n`
     markdown += `| URL | ${datasetRecord.DATASET_URL} |\n\n`
-    
   }
 
   markdown += generateBenchmarkTable(
