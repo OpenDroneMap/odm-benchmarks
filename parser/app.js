@@ -78,7 +78,7 @@ async function parseUniqueDatasets (processingData) {
   console.log(`Found ${processingData.datasets.length} unique datasets`)
 }
 
-function parseUniqueVersions (processingData) {
+async function parseUniqueVersions (processingData) {
   console.log('Parsing unique ODM versions')
   processingData.versions = [
     ...new Set(
@@ -94,7 +94,7 @@ async function clearOutputFiles (config) {
 
   for (const file of filesToClear) {
     try {
-      await fs.unlink(file)
+      await fsPromises.unlink(file)
       console.log(`Cleared: ${file}`)
     } catch (error) {
       if (error.code !== 'ENOENT') {
@@ -220,7 +220,11 @@ async function writeFile (filePath, content) {
     console.log(`File written: ${filePath}`)
   } catch (error) {
     console.error(`Error writing file ${filePath}:`, error)
+    throw error
   }
 }
 
-main()
+main().catch(error => {
+  console.error('Fatal error:', error)
+  process.exit(1)
+})
