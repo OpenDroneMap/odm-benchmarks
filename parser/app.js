@@ -13,7 +13,6 @@
 const csv = require('csv-parser')
 const fs = require('fs')
 const fsPromises = require('fs').promises
-const async = require('async')
 
 const config = require('./configuration')()
 
@@ -34,32 +33,29 @@ async function main () {
       versions: []
     }
 
-    await async.series([
-      async () => {
-        processingData.datasetRecords = await readCsvFile(config.inFileDatasets)
-        console.log(
-          `Num defined datasets: ${processingData.datasetRecords.length}`
-        )
-      },
-      async () => {
-        processingData.benchmarkRecords = await readCsvFile(
-          config.inFileBenchmarks
-        )
-        console.log(
-          `Num benchmark records: ${processingData.benchmarkRecords.length}`
-        )
-      },
-      () => parseUniqueDatasets(processingData),
-      () => parseUniqueVersions(processingData),
-      () => clearOutputFiles(config),
-      () => processDatasets(processingData),
-      () => processVersions(processingData),
-      () => displayResults(processingData)
-    ])
+    processingData.datasetRecords = await readCsvFile(config.inFileDatasets)
+    console.log(`Num defined datasets: ${processingData.datasetRecords.length}`)
+
+    processingData.benchmarkRecords = await readCsvFile(config.inFileBenchmarks)
+    console.log(
+      `Num benchmark records: ${processingData.benchmarkRecords.length}`
+    )
+
+    await parseUniqueDatasets(processingData)
+    await parseUniqueVersions(processingData)
+
+    await clearOutputFiles(config)
+
+    // data parse and file write
+    await processDatasets(processingData)
+    await processVersions(processingData)
+
+    displayResults(processingData)
 
     console.log('All done')
   } catch (error) {
     console.error('Error:', error)
+    process.exit(1)
   }
 }
 
@@ -74,14 +70,15 @@ async function readCsvFile (filePath) {
   })
 }
 
-function parseUniqueDatasets (processingData) {
+async function parseUniqueDatasets (processingData) {
   console.log('Parsing unique datasets')
   processingData.datasets = [
     ...new Set(processingData.benchmarkRecords.map(record => record.DATASET))
   ].sort()
+  console.log(`Found ${processingData.datasets.length} unique datasets`)
 }
 
-function parseUniqueVersions (processingData) {
+async function parseUniqueVersions (processingData) {
   console.log('Parsing unique ODM versions')
   processingData.versions = [
     ...new Set(
@@ -97,7 +94,7 @@ async function clearOutputFiles (config) {
 
   for (const file of filesToClear) {
     try {
-      await fs.unlink(file)
+      await fsPromises.unlink(file)
       console.log(`Cleared: ${file}`)
     } catch (error) {
       if (error.code !== 'ENOENT') {
@@ -150,11 +147,11 @@ function generateDatasetMarkdown (
   let markdown = `## ${datasetName}\n\n`
 
   if (datasetRecord) {
+    markdown += `${datasetRecord.DESCRIPTION}\n\n`
     markdown += '| Property | Value |\n|----------|-------|\n'
     markdown += `| Photos | ${datasetRecord.PHOTO_COUNT} |\n`
     markdown += `| Collected | ${datasetRecord.COLLECTED_MONTH} |\n`
     markdown += `| URL | ${datasetRecord.DATASET_URL} |\n\n`
-    markdown += `${datasetRecord.DESCRIPTION}\n\n`
   }
 
   markdown += generateBenchmarkTable(
@@ -223,7 +220,11 @@ async function writeFile (filePath, content) {
     console.log(`File written: ${filePath}`)
   } catch (error) {
     console.error(`Error writing file ${filePath}:`, error)
+    throw error
   }
 }
 
-main()
+main().catch(error => {
+  console.error('Fatal error:', error)
+  process.exit(1)
+})
