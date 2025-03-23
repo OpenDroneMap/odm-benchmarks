@@ -232,3 +232,9 @@ ID,DATASET,PROCESSING_TIME,PROCESSING_SUCCESS,ERROR_TYPE,RAM_SIZE,RAM_CLOCK_SPEE
 232,Bellus,0h 12m,Y,-,16 GB,7500 MT/s,Ryzen 7 8845HS w/Radeon 780 Graphics,3.8 Ghz,16,NVMe SSD,Windows 11 23H2 22631.4317,Native,3.5.4,N,Default,N,,10/18/2024,[Jeongyong Park](https://github.com/Jeongyong-Park/),Ground Control Point Error
 233,Seneca,0h 35m,Y,-,16 GB,7500 MT/s,Ryzen 7 8845HS w/Radeon 780 Graphics,3.8 Ghz,16,NVMe SSD,Windows 11 23H2 22631.4317,Native,3.5.4,N,Default,N,,10/18/2024,[Jeongyong Park](https://github.com/Jeongyong-Park/),-
 234,Aukerman,0h 34m,Y,-,16 GB,7500 MT/s,Ryzen 7 8845HS w/Radeon 780 Graphics,3.8 Ghz,16,NVMe SSD,Windows 11 23H2 22631.4317,Native,3.5.4,N,Default,N,,10/18/2024,[Jeongyong Park](https://github.com/Jeongyong-Park/),-
+235,Sheffield Cross,32m 31s,Y,-,64 GB, 3600 MT/s, AMD Ryzen 9 5900x,3.7 Ghz,24,NVMe SSD,Windows 10 22H2,Native,3.5.5,N,Default,N,,03/22/2025,[Minirex96](https://github.com/Minirex96/),Nvidia RTX 3060 12GB
+236,Wietrznia,37m 23s,Y,-,64 GB, 3600 MT/s, AMD Ryzen 9 5900x,3.7 Ghz,24,NVMe SSD,Windows 10 22H2,Native,3.5.5,N,Default,N,,03/22/2025,[Minirex96](https://github.com/Minirex96/),Nvidia RTX 3060 12GB
+237,Shitan,1h 12m 35s,Y,-,64 GB, 3600 MT/s, AMD Ryzen 9 5900x,3.7 Ghz,24,NVMe SSD,Windows 10 22H2,Native,3.5.5,N,Default,N,,03/22/2025,[Minirex96](https://github.com/Minirex96/),Nvidia RTX 3060 12GB
+238,Toledo,14m 5s,Y,-,64 GB, 3600 MT/s, AMD Ryzen 9 5900x,3.7 Ghz,24,NVMe SSD,Windows 10 22H2,Native,3.5.5,N,Default,N,,03/22/2025,[Minirex96](https://github.com/Minirex96/),Nvidia RTX 3060 12GB
+239,Tuniu 1,41m 26s,Y,-,64 GB, 3600 MT/s, AMD Ryzen 9 5900x,3.7 Ghz,24,NVMe SSD,Windows 10 22H2,Native,3.5.5,N,Default,N,,03/22/2025,[Minirex96](https://github.com/Minirex96/),Nvidia RTX 3060 12GB
+240,Tuniu 2,40m 54s,Y,-,64 GB, 3600 MT/s, AMD Ryzen 9 5900x,3.7 Ghz,24,NVMe SSD,Windows 10 22H2,Native,3.5.5,N,Default,N,,03/22/2025,[Minirex96](https://github.com/Minirex96/),Nvidia RTX 3060 12GB
