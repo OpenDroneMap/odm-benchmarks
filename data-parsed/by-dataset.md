@@ -64,6 +64,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 | Aukerman | 0h 13m | 4/30/2022 | 56 GB | Xeon E5-1620 | 8 | 2.8.4 | Default | 2048 |  |
 | Aukerman | 0h 14m | 9/25/2022 | 56 GB | Xeon E5-1620 | 8 | 2.9.1 | Default | 2048 |  |
 | Aukerman | 0h 34m | 10/18/2024 | 16 GB | Ryzen 7 8845HS w/Radeon 780 Graphics | 16 | 3.5.4 | Default | N |  |
+| Aukerman | 15m 52s | 03/22/2025 | 64 GB |  AMD Ryzen 9 5900x | 24 | 3.5.5 | Default | N |  |
 
 
 ## Banana
@@ -344,6 +345,7 @@ Residential park near Tampa, FL, USA. All shots taken at a ~70 degree angle, cro
 | Sheffield Cross | 1h 5m | 10/3/2022 | 56 GB | Xeon E5-1620 | 8 | 2.9.1 | Default | N |  |
 | Sheffield Cross | 1h 6m | 10/5/2022 | 56 GB | Xeon E5-1620 | 8 | 2.9.1 | Default | N |  |
 | Sheffield Cross | 1h 5m | 10/5/2022 | 56 GB | Xeon E5-1620 | 8 | 2.9.1 | Default | N |  |
+| Sheffield Cross | 32m 31s | 03/22/2025 | 64 GB |  AMD Ryzen 9 5900x | 24 | 3.5.5 | Default | N |  |
 
 
 ## Shitan
@@ -379,6 +381,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 | Shitan | 3h 11m | 10/13/2022 | 56 GB | Xeon E5-1620 | 8 | 2.9.1 | Volume | N |  |
 | Shitan | 3h 34m | 10/13/2022 | 56 GB | Xeon E5-1620 | 8 | 2.9.1 | Multispectral | N |  |
 | Shitan | 1h 11m | 10/14/2022 | 56 GB | Xeon E5-1620 | 8 | 2.9.1 | Default | 2048 |  |
+| Shitan | 1h 12m 35s | 03/22/2025 | 64 GB |  AMD Ryzen 9 5900x | 24 | 3.5.5 | Default | N |  |
 
 
 ## Toledo
@@ -419,6 +422,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 | Toledo | 22m 12s | 10/20/2022 | 7.9 GB | Apple M1 Pro | 5 | 2.9.2 | Default | N |  |
 | Toledo | 0h 36m | 10/17/2024 | 8 GB | Ryzen 7 8845HS w/Radeon 780 Graphics | 16 | 3.5.4 | Default | N |  |
 | Toledo | 0h 27m | 10/17/2024 | 16 GB | Ryzen 7 8845HS w/Radeon 780 Graphics | 16 | 3.5.4 | Default | N |  |
+| Toledo | 14m 5s | 03/22/2025 | 64 GB |  AMD Ryzen 9 5900x | 24 | 3.5.5 | Default | N |  |
 
 
 ## Tuniu 1
@@ -440,6 +444,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 | Tuniu 1 | 0h 37m | 4/30/2022 | 56 GB | Xeon E5-1620 | 8 | 2.8.4 | Default | 2048 |  |
 | Tuniu 1 | 0h 18m | 5/16/2022 | 32 GB | Apple M1 Max | 8 | 2.8.4 | Default | 2048 |  |
 | Tuniu 1 | 0h 41m | 9/25/2022 | 56 GB | Xeon E5-1620 | 8 | 2.9.1 | Default | 2048 |  |
+| Tuniu 1 | 41m 26s | 03/22/2025 | 64 GB |  AMD Ryzen 9 5900x | 24 | 3.5.5 | Default | N |  |
 
 
 ## Tuniu 2
@@ -449,6 +454,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 | Tuniu 2 | 0h 39m | 1/27/2022 | 56 GB | Xeon E5-1620 | 8 | 2.7.2 | Default | 2048 |  |
 | Tuniu 2 | 0h 40m | 4/30/2022 | 56 GB | Xeon E5-1620 | 8 | 2.8.4 | Default | 2048 |  |
 | Tuniu 2 | 0h 44m | 9/26/2022 | 56 GB | Xeon E5-1620 | 8 | 2.9.1 | Default | 2048 |  |
+| Tuniu 2 | 40m 54s | 03/22/2025 | 64 GB |  AMD Ryzen 9 5900x | 24 | 3.5.5 | Default | N |  |
 
 
 ## Waterbury
@@ -502,6 +508,7 @@ This dataset is from the [ODMData](https://github.com/OpenDroneMap/ODMdata) coll
 | Wietrznia | 1h 53m | 10/13/2022 | 56 GB | Xeon E5-1620 | 8 | 2.9.1 | Multispectral | N |  |
 | Wietrznia | 0h 44m | 10/14/2022 | 56 GB | Xeon E5-1620 | 8 | 2.9.1 | Default | 2048 |  |
 | Wietrznia | 1h 10m | 10/17/2024 | 16 GB | Ryzen 7 8845HS w/Radeon 780 Graphics | 16 | 3.5.4 | Default | N |  |
+| Wietrznia | 37m 23s | 03/22/2025 | 64 GB |  AMD Ryzen 9 5900x | 24 | 3.5.5 | Default | N |  |
 
 
 ## Zoo

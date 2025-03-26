@@ -1,2 +1,3 @@
 parser/node_modules
 parser/out/*.txt
+parser/package-lock.json
